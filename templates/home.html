@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDAP 18-018 : DRIVE ASSIST</title>
+</head>
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">CDAP 18-018 : DRIVE ASSIST</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Signboards</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ url_for('split') }}">Video Split</a>
+                        <a class="dropdown-item" href="{{ url_for('check') }}">Check Frames</a>
+                        <a class="dropdown-item" href="{{ url_for('summary') }}">Summary</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Crosswalks</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/popper.min.js"></script>
+<script src="../static/js/bootbox.min.js"></script>
+<script src="../static/js/upload.js"></script>
+{#<script src="../static/js/check.js"></script>#}
+</body>
+</html>

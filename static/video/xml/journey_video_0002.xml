@@ -1,0 +1,4155 @@
+<?xml version="1.0" encoding="UTF-8"?><kml>
+<Document id="" tag="CDCFC70AFB39BDD77854A48D22211FBB30A94B47CCCA98018D36496FC15AFAA5">
+<Schema name="GeoVideo" id="GeoVideo">
+<SimpleField name="Lat" type="double"/>
+<SimpleField name="UTC_Date" type="string"/>
+<SimpleField name="Altitude" type="double"/>
+<SimpleField name="UID" type="double"/>
+<SimpleField name="Y" type="float"/>
+<SimpleField name="UTC_Time" type="string"/>
+<SimpleField name="Z" type="float"/>
+<SimpleField name="Distance" type="double"/>
+<SimpleField name="Bearing" type="double"/>
+<SimpleField name="Lon" type="double"/>
+<SimpleField name="X" type="float"/>
+<SimpleField name="FID" type="int"/>
+<SimpleField name="Speed" type="double"/>
+</Schema>
+<name>iGeoVideo</name>
+<description>iGeoVideo created 05/04/2018 08:40:47. Android 6.0.1. app 1.0.17. SM-N910C</description><Style id="red-pushpin">
+<IconStyle>
+<color>ff0000ff</color>
+<Icon>
+<href>http://www.routeshoot.com/Portals/0/Images/red_pin.png
+</href>
+</Icon>
+<hotSpot x="13" y="4" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="grn-pushpin">
+<IconStyle>
+<color>ff00ff00</color>
+<Icon>
+<href>http://www.routeshoot.com/Portals/0/Images/green_pin.png
+</href>
+</Icon>
+<hotSpot x="13" y="4" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="yellowLineGreenPoly">
+<LineStyle>
+<color>7f00ffff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f00ff00</color>
+</PolyStyle>
+</Style>
+<Style id="wpmRedLine">
+<LineStyle>
+<color>7f4000cd</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f00ff00</color>
+</PolyStyle>
+</Style>
+<Style id="wpmPointBM">
+<IconStyle>
+<Icon>
+	<href>http://www.routeshoot.com/Portals/0/Images/turquoise_pin.png</href>
+</Icon>
+<hotSpot x="13" y="4" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="wpmPointBM2">
+<IconStyle>
+<Icon>
+	<href>http://www.routeshoot.com/Portals/0/Images/purple_pin.png</href>
+</Icon>
+<hotSpot x="13" y="4" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="wpmPointBM3">
+<IconStyle>
+<Icon>
+	<href>http://www.routeshoot.com/Portals/0/Images/yellow_pin.png</href>
+</Icon>
+<hotSpot x="13" y="4" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="wpmLinearBM">
+<LineStyle>
+<color>ffecea40</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="wpmLinearBM2">
+<LineStyle>
+<color>ffe40091</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="wpmLinearBM3">
+<LineStyle>
+<color>ff09fcff</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Video start</name>
+<description/>
+<styleUrl>#grn-pushpin</styleUrl>
+<Point>
+    <coordinates>79.915765,6.894007
+    </coordinates>
+</Point>
+</Placemark>
+<Placemark id="1">
+<name>1</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">1</SimpleData>
+        <SimpleData name="Lat">6.893977</SimpleData>
+        <SimpleData name="Lon">79.915817</SimpleData>
+        <SimpleData name="Bearing">126.475212</SimpleData>
+        <SimpleData name="Speed">7.209802</SimpleData>
+        <SimpleData name="UID">1</SimpleData>
+        <SimpleData name="Altitude">-93.339671</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:49</SimpleData>
+        <SimpleData name="Distance">6.641993</SimpleData>
+        <SimpleData name="X">9.662998</SimpleData>
+        <SimpleData name="Y">-0.311246</SimpleData>
+        <SimpleData name="Z">0.913388</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915765,6.894007
+        79.915817,6.893977
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="2">
+<name>2</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">2</SimpleData>
+        <SimpleData name="Lat">6.893949</SimpleData>
+        <SimpleData name="Lon">79.915867</SimpleData>
+        <SimpleData name="Bearing">122.777512</SimpleData>
+        <SimpleData name="Speed">6.882646</SimpleData>
+        <SimpleData name="UID">2</SimpleData>
+        <SimpleData name="Altitude">-92.088767</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:50</SimpleData>
+        <SimpleData name="Distance">13.070203</SimpleData>
+        <SimpleData name="X">9.528923</SimpleData>
+        <SimpleData name="Y">0.052672</SimpleData>
+        <SimpleData name="Z">2.306813</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915817,6.893977
+        79.915867,6.893949
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="3">
+<name>3</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">3</SimpleData>
+        <SimpleData name="Lat">6.893921</SimpleData>
+        <SimpleData name="Lon">79.915906</SimpleData>
+        <SimpleData name="Bearing">131.801178</SimpleData>
+        <SimpleData name="Speed">6.882646</SimpleData>
+        <SimpleData name="UID">3</SimpleData>
+        <SimpleData name="Altitude">-91.620661</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:51</SimpleData>
+        <SimpleData name="Distance">18.276210</SimpleData>
+        <SimpleData name="X">9.552865</SimpleData>
+        <SimpleData name="Y">0.220267</SimpleData>
+        <SimpleData name="Z">1.071405</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915867,6.893949
+        79.915906,6.893921
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="4">
+<name>4</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">4</SimpleData>
+        <SimpleData name="Lat">6.893903</SimpleData>
+        <SimpleData name="Lon">79.915923</SimpleData>
+        <SimpleData name="Bearing">124.091858</SimpleData>
+        <SimpleData name="Speed">7.141971</SimpleData>
+        <SimpleData name="UID">4</SimpleData>
+        <SimpleData name="Altitude">-90.508431</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:52</SimpleData>
+        <SimpleData name="Distance">21.001633</SimpleData>
+        <SimpleData name="X">9.241618</SimpleData>
+        <SimpleData name="Y">-0.541090</SimpleData>
+        <SimpleData name="Z">0.286107</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915906,6.893921
+        79.915923,6.893903
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="5">
+<name>5</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">5</SimpleData>
+        <SimpleData name="Lat">6.893876</SimpleData>
+        <SimpleData name="Lon">79.915950</SimpleData>
+        <SimpleData name="Bearing">121.619797</SimpleData>
+        <SimpleData name="Speed">7.192557</SimpleData>
+        <SimpleData name="UID">5</SimpleData>
+        <SimpleData name="Altitude">-89.409451</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:53</SimpleData>
+        <SimpleData name="Distance">25.199832</SimpleData>
+        <SimpleData name="X">10.673351</SimpleData>
+        <SimpleData name="Y">-0.565032</SimpleData>
+        <SimpleData name="Z">0.228646</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915923,6.893903
+        79.915950,6.893876
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="6">
+<name>6</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">6</SimpleData>
+        <SimpleData name="Lat">6.893851</SimpleData>
+        <SimpleData name="Lon">79.915993</SimpleData>
+        <SimpleData name="Bearing">117.553650</SimpleData>
+        <SimpleData name="Speed">7.169538</SimpleData>
+        <SimpleData name="UID">6</SimpleData>
+        <SimpleData name="Altitude">-89.433203</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:54</SimpleData>
+        <SimpleData name="Distance">30.721970</SimpleData>
+        <SimpleData name="X">10.165780</SimpleData>
+        <SimpleData name="Y">-0.138864</SimpleData>
+        <SimpleData name="Z">0.841562</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915950,6.893876
+        79.915993,6.893851
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="7">
+<name>7</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">7</SimpleData>
+        <SimpleData name="Lat">6.893825</SimpleData>
+        <SimpleData name="Lon">79.916050</SimpleData>
+        <SimpleData name="Bearing">119.590973</SimpleData>
+        <SimpleData name="Speed">7.169538</SimpleData>
+        <SimpleData name="UID">7</SimpleData>
+        <SimpleData name="Altitude">-89.863325</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:55</SimpleData>
+        <SimpleData name="Distance">37.679595</SimpleData>
+        <SimpleData name="X">10.050858</SimpleData>
+        <SimpleData name="Y">0.339977</SimpleData>
+        <SimpleData name="Z">0.180762</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.915993,6.893851
+        79.916050,6.893825
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="8">
+<name>8</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">8</SimpleData>
+        <SimpleData name="Lat">6.893800</SimpleData>
+        <SimpleData name="Lon">79.916133</SimpleData>
+        <SimpleData name="Bearing">115.570854</SimpleData>
+        <SimpleData name="Speed">7.712382</SimpleData>
+        <SimpleData name="UID">8</SimpleData>
+        <SimpleData name="Altitude">-90.549545</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:56</SimpleData>
+        <SimpleData name="Distance">47.301111</SimpleData>
+        <SimpleData name="X">9.979033</SimpleData>
+        <SimpleData name="Y">-0.071826</SimpleData>
+        <SimpleData name="Z">-0.283713</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916050,6.893825
+        79.916133,6.893800
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="9">
+<name>9</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">9</SimpleData>
+        <SimpleData name="Lat">6.893777</SimpleData>
+        <SimpleData name="Lon">79.916201</SimpleData>
+        <SimpleData name="Bearing">114.995209</SimpleData>
+        <SimpleData name="Speed">6.952927</SimpleData>
+        <SimpleData name="UID">9</SimpleData>
+        <SimpleData name="Altitude">-89.187427</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:57</SimpleData>
+        <SimpleData name="Distance">55.247196</SimpleData>
+        <SimpleData name="X">10.151415</SimpleData>
+        <SimpleData name="Y">-0.512359</SimpleData>
+        <SimpleData name="Z">0.970849</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916133,6.893800
+        79.916201,6.893777
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="10">
+<name>10</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">10</SimpleData>
+        <SimpleData name="Lat">6.893748</SimpleData>
+        <SimpleData name="Lon">79.916266</SimpleData>
+        <SimpleData name="Bearing">114.689133</SimpleData>
+        <SimpleData name="Speed">7.122106</SimpleData>
+        <SimpleData name="UID">10</SimpleData>
+        <SimpleData name="Altitude">-88.494937</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:58</SimpleData>
+        <SimpleData name="Distance">63.136752</SimpleData>
+        <SimpleData name="X">9.749189</SimpleData>
+        <SimpleData name="Y">-0.148441</SimpleData>
+        <SimpleData name="Z">0.386664</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916201,6.893777
+        79.916266,6.893748
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="11">
+<name>11</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">11</SimpleData>
+        <SimpleData name="Lat">6.893728</SimpleData>
+        <SimpleData name="Lon">79.916344</SimpleData>
+        <SimpleData name="Bearing">111.376381</SimpleData>
+        <SimpleData name="Speed">7.582114</SimpleData>
+        <SimpleData name="UID">11</SimpleData>
+        <SimpleData name="Altitude">-89.712246</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:40:59</SimpleData>
+        <SimpleData name="Distance">71.935950</SimpleData>
+        <SimpleData name="X">9.739613</SimpleData>
+        <SimpleData name="Y">-0.244209</SimpleData>
+        <SimpleData name="Z">1.291672</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916266,6.893748
+        79.916344,6.893728
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="12">
+<name>12</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">12</SimpleData>
+        <SimpleData name="Lat">6.893704</SimpleData>
+        <SimpleData name="Lon">79.916422</SimpleData>
+        <SimpleData name="Bearing">111.192772</SimpleData>
+        <SimpleData name="Speed">7.876719</SimpleData>
+        <SimpleData name="UID">12</SimpleData>
+        <SimpleData name="Altitude">-90.887815</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:00</SimpleData>
+        <SimpleData name="Distance">81.060251</SimpleData>
+        <SimpleData name="X">9.753978</SimpleData>
+        <SimpleData name="Y">-0.234632</SimpleData>
+        <SimpleData name="Z">0.415394</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916344,6.893728
+        79.916422,6.893704
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="13">
+<name>13</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">13</SimpleData>
+        <SimpleData name="Lat">6.893676</SimpleData>
+        <SimpleData name="Lon">79.916522</SimpleData>
+        <SimpleData name="Bearing">110.191063</SimpleData>
+        <SimpleData name="Speed">9.601176</SimpleData>
+        <SimpleData name="UID">13</SimpleData>
+        <SimpleData name="Altitude">-92.543867</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:01</SimpleData>
+        <SimpleData name="Distance">92.523300</SimpleData>
+        <SimpleData name="X">9.504981</SimpleData>
+        <SimpleData name="Y">0.162806</SimpleData>
+        <SimpleData name="Z">1.909376</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916422,6.893704
+        79.916522,6.893676
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="14">
+<name>14</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">14</SimpleData>
+        <SimpleData name="Lat">6.893649</SimpleData>
+        <SimpleData name="Lon">79.916629</SimpleData>
+        <SimpleData name="Bearing">111.097130</SimpleData>
+        <SimpleData name="Speed">9.601176</SimpleData>
+        <SimpleData name="UID">14</SimpleData>
+        <SimpleData name="Altitude">-94.483878</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:02</SimpleData>
+        <SimpleData name="Distance">104.670115</SimpleData>
+        <SimpleData name="X">8.757990</SimpleData>
+        <SimpleData name="Y">0.584185</SimpleData>
+        <SimpleData name="Z">1.598130</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916522,6.893676
+        79.916629,6.893649
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="15">
+<name>15</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">15</SimpleData>
+        <SimpleData name="Lat">6.893644</SimpleData>
+        <SimpleData name="Lon">79.916741</SimpleData>
+        <SimpleData name="Bearing">106.583809</SimpleData>
+        <SimpleData name="Speed">9.882375</SimpleData>
+        <SimpleData name="UID">15</SimpleData>
+        <SimpleData name="Altitude">-97.456081</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:03</SimpleData>
+        <SimpleData name="Distance">117.099321</SimpleData>
+        <SimpleData name="X">9.346964</SimpleData>
+        <SimpleData name="Y">0.129287</SimpleData>
+        <SimpleData name="Z">0.836774</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916629,6.893649
+        79.916741,6.893644
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="16">
+<name>16</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">16</SimpleData>
+        <SimpleData name="Lat">6.893635</SimpleData>
+        <SimpleData name="Lon">79.916853</SimpleData>
+        <SimpleData name="Bearing">106.475494</SimpleData>
+        <SimpleData name="Speed">10.115901</SimpleData>
+        <SimpleData name="UID">16</SimpleData>
+        <SimpleData name="Altitude">-99.851180</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:04</SimpleData>
+        <SimpleData name="Distance">129.507100</SimpleData>
+        <SimpleData name="X">10.208876</SimpleData>
+        <SimpleData name="Y">-0.071826</SimpleData>
+        <SimpleData name="Z">0.769736</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916741,6.893644
+        79.916853,6.893635
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="17">
+<name>17</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">17</SimpleData>
+        <SimpleData name="Lat">6.893625</SimpleData>
+        <SimpleData name="Lon">79.916986</SimpleData>
+        <SimpleData name="Bearing">106.420685</SimpleData>
+        <SimpleData name="Speed">12.068589</SimpleData>
+        <SimpleData name="UID">17</SimpleData>
+        <SimpleData name="Altitude">-100.679643</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:05</SimpleData>
+        <SimpleData name="Distance">144.216885</SimpleData>
+        <SimpleData name="X">9.758766</SimpleData>
+        <SimpleData name="Y">0.579397</SimpleData>
+        <SimpleData name="Z">0.741005</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916853,6.893635
+        79.916986,6.893625
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="18">
+<name>18</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">18</SimpleData>
+        <SimpleData name="Lat">6.893606</SimpleData>
+        <SimpleData name="Lon">79.917113</SimpleData>
+        <SimpleData name="Bearing">106.396996</SimpleData>
+        <SimpleData name="Speed">12.724502</SimpleData>
+        <SimpleData name="UID">18</SimpleData>
+        <SimpleData name="Altitude">-100.448341</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:06</SimpleData>
+        <SimpleData name="Distance">158.391069</SimpleData>
+        <SimpleData name="X">9.696517</SimpleData>
+        <SimpleData name="Y">0.986411</SimpleData>
+        <SimpleData name="Z">1.665167</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.916986,6.893625
+        79.917113,6.893606
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="19">
+<name>19</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">19</SimpleData>
+        <SimpleData name="Lat">6.893591</SimpleData>
+        <SimpleData name="Lon">79.917240</SimpleData>
+        <SimpleData name="Bearing">105.358704</SimpleData>
+        <SimpleData name="Speed">12.645906</SimpleData>
+        <SimpleData name="UID">19</SimpleData>
+        <SimpleData name="Altitude">-100.307135</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:07</SimpleData>
+        <SimpleData name="Distance">172.508955</SimpleData>
+        <SimpleData name="X">9.677363</SimpleData>
+        <SimpleData name="Y">0.646434</SimpleData>
+        <SimpleData name="Z">0.855927</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917113,6.893606
+        79.917240,6.893591
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="20">
+<name>20</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">20</SimpleData>
+        <SimpleData name="Lat">6.893578</SimpleData>
+        <SimpleData name="Lon">79.917366</SimpleData>
+        <SimpleData name="Bearing">102.946999</SimpleData>
+        <SimpleData name="Speed">12.693917</SimpleData>
+        <SimpleData name="UID">20</SimpleData>
+        <SimpleData name="Altitude">-100.160279</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:08</SimpleData>
+        <SimpleData name="Distance">186.533062</SimpleData>
+        <SimpleData name="X">9.543288</SimpleData>
+        <SimpleData name="Y">1.561020</SimpleData>
+        <SimpleData name="Z">0.338780</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917240,6.893591
+        79.917366,6.893578
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="21">
+<name>21</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">21</SimpleData>
+        <SimpleData name="Lat">6.893568</SimpleData>
+        <SimpleData name="Lon">79.917487</SimpleData>
+        <SimpleData name="Bearing">100.853149</SimpleData>
+        <SimpleData name="Speed">12.701308</SimpleData>
+        <SimpleData name="UID">21</SimpleData>
+        <SimpleData name="Altitude">-100.145370</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:09</SimpleData>
+        <SimpleData name="Distance">200.001241</SimpleData>
+        <SimpleData name="X">9.911995</SimpleData>
+        <SimpleData name="Y">0.852336</SimpleData>
+        <SimpleData name="Z">-0.254982</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917366,6.893578
+        79.917487,6.893568
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="22">
+<name>22</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">22</SimpleData>
+        <SimpleData name="Lat">6.893564</SimpleData>
+        <SimpleData name="Lon">79.917594</SimpleData>
+        <SimpleData name="Bearing">97.317863</SimpleData>
+        <SimpleData name="Speed">11.836055</SimpleData>
+        <SimpleData name="UID">22</SimpleData>
+        <SimpleData name="Altitude">-99.735831</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:10</SimpleData>
+        <SimpleData name="Distance">211.837018</SimpleData>
+        <SimpleData name="X">9.849746</SimpleData>
+        <SimpleData name="Y">0.909797</SimpleData>
+        <SimpleData name="Z">0.156820</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917487,6.893568
+        79.917594,6.893564
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="23">
+<name>23</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">23</SimpleData>
+        <SimpleData name="Lat">6.893562</SimpleData>
+        <SimpleData name="Lon">79.917707</SimpleData>
+        <SimpleData name="Bearing">93.810539</SimpleData>
+        <SimpleData name="Speed">12.081981</SimpleData>
+        <SimpleData name="UID">23</SimpleData>
+        <SimpleData name="Altitude">-99.375243</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:11</SimpleData>
+        <SimpleData name="Distance">224.278980</SimpleData>
+        <SimpleData name="X">10.022128</SimpleData>
+        <SimpleData name="Y">0.186748</SimpleData>
+        <SimpleData name="Z">0.597353</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917594,6.893564
+        79.917707,6.893562
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="24">
+<name>24</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">24</SimpleData>
+        <SimpleData name="Lat">6.893569</SimpleData>
+        <SimpleData name="Lon">79.917831</SimpleData>
+        <SimpleData name="Bearing">90.633339</SimpleData>
+        <SimpleData name="Speed">12.478799</SimpleData>
+        <SimpleData name="UID">24</SimpleData>
+        <SimpleData name="Altitude">-98.759339</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:12</SimpleData>
+        <SimpleData name="Distance">238.069067</SimpleData>
+        <SimpleData name="X">10.496181</SimpleData>
+        <SimpleData name="Y">0.181959</SimpleData>
+        <SimpleData name="Z">1.511938</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917707,6.893562
+        79.917831,6.893569
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="25">
+<name>25</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">25</SimpleData>
+        <SimpleData name="Lat">6.893576</SimpleData>
+        <SimpleData name="Lon">79.917968</SimpleData>
+        <SimpleData name="Bearing">90.633339</SimpleData>
+        <SimpleData name="Speed">12.478799</SimpleData>
+        <SimpleData name="UID">25</SimpleData>
+        <SimpleData name="Altitude">-98.214408</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:13</SimpleData>
+        <SimpleData name="Distance">253.189408</SimpleData>
+        <SimpleData name="X">9.959879</SimpleData>
+        <SimpleData name="Y">0.287304</SimpleData>
+        <SimpleData name="Z">0.846350</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917831,6.893569
+        79.917968,6.893576
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="26">
+<name>26</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">26</SimpleData>
+        <SimpleData name="Lat">6.893599</SimpleData>
+        <SimpleData name="Lon">79.918101</SimpleData>
+        <SimpleData name="Bearing">79.292465</SimpleData>
+        <SimpleData name="Speed">12.826779</SimpleData>
+        <SimpleData name="UID">26</SimpleData>
+        <SimpleData name="Altitude">-97.854090</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:14</SimpleData>
+        <SimpleData name="Distance">268.085164</SimpleData>
+        <SimpleData name="X">8.465898</SimpleData>
+        <SimpleData name="Y">0.033519</SimpleData>
+        <SimpleData name="Z">0.463278</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.917968,6.893576
+        79.918101,6.893599
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="27">
+<name>27</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">27</SimpleData>
+        <SimpleData name="Lat">6.893628</SimpleData>
+        <SimpleData name="Lon">79.918238</SimpleData>
+        <SimpleData name="Bearing">77.932442</SimpleData>
+        <SimpleData name="Speed">12.660231</SimpleData>
+        <SimpleData name="UID">27</SimpleData>
+        <SimpleData name="Altitude">-97.431229</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:15</SimpleData>
+        <SimpleData name="Distance">283.510811</SimpleData>
+        <SimpleData name="X">9.246407</SimpleData>
+        <SimpleData name="Y">0.296881</SimpleData>
+        <SimpleData name="Z">0.717063</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918101,6.893599
+        79.918238,6.893628
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="28">
+<name>28</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">28</SimpleData>
+        <SimpleData name="Lat">6.893659</SimpleData>
+        <SimpleData name="Lon">79.918367</SimpleData>
+        <SimpleData name="Bearing">78.720314</SimpleData>
+        <SimpleData name="Speed">13.292184</SimpleData>
+        <SimpleData name="UID">28</SimpleData>
+        <SimpleData name="Altitude">-97.154344</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:16</SimpleData>
+        <SimpleData name="Distance">298.244023</SimpleData>
+        <SimpleData name="X">9.246407</SimpleData>
+        <SimpleData name="Y">0.201113</SimpleData>
+        <SimpleData name="Z">0.903811</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918238,6.893628
+        79.918367,6.893659
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="29">
+<name>29</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">29</SimpleData>
+        <SimpleData name="Lat">6.893678</SimpleData>
+        <SimpleData name="Lon">79.918501</SimpleData>
+        <SimpleData name="Bearing">84.532860</SimpleData>
+        <SimpleData name="Speed">13.158268</SimpleData>
+        <SimpleData name="UID">29</SimpleData>
+        <SimpleData name="Altitude">-96.777647</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:17</SimpleData>
+        <SimpleData name="Distance">313.224638</SimpleData>
+        <SimpleData name="X">9.725247</SimpleData>
+        <SimpleData name="Y">0.775721</SimpleData>
+        <SimpleData name="Z">0.750582</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918367,6.893659
+        79.918501,6.893678
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="30">
+<name>30</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">30</SimpleData>
+        <SimpleData name="Lat">6.893702</SimpleData>
+        <SimpleData name="Lon">79.918638</SimpleData>
+        <SimpleData name="Bearing">81.215927</SimpleData>
+        <SimpleData name="Speed">13.158268</SimpleData>
+        <SimpleData name="UID">30</SimpleData>
+        <SimpleData name="Altitude">-96.292177</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:18</SimpleData>
+        <SimpleData name="Distance">328.576083</SimpleData>
+        <SimpleData name="X">9.375694</SimpleData>
+        <SimpleData name="Y">0.397437</SimpleData>
+        <SimpleData name="Z">1.133654</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918501,6.893678
+        79.918638,6.893702
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="31">
+<name>31</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">31</SimpleData>
+        <SimpleData name="Lat">6.893714</SimpleData>
+        <SimpleData name="Lon">79.918772</SimpleData>
+        <SimpleData name="Bearing">84.653412</SimpleData>
+        <SimpleData name="Speed">14.054875</SimpleData>
+        <SimpleData name="UID">31</SimpleData>
+        <SimpleData name="Altitude">-95.476122</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:19</SimpleData>
+        <SimpleData name="Distance">343.452069</SimpleData>
+        <SimpleData name="X">9.658210</SimpleData>
+        <SimpleData name="Y">0.574608</SimpleData>
+        <SimpleData name="Z">0.554258</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918638,6.893702
+        79.918772,6.893714
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="32">
+<name>32</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">32</SimpleData>
+        <SimpleData name="Lat">6.893720</SimpleData>
+        <SimpleData name="Lon">79.918905</SimpleData>
+        <SimpleData name="Bearing">86.639473</SimpleData>
+        <SimpleData name="Speed">14.276514</SimpleData>
+        <SimpleData name="UID">32</SimpleData>
+        <SimpleData name="Altitude">-94.727360</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:20</SimpleData>
+        <SimpleData name="Distance">358.106824</SimpleData>
+        <SimpleData name="X">9.308656</SimpleData>
+        <SimpleData name="Y">-0.550666</SimpleData>
+        <SimpleData name="Z">0.650026</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918772,6.893714
+        79.918905,6.893720
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="33">
+<name>33</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">33</SimpleData>
+        <SimpleData name="Lat">6.893723</SimpleData>
+        <SimpleData name="Lon">79.919040</SimpleData>
+        <SimpleData name="Bearing">86.639473</SimpleData>
+        <SimpleData name="Speed">14.276514</SimpleData>
+        <SimpleData name="UID">33</SimpleData>
+        <SimpleData name="Altitude">-94.322298</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:21</SimpleData>
+        <SimpleData name="Distance">373.078723</SimpleData>
+        <SimpleData name="X">9.447520</SimpleData>
+        <SimpleData name="Y">-0.622492</SimpleData>
+        <SimpleData name="Z">1.516727</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.918905,6.893720
+        79.919040,6.893723
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="34">
+<name>34</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">34</SimpleData>
+        <SimpleData name="Lat">6.893707</SimpleData>
+        <SimpleData name="Lon">79.919177</SimpleData>
+        <SimpleData name="Bearing">90.666870</SimpleData>
+        <SimpleData name="Speed">14.494677</SimpleData>
+        <SimpleData name="UID">34</SimpleData>
+        <SimpleData name="Altitude">-94.024586</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:22</SimpleData>
+        <SimpleData name="Distance">388.253855</SimpleData>
+        <SimpleData name="X">9.313444</SimpleData>
+        <SimpleData name="Y">-0.110133</SimpleData>
+        <SimpleData name="Z">1.622072</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919040,6.893723
+        79.919177,6.893707
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="35">
+<name>35</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">35</SimpleData>
+        <SimpleData name="Lat">6.893677</SimpleData>
+        <SimpleData name="Lon">79.919316</SimpleData>
+        <SimpleData name="Bearing">101.628426</SimpleData>
+        <SimpleData name="Speed">15.443079</SimpleData>
+        <SimpleData name="UID">35</SimpleData>
+        <SimpleData name="Altitude">-93.790796</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:23</SimpleData>
+        <SimpleData name="Distance">403.974310</SimpleData>
+        <SimpleData name="X">10.194510</SimpleData>
+        <SimpleData name="Y">-0.397437</SimpleData>
+        <SimpleData name="Z">1.334767</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919177,6.893707
+        79.919316,6.893677
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="36">
+<name>36</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">36</SimpleData>
+        <SimpleData name="Lat">6.893641</SimpleData>
+        <SimpleData name="Lon">79.919458</SimpleData>
+        <SimpleData name="Bearing">96.349228</SimpleData>
+        <SimpleData name="Speed">15.443079</SimpleData>
+        <SimpleData name="UID">36</SimpleData>
+        <SimpleData name="Altitude">-93.573367</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:24</SimpleData>
+        <SimpleData name="Distance">420.237956</SimpleData>
+        <SimpleData name="X">9.131485</SimpleData>
+        <SimpleData name="Y">-0.138864</SimpleData>
+        <SimpleData name="Z">0.597353</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919316,6.893677
+        79.919458,6.893641
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="37">
+<name>37</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">37</SimpleData>
+        <SimpleData name="Lat">6.893599</SimpleData>
+        <SimpleData name="Lon">79.919595</SimpleData>
+        <SimpleData name="Bearing">101.375916</SimpleData>
+        <SimpleData name="Speed">15.450902</SimpleData>
+        <SimpleData name="UID">37</SimpleData>
+        <SimpleData name="Altitude">-93.033970</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:25</SimpleData>
+        <SimpleData name="Distance">436.053516</SimpleData>
+        <SimpleData name="X">9.342175</SimpleData>
+        <SimpleData name="Y">0.579397</SimpleData>
+        <SimpleData name="Z">0.645237</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919458,6.893641
+        79.919595,6.893599
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="38">
+<name>38</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">38</SimpleData>
+        <SimpleData name="Lat">6.893562</SimpleData>
+        <SimpleData name="Lon">79.919725</SimpleData>
+        <SimpleData name="Bearing">103.769257</SimpleData>
+        <SimpleData name="Speed">14.853619</SimpleData>
+        <SimpleData name="UID">38</SimpleData>
+        <SimpleData name="Altitude">-92.331728</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:26</SimpleData>
+        <SimpleData name="Distance">451.003862</SimpleData>
+        <SimpleData name="X">8.556877</SimpleData>
+        <SimpleData name="Y">0.991199</SimpleData>
+        <SimpleData name="Z">1.219846</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919595,6.893599
+        79.919725,6.893562
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="39">
+<name>39</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">39</SimpleData>
+        <SimpleData name="Lat">6.893534</SimpleData>
+        <SimpleData name="Lon">79.919847</SimpleData>
+        <SimpleData name="Bearing">106.568909</SimpleData>
+        <SimpleData name="Speed">14.651051</SimpleData>
+        <SimpleData name="UID">39</SimpleData>
+        <SimpleData name="Altitude">-91.501307</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:27</SimpleData>
+        <SimpleData name="Distance">464.873381</SimpleData>
+        <SimpleData name="X">8.724471</SimpleData>
+        <SimpleData name="Y">0.411803</SimpleData>
+        <SimpleData name="Z">1.004368</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919725,6.893562
+        79.919847,6.893534
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="40">
+<name>40</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">40</SimpleData>
+        <SimpleData name="Lat">6.893512</SimpleData>
+        <SimpleData name="Lon">79.919947</SimpleData>
+        <SimpleData name="Bearing">107.191101</SimpleData>
+        <SimpleData name="Speed">12.859101</SimpleData>
+        <SimpleData name="UID">40</SimpleData>
+        <SimpleData name="Altitude">-90.691607</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:28</SimpleData>
+        <SimpleData name="Distance">476.164060</SimpleData>
+        <SimpleData name="X">9.160215</SimpleData>
+        <SimpleData name="Y">0.181959</SimpleData>
+        <SimpleData name="Z">0.927753</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919847,6.893534
+        79.919947,6.893512
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="41">
+<name>41</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">41</SimpleData>
+        <SimpleData name="Lat">6.893475</SimpleData>
+        <SimpleData name="Lon">79.920067</SimpleData>
+        <SimpleData name="Bearing">106.852272</SimpleData>
+        <SimpleData name="Speed">14.277391</SimpleData>
+        <SimpleData name="UID">41</SimpleData>
+        <SimpleData name="Altitude">-90.386708</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:29</SimpleData>
+        <SimpleData name="Distance">489.992902</SimpleData>
+        <SimpleData name="X">9.710882</SimpleData>
+        <SimpleData name="Y">0.268151</SimpleData>
+        <SimpleData name="Z">0.118513</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.919947,6.893512
+        79.920067,6.893475
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="42">
+<name>42</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">42</SimpleData>
+        <SimpleData name="Lat">6.893435</SimpleData>
+        <SimpleData name="Lon">79.920198</SimpleData>
+        <SimpleData name="Bearing">106.385338</SimpleData>
+        <SimpleData name="Speed">15.493045</SimpleData>
+        <SimpleData name="UID">42</SimpleData>
+        <SimpleData name="Altitude">-90.282843</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:30</SimpleData>
+        <SimpleData name="Distance">505.204497</SimpleData>
+        <SimpleData name="X">9.514558</SimpleData>
+        <SimpleData name="Y">0.277727</SimpleData>
+        <SimpleData name="Z">0.401029</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920067,6.893475
+        79.920198,6.893435
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="43">
+<name>43</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">43</SimpleData>
+        <SimpleData name="Lat">6.893389</SimpleData>
+        <SimpleData name="Lon">79.920328</SimpleData>
+        <SimpleData name="Bearing">106.199738</SimpleData>
+        <SimpleData name="Speed">15.493045</SimpleData>
+        <SimpleData name="UID">43</SimpleData>
+        <SimpleData name="Altitude">-90.392300</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:31</SimpleData>
+        <SimpleData name="Distance">520.395084</SimpleData>
+        <SimpleData name="X">9.390059</SimpleData>
+        <SimpleData name="Y">0.914585</SimpleData>
+        <SimpleData name="Z">1.727417</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920198,6.893435
+        79.920328,6.893389
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="44">
+<name>44</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">44</SimpleData>
+        <SimpleData name="Lat">6.893353</SimpleData>
+        <SimpleData name="Lon">79.920455</SimpleData>
+        <SimpleData name="Bearing">105.207603</SimpleData>
+        <SimpleData name="Speed">14.681554</SimpleData>
+        <SimpleData name="UID">44</SimpleData>
+        <SimpleData name="Altitude">-90.675271</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:32</SimpleData>
+        <SimpleData name="Distance">534.985322</SimpleData>
+        <SimpleData name="X">8.853758</SimpleData>
+        <SimpleData name="Y">0.569820</SimpleData>
+        <SimpleData name="Z">-0.413000</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920328,6.893389
+        79.920455,6.893353
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="45">
+<name>45</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">45</SimpleData>
+        <SimpleData name="Lat">6.893316</SimpleData>
+        <SimpleData name="Lon">79.920586</SimpleData>
+        <SimpleData name="Bearing">104.761353</SimpleData>
+        <SimpleData name="Speed">14.811142</SimpleData>
+        <SimpleData name="UID">45</SimpleData>
+        <SimpleData name="Altitude">-91.078657</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:33</SimpleData>
+        <SimpleData name="Distance">550.011069</SimpleData>
+        <SimpleData name="X">9.835381</SimpleData>
+        <SimpleData name="Y">0.560243</SimpleData>
+        <SimpleData name="Z">1.545457</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920455,6.893353
+        79.920586,6.893316
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="46">
+<name>46</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">46</SimpleData>
+        <SimpleData name="Lat">6.893280</SimpleData>
+        <SimpleData name="Lon">79.920715</SimpleData>
+        <SimpleData name="Bearing">106.167450</SimpleData>
+        <SimpleData name="Speed">14.072348</SimpleData>
+        <SimpleData name="UID">46</SimpleData>
+        <SimpleData name="Altitude">-91.541024</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:34</SimpleData>
+        <SimpleData name="Distance">564.843926</SimpleData>
+        <SimpleData name="X">9.141062</SimpleData>
+        <SimpleData name="Y">0.186748</SimpleData>
+        <SimpleData name="Z">1.090559</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920586,6.893316
+        79.920715,6.893280
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="47">
+<name>47</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">47</SimpleData>
+        <SimpleData name="Lat">6.893245</SimpleData>
+        <SimpleData name="Lon">79.920838</SimpleData>
+        <SimpleData name="Bearing">106.619194</SimpleData>
+        <SimpleData name="Speed">14.143586</SimpleData>
+        <SimpleData name="UID">47</SimpleData>
+        <SimpleData name="Altitude">-91.677737</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:35</SimpleData>
+        <SimpleData name="Distance">578.977692</SimpleData>
+        <SimpleData name="X">10.539276</SimpleData>
+        <SimpleData name="Y">0.330400</SimpleData>
+        <SimpleData name="Z">0.927753</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920715,6.893280
+        79.920838,6.893245
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="48">
+<name>48</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">48</SimpleData>
+        <SimpleData name="Lat">6.893207</SimpleData>
+        <SimpleData name="Lon">79.920967</SimpleData>
+        <SimpleData name="Bearing">105.920731</SimpleData>
+        <SimpleData name="Speed">14.878678</SimpleData>
+        <SimpleData name="UID">48</SimpleData>
+        <SimpleData name="Altitude">-91.767498</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:36</SimpleData>
+        <SimpleData name="Distance">593.879907</SimpleData>
+        <SimpleData name="X">9.706094</SimpleData>
+        <SimpleData name="Y">0.311246</SimpleData>
+        <SimpleData name="Z">1.804031</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920838,6.893245
+        79.920967,6.893207
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="49">
+<name>49</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">49</SimpleData>
+        <SimpleData name="Lat">6.893170</SimpleData>
+        <SimpleData name="Lon">79.921090</SimpleData>
+        <SimpleData name="Bearing">107.360184</SimpleData>
+        <SimpleData name="Speed">14.471179</SimpleData>
+        <SimpleData name="UID">49</SimpleData>
+        <SimpleData name="Altitude">-91.793195</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:37</SimpleData>
+        <SimpleData name="Distance">607.989683</SimpleData>
+        <SimpleData name="X">9.701305</SimpleData>
+        <SimpleData name="Y">0.038307</SimpleData>
+        <SimpleData name="Z">1.976413</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.920967,6.893207
+        79.921090,6.893170
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="50">
+<name>50</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">50</SimpleData>
+        <SimpleData name="Lat">6.893129</SimpleData>
+        <SimpleData name="Lon">79.921214</SimpleData>
+        <SimpleData name="Bearing">108.625191</SimpleData>
+        <SimpleData name="Speed">14.323032</SimpleData>
+        <SimpleData name="UID">50</SimpleData>
+        <SimpleData name="Altitude">-91.676562</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:38</SimpleData>
+        <SimpleData name="Distance">622.435523</SimpleData>
+        <SimpleData name="X">9.916783</SimpleData>
+        <SimpleData name="Y">-0.090980</SimpleData>
+        <SimpleData name="Z">2.139219</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921090,6.893170
+        79.921214,6.893129
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="51">
+<name>51</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">51</SimpleData>
+        <SimpleData name="Lat">6.893084</SimpleData>
+        <SimpleData name="Lon">79.921323</SimpleData>
+        <SimpleData name="Bearing">111.765411</SimpleData>
+        <SimpleData name="Speed">12.760907</SimpleData>
+        <SimpleData name="UID">51</SimpleData>
+        <SimpleData name="Altitude">-91.582424</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:39</SimpleData>
+        <SimpleData name="Distance">635.486480</SimpleData>
+        <SimpleData name="X">9.174581</SimpleData>
+        <SimpleData name="Y">-0.474052</SimpleData>
+        <SimpleData name="Z">1.511938</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921214,6.893129
+        79.921323,6.893084
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="52">
+<name>52</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">52</SimpleData>
+        <SimpleData name="Lat">6.893021</SimpleData>
+        <SimpleData name="Lon">79.921407</SimpleData>
+        <SimpleData name="Bearing">126.747681</SimpleData>
+        <SimpleData name="Speed">11.636491</SimpleData>
+        <SimpleData name="UID">52</SimpleData>
+        <SimpleData name="Altitude">-91.737399</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:40</SimpleData>
+        <SimpleData name="Distance">647.061297</SimpleData>
+        <SimpleData name="X">9.911995</SimpleData>
+        <SimpleData name="Y">1.019930</SimpleData>
+        <SimpleData name="Z">1.813608</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921323,6.893084
+        79.921407,6.893021
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="53">
+<name>53</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">53</SimpleData>
+        <SimpleData name="Lat">6.892957</SimpleData>
+        <SimpleData name="Lon">79.921483</SimpleData>
+        <SimpleData name="Bearing">129.276321</SimpleData>
+        <SimpleData name="Speed">11.566511</SimpleData>
+        <SimpleData name="UID">53</SimpleData>
+        <SimpleData name="Altitude">-91.701306</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:41</SimpleData>
+        <SimpleData name="Distance">658.112439</SimpleData>
+        <SimpleData name="X">9.567230</SimpleData>
+        <SimpleData name="Y">-0.416591</SimpleData>
+        <SimpleData name="Z">2.110489</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921407,6.893021
+        79.921483,6.892957
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="54">
+<name>54</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">54</SimpleData>
+        <SimpleData name="Lat">6.892889</SimpleData>
+        <SimpleData name="Lon">79.921553</SimpleData>
+        <SimpleData name="Bearing">132.560318</SimpleData>
+        <SimpleData name="Speed">11.090938</SimpleData>
+        <SimpleData name="UID">54</SimpleData>
+        <SimpleData name="Altitude">-91.580189</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:42</SimpleData>
+        <SimpleData name="Distance">668.860747</SimpleData>
+        <SimpleData name="X">10.338163</SimpleData>
+        <SimpleData name="Y">-0.895431</SimpleData>
+        <SimpleData name="Z">4.006697</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921483,6.892957
+        79.921553,6.892889
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="55">
+<name>55</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">55</SimpleData>
+        <SimpleData name="Lat">6.892825</SimpleData>
+        <SimpleData name="Lon">79.921611</SimpleData>
+        <SimpleData name="Bearing">135.099899</SimpleData>
+        <SimpleData name="Speed">9.133430</SimpleData>
+        <SimpleData name="UID">55</SimpleData>
+        <SimpleData name="Altitude">-91.299223</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:43</SimpleData>
+        <SimpleData name="Distance">678.458193</SimpleData>
+        <SimpleData name="X">9.715671</SimpleData>
+        <SimpleData name="Y">-0.234632</SimpleData>
+        <SimpleData name="Z">3.666720</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921553,6.892889
+        79.921611,6.892825
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="56">
+<name>56</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">56</SimpleData>
+        <SimpleData name="Lat">6.892765</SimpleData>
+        <SimpleData name="Lon">79.921661</SimpleData>
+        <SimpleData name="Bearing">137.369781</SimpleData>
+        <SimpleData name="Speed">7.995029</SimpleData>
+        <SimpleData name="UID">56</SimpleData>
+        <SimpleData name="Altitude">-90.815876</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:44</SimpleData>
+        <SimpleData name="Distance">687.008935</SimpleData>
+        <SimpleData name="X">10.481815</SimpleData>
+        <SimpleData name="Y">-0.818817</SimpleData>
+        <SimpleData name="Z">1.847127</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921611,6.892825
+        79.921661,6.892765
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="57">
+<name>57</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">57</SimpleData>
+        <SimpleData name="Lat">6.892708</SimpleData>
+        <SimpleData name="Lon">79.921706</SimpleData>
+        <SimpleData name="Bearing">138.766556</SimpleData>
+        <SimpleData name="Speed">6.794206</SimpleData>
+        <SimpleData name="UID">57</SimpleData>
+        <SimpleData name="Altitude">-90.255996</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:45</SimpleData>
+        <SimpleData name="Distance">695.092118</SimpleData>
+        <SimpleData name="X">9.385271</SimpleData>
+        <SimpleData name="Y">0.090980</SimpleData>
+        <SimpleData name="Z">1.713051</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921661,6.892765
+        79.921706,6.892708
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="58">
+<name>58</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">58</SimpleData>
+        <SimpleData name="Lat">6.892680</SimpleData>
+        <SimpleData name="Lon">79.921739</SimpleData>
+        <SimpleData name="Bearing">122.723114</SimpleData>
+        <SimpleData name="Speed">5.704582</SimpleData>
+        <SimpleData name="UID">58</SimpleData>
+        <SimpleData name="Altitude">-89.318217</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:46</SimpleData>
+        <SimpleData name="Distance">699.881899</SimpleData>
+        <SimpleData name="X">9.528923</SimpleData>
+        <SimpleData name="Y">-0.770933</SimpleData>
+        <SimpleData name="Z">0.022745</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921706,6.892708
+        79.921739,6.892680
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="59">
+<name>59</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">59</SimpleData>
+        <SimpleData name="Lat">6.892648</SimpleData>
+        <SimpleData name="Lon">79.921753</SimpleData>
+        <SimpleData name="Bearing">141.824661</SimpleData>
+        <SimpleData name="Speed">5.516560</SimpleData>
+        <SimpleData name="UID">59</SimpleData>
+        <SimpleData name="Altitude">-88.375980</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:47</SimpleData>
+        <SimpleData name="Distance">703.731761</SimpleData>
+        <SimpleData name="X">10.151415</SimpleData>
+        <SimpleData name="Y">0.162806</SimpleData>
+        <SimpleData name="Z">1.171962</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921739,6.892680
+        79.921753,6.892648
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="60">
+<name>60</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">60</SimpleData>
+        <SimpleData name="Lat">6.892606</SimpleData>
+        <SimpleData name="Lon">79.921770</SimpleData>
+        <SimpleData name="Bearing">135.522507</SimpleData>
+        <SimpleData name="Speed">5.516560</SimpleData>
+        <SimpleData name="UID">60</SimpleData>
+        <SimpleData name="Altitude">-87.860947</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:48</SimpleData>
+        <SimpleData name="Distance">708.785918</SimpleData>
+        <SimpleData name="X">9.385271</SimpleData>
+        <SimpleData name="Y">0.282516</SimpleData>
+        <SimpleData name="Z">-1.322796</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921753,6.892648
+        79.921770,6.892606
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="61">
+<name>61</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">61</SimpleData>
+        <SimpleData name="Lat">6.892548</SimpleData>
+        <SimpleData name="Lon">79.921797</SimpleData>
+        <SimpleData name="Bearing">138.845795</SimpleData>
+        <SimpleData name="Speed">6.827513</SimpleData>
+        <SimpleData name="UID">61</SimpleData>
+        <SimpleData name="Altitude">-87.491741</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:49</SimpleData>
+        <SimpleData name="Distance">715.850682</SimpleData>
+        <SimpleData name="X">9.021352</SimpleData>
+        <SimpleData name="Y">-0.057461</SimpleData>
+        <SimpleData name="Z">0.496797</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921770,6.892606
+        79.921797,6.892548
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="62">
+<name>62</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">62</SimpleData>
+        <SimpleData name="Lat">6.892480</SimpleData>
+        <SimpleData name="Lon">79.921830</SimpleData>
+        <SimpleData name="Bearing">147.289841</SimpleData>
+        <SimpleData name="Speed">8.028756</SimpleData>
+        <SimpleData name="UID">62</SimpleData>
+        <SimpleData name="Altitude">-87.414900</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:50</SimpleData>
+        <SimpleData name="Distance">724.157478</SimpleData>
+        <SimpleData name="X">9.452309</SimpleData>
+        <SimpleData name="Y">-0.378284</SimpleData>
+        <SimpleData name="Z">0.788889</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921797,6.892548
+        79.921830,6.892480
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="63">
+<name>63</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">63</SimpleData>
+        <SimpleData name="Lat">6.892409</SimpleData>
+        <SimpleData name="Lon">79.921871</SimpleData>
+        <SimpleData name="Bearing">147.796967</SimpleData>
+        <SimpleData name="Speed">8.478723</SimpleData>
+        <SimpleData name="UID">63</SimpleData>
+        <SimpleData name="Altitude">-87.735057</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:51</SimpleData>
+        <SimpleData name="Distance">733.271717</SimpleData>
+        <SimpleData name="X">8.834604</SimpleData>
+        <SimpleData name="Y">0.833182</SimpleData>
+        <SimpleData name="Z">0.645237</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921830,6.892480
+        79.921871,6.892409
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="64">
+<name>64</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">64</SimpleData>
+        <SimpleData name="Lat">6.892340</SimpleData>
+        <SimpleData name="Lon">79.921911</SimpleData>
+        <SimpleData name="Bearing">147.289841</SimpleData>
+        <SimpleData name="Speed">8.478723</SimpleData>
+        <SimpleData name="UID">64</SimpleData>
+        <SimpleData name="Altitude">-88.311945</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:52</SimpleData>
+        <SimpleData name="Distance">742.097990</SimpleData>
+        <SimpleData name="X">8.748413</SimpleData>
+        <SimpleData name="Y">1.067814</SimpleData>
+        <SimpleData name="Z">1.004368</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921871,6.892409
+        79.921911,6.892340
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="65">
+<name>65</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">65</SimpleData>
+        <SimpleData name="Lat">6.892271</SimpleData>
+        <SimpleData name="Lon">79.921967</SimpleData>
+        <SimpleData name="Bearing">137.072754</SimpleData>
+        <SimpleData name="Speed">9.533426</SimpleData>
+        <SimpleData name="UID">65</SimpleData>
+        <SimpleData name="Altitude">-89.885508</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:53</SimpleData>
+        <SimpleData name="Distance">751.941934</SimpleData>
+        <SimpleData name="X">9.586384</SimpleData>
+        <SimpleData name="Y">0.866701</SimpleData>
+        <SimpleData name="Z">1.468843</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921911,6.892340
+        79.921967,6.892271
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="66">
+<name>66</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">66</SimpleData>
+        <SimpleData name="Lat">6.892203</SimpleData>
+        <SimpleData name="Lon">79.922018</SimpleData>
+        <SimpleData name="Bearing">136.067169</SimpleData>
+        <SimpleData name="Speed">9.449167</SimpleData>
+        <SimpleData name="UID">66</SimpleData>
+        <SimpleData name="Altitude">-90.638086</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:54</SimpleData>
+        <SimpleData name="Distance">761.307388</SimpleData>
+        <SimpleData name="X">8.360553</SimpleData>
+        <SimpleData name="Y">-0.555455</SimpleData>
+        <SimpleData name="Z">0.573411</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.921967,6.892271
+        79.922018,6.892203
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="67">
+<name>67</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">67</SimpleData>
+        <SimpleData name="Lat">6.892135</SimpleData>
+        <SimpleData name="Lon">79.922067</SimpleData>
+        <SimpleData name="Bearing">139.039520</SimpleData>
+        <SimpleData name="Speed">9.591794</SimpleData>
+        <SimpleData name="UID">67</SimpleData>
+        <SimpleData name="Altitude">-90.802018</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:55</SimpleData>
+        <SimpleData name="Distance">770.572868</SimpleData>
+        <SimpleData name="X">10.362105</SimpleData>
+        <SimpleData name="Y">0.387861</SimpleData>
+        <SimpleData name="Z">1.339556</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922018,6.892203
+        79.922067,6.892135
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="68">
+<name>68</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">68</SimpleData>
+        <SimpleData name="Lat">6.892074</SimpleData>
+        <SimpleData name="Lon">79.922106</SimpleData>
+        <SimpleData name="Bearing">138.392136</SimpleData>
+        <SimpleData name="Speed">9.446620</SimpleData>
+        <SimpleData name="UID">68</SimpleData>
+        <SimpleData name="Altitude">-90.374402</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:56</SimpleData>
+        <SimpleData name="Distance">778.613583</SimpleData>
+        <SimpleData name="X">10.290278</SimpleData>
+        <SimpleData name="Y">0.172383</SimpleData>
+        <SimpleData name="Z">2.009932</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922067,6.892135
+        79.922106,6.892074
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="69">
+<name>69</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">69</SimpleData>
+        <SimpleData name="Lat">6.892014</SimpleData>
+        <SimpleData name="Lon">79.922134</SimpleData>
+        <SimpleData name="Bearing">140.207657</SimpleData>
+        <SimpleData name="Speed">8.528435</SimpleData>
+        <SimpleData name="UID">69</SimpleData>
+        <SimpleData name="Altitude">-90.402169</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:57</SimpleData>
+        <SimpleData name="Distance">785.891626</SimpleData>
+        <SimpleData name="X">9.557653</SimpleData>
+        <SimpleData name="Y">-0.339977</SimpleData>
+        <SimpleData name="Z">1.521515</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922106,6.892074
+        79.922134,6.892014
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="70">
+<name>70</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">70</SimpleData>
+        <SimpleData name="Lat">6.891960</SimpleData>
+        <SimpleData name="Lon">79.922172</SimpleData>
+        <SimpleData name="Bearing">131.679626</SimpleData>
+        <SimpleData name="Speed">8.270831</SimpleData>
+        <SimpleData name="UID">70</SimpleData>
+        <SimpleData name="Altitude">-90.826115</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:58</SimpleData>
+        <SimpleData name="Distance">793.217188</SimpleData>
+        <SimpleData name="X">8.221688</SimpleData>
+        <SimpleData name="Y">1.288081</SimpleData>
+        <SimpleData name="Z">-0.106542</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922134,6.892014
+        79.922172,6.891960
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="71">
+<name>71</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">71</SimpleData>
+        <SimpleData name="Lat">6.891906</SimpleData>
+        <SimpleData name="Lon">79.922213</SimpleData>
+        <SimpleData name="Bearing">138.540466</SimpleData>
+        <SimpleData name="Speed">7.964728</SimpleData>
+        <SimpleData name="UID">71</SimpleData>
+        <SimpleData name="Altitude">-90.711527</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:41:59</SimpleData>
+        <SimpleData name="Distance">800.710224</SimpleData>
+        <SimpleData name="X">9.825804</SimpleData>
+        <SimpleData name="Y">-0.038307</SimpleData>
+        <SimpleData name="Z">1.669956</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922172,6.891960
+        79.922213,6.891906
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="72">
+<name>72</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">72</SimpleData>
+        <SimpleData name="Lat">6.891843</SimpleData>
+        <SimpleData name="Lon">79.922265</SimpleData>
+        <SimpleData name="Bearing">140.102081</SimpleData>
+        <SimpleData name="Speed">7.906898</SimpleData>
+        <SimpleData name="UID">72</SimpleData>
+        <SimpleData name="Altitude">-91.015276</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:00</SimpleData>
+        <SimpleData name="Distance">809.723848</SimpleData>
+        <SimpleData name="X">10.204087</SimpleData>
+        <SimpleData name="Y">1.158794</SimpleData>
+        <SimpleData name="Z">0.913388</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922213,6.891906
+        79.922265,6.891843
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="73">
+<name>73</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">73</SimpleData>
+        <SimpleData name="Lat">6.891782</SimpleData>
+        <SimpleData name="Lon">79.922325</SimpleData>
+        <SimpleData name="Bearing">138.396042</SimpleData>
+        <SimpleData name="Speed">8.159792</SimpleData>
+        <SimpleData name="UID">73</SimpleData>
+        <SimpleData name="Altitude">-91.386121</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:01</SimpleData>
+        <SimpleData name="Distance">819.251548</SimpleData>
+        <SimpleData name="X">9.279925</SimpleData>
+        <SimpleData name="Y">0.167594</SimpleData>
+        <SimpleData name="Z">0.405817</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922265,6.891843
+        79.922325,6.891782
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="74">
+<name>74</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">74</SimpleData>
+        <SimpleData name="Lat">6.891715</SimpleData>
+        <SimpleData name="Lon">79.922380</SimpleData>
+        <SimpleData name="Bearing">143.661438</SimpleData>
+        <SimpleData name="Speed">8.478460</SimpleData>
+        <SimpleData name="UID">74</SimpleData>
+        <SimpleData name="Altitude">-91.392810</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:02</SimpleData>
+        <SimpleData name="Distance">828.755517</SimpleData>
+        <SimpleData name="X">9.763555</SimpleData>
+        <SimpleData name="Y">0.746991</SimpleData>
+        <SimpleData name="Z">0.559046</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922325,6.891782
+        79.922380,6.891715
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="75">
+<name>75</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">75</SimpleData>
+        <SimpleData name="Lat">6.891651</SimpleData>
+        <SimpleData name="Lon">79.922433</SimpleData>
+        <SimpleData name="Bearing">143.027817</SimpleData>
+        <SimpleData name="Speed">8.652650</SimpleData>
+        <SimpleData name="UID">75</SimpleData>
+        <SimpleData name="Altitude">-92.172145</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:03</SimpleData>
+        <SimpleData name="Distance">837.970279</SimpleData>
+        <SimpleData name="X">9.212888</SimpleData>
+        <SimpleData name="Y">0.488417</SimpleData>
+        <SimpleData name="Z">0.587777</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922380,6.891715
+        79.922433,6.891651
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="76">
+<name>76</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">76</SimpleData>
+        <SimpleData name="Lat">6.891586</SimpleData>
+        <SimpleData name="Lon">79.922487</SimpleData>
+        <SimpleData name="Bearing">142.892838</SimpleData>
+        <SimpleData name="Speed">8.921202</SimpleData>
+        <SimpleData name="UID">76</SimpleData>
+        <SimpleData name="Altitude">-93.063459</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:04</SimpleData>
+        <SimpleData name="Distance">847.326866</SimpleData>
+        <SimpleData name="X">9.495404</SimpleData>
+        <SimpleData name="Y">0.474052</SimpleData>
+        <SimpleData name="Z">1.545457</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922433,6.891651
+        79.922487,6.891586
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="77">
+<name>77</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">77</SimpleData>
+        <SimpleData name="Lat">6.891528</SimpleData>
+        <SimpleData name="Lon">79.922540</SimpleData>
+        <SimpleData name="Bearing">141.788742</SimpleData>
+        <SimpleData name="Speed">8.730900</SimpleData>
+        <SimpleData name="UID">77</SimpleData>
+        <SimpleData name="Altitude">-94.489589</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:05</SimpleData>
+        <SimpleData name="Distance">855.942273</SimpleData>
+        <SimpleData name="X">9.097966</SimpleData>
+        <SimpleData name="Y">0.478840</SimpleData>
+        <SimpleData name="Z">0.937330</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922487,6.891586
+        79.922540,6.891528
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="78">
+<name>78</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">78</SimpleData>
+        <SimpleData name="Lat">6.891470</SimpleData>
+        <SimpleData name="Lon">79.922594</SimpleData>
+        <SimpleData name="Bearing">140.794617</SimpleData>
+        <SimpleData name="Speed">8.961963</SimpleData>
+        <SimpleData name="UID">78</SimpleData>
+        <SimpleData name="Altitude">-95.233365</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:06</SimpleData>
+        <SimpleData name="Distance">864.782502</SimpleData>
+        <SimpleData name="X">9.720459</SimpleData>
+        <SimpleData name="Y">0.110133</SimpleData>
+        <SimpleData name="Z">1.871069</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922540,6.891528
+        79.922594,6.891470
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="79">
+<name>79</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">79</SimpleData>
+        <SimpleData name="Lat">6.891412</SimpleData>
+        <SimpleData name="Lon">79.922653</SimpleData>
+        <SimpleData name="Bearing">141.788742</SimpleData>
+        <SimpleData name="Speed">8.961963</SimpleData>
+        <SimpleData name="UID">79</SimpleData>
+        <SimpleData name="Altitude">-95.017399</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:07</SimpleData>
+        <SimpleData name="Distance">873.878448</SimpleData>
+        <SimpleData name="X">9.461885</SimpleData>
+        <SimpleData name="Y">-0.167594</SimpleData>
+        <SimpleData name="Z">0.860716</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922594,6.891470
+        79.922653,6.891412
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="80">
+<name>80</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">80</SimpleData>
+        <SimpleData name="Lat">6.891366</SimpleData>
+        <SimpleData name="Lon">79.922712</SimpleData>
+        <SimpleData name="Bearing">138.102219</SimpleData>
+        <SimpleData name="Speed">8.597082</SimpleData>
+        <SimpleData name="UID">80</SimpleData>
+        <SimpleData name="Altitude">-94.136942</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:08</SimpleData>
+        <SimpleData name="Distance">882.179868</SimpleData>
+        <SimpleData name="X">9.567230</SimpleData>
+        <SimpleData name="Y">0.464475</SimpleData>
+        <SimpleData name="Z">-0.389058</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922653,6.891412
+        79.922712,6.891366
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="81">
+<name>81</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">81</SimpleData>
+        <SimpleData name="Lat">6.891314</SimpleData>
+        <SimpleData name="Lon">79.922768</SimpleData>
+        <SimpleData name="Bearing">138.020233</SimpleData>
+        <SimpleData name="Speed">8.384648</SimpleData>
+        <SimpleData name="UID">81</SimpleData>
+        <SimpleData name="Altitude">-93.338031</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:09</SimpleData>
+        <SimpleData name="Distance">890.639560</SimpleData>
+        <SimpleData name="X">10.017340</SimpleData>
+        <SimpleData name="Y">0.890643</SimpleData>
+        <SimpleData name="Z">1.847127</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922712,6.891366
+        79.922768,6.891314
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="82">
+<name>82</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">82</SimpleData>
+        <SimpleData name="Lat">6.891265</SimpleData>
+        <SimpleData name="Lon">79.922828</SimpleData>
+        <SimpleData name="Bearing">133.321289</SimpleData>
+        <SimpleData name="Speed">8.098969</SimpleData>
+        <SimpleData name="UID">82</SimpleData>
+        <SimpleData name="Altitude">-92.391364</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:10</SimpleData>
+        <SimpleData name="Distance">899.170385</SimpleData>
+        <SimpleData name="X">8.781932</SimpleData>
+        <SimpleData name="Y">1.359907</SimpleData>
+        <SimpleData name="Z">0.204704</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922768,6.891314
+        79.922828,6.891265
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="83">
+<name>83</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">83</SimpleData>
+        <SimpleData name="Lat">6.891227</SimpleData>
+        <SimpleData name="Lon">79.922904</SimpleData>
+        <SimpleData name="Bearing">118.211258</SimpleData>
+        <SimpleData name="Speed">8.528550</SimpleData>
+        <SimpleData name="UID">83</SimpleData>
+        <SimpleData name="Altitude">-91.515383</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:11</SimpleData>
+        <SimpleData name="Distance">908.527801</SimpleData>
+        <SimpleData name="X">9.911995</SimpleData>
+        <SimpleData name="Y">0.469264</SimpleData>
+        <SimpleData name="Z">1.727417</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922828,6.891265
+        79.922904,6.891227
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="84">
+<name>84</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">84</SimpleData>
+        <SimpleData name="Lat">6.891190</SimpleData>
+        <SimpleData name="Lon">79.922979</SimpleData>
+        <SimpleData name="Bearing">118.972183</SimpleData>
+        <SimpleData name="Speed">8.440369</SimpleData>
+        <SimpleData name="UID">84</SimpleData>
+        <SimpleData name="Altitude">-91.026260</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:12</SimpleData>
+        <SimpleData name="Distance">917.801930</SimpleData>
+        <SimpleData name="X">9.888053</SimpleData>
+        <SimpleData name="Y">0.095768</SimpleData>
+        <SimpleData name="Z">1.124078</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922904,6.891227
+        79.922979,6.891190
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="85">
+<name>85</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">85</SimpleData>
+        <SimpleData name="Lat">6.891145</SimpleData>
+        <SimpleData name="Lon">79.923053</SimpleData>
+        <SimpleData name="Bearing">122.827171</SimpleData>
+        <SimpleData name="Speed">8.971901</SimpleData>
+        <SimpleData name="UID">85</SimpleData>
+        <SimpleData name="Altitude">-90.668737</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:13</SimpleData>
+        <SimpleData name="Distance">927.449133</SimpleData>
+        <SimpleData name="X">9.619903</SimpleData>
+        <SimpleData name="Y">-0.177171</SimpleData>
+        <SimpleData name="Z">1.234211</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.922979,6.891190
+        79.923053,6.891145
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="86">
+<name>86</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">86</SimpleData>
+        <SimpleData name="Lat">6.891095</SimpleData>
+        <SimpleData name="Lon">79.923135</SimpleData>
+        <SimpleData name="Bearing">122.397400</SimpleData>
+        <SimpleData name="Speed">10.128946</SimpleData>
+        <SimpleData name="UID">86</SimpleData>
+        <SimpleData name="Altitude">-90.311172</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:14</SimpleData>
+        <SimpleData name="Distance">938.059286</SimpleData>
+        <SimpleData name="X">9.710882</SimpleData>
+        <SimpleData name="Y">-0.244209</SimpleData>
+        <SimpleData name="Z">0.673968</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923053,6.891145
+        79.923135,6.891095
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="87">
+<name>87</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">87</SimpleData>
+        <SimpleData name="Lat">6.891044</SimpleData>
+        <SimpleData name="Lon">79.923220</SimpleData>
+        <SimpleData name="Bearing">122.827171</SimpleData>
+        <SimpleData name="Speed">10.128946</SimpleData>
+        <SimpleData name="UID">87</SimpleData>
+        <SimpleData name="Altitude">-90.003512</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:15</SimpleData>
+        <SimpleData name="Distance">948.991686</SimpleData>
+        <SimpleData name="X">9.998186</SimpleData>
+        <SimpleData name="Y">0.689530</SimpleData>
+        <SimpleData name="Z">1.736993</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923135,6.891095
+        79.923220,6.891044
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="88">
+<name>88</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">88</SimpleData>
+        <SimpleData name="Lat">6.891002</SimpleData>
+        <SimpleData name="Lon">79.923308</SimpleData>
+        <SimpleData name="Bearing">115.657944</SimpleData>
+        <SimpleData name="Speed">9.641200</SimpleData>
+        <SimpleData name="UID">88</SimpleData>
+        <SimpleData name="Altitude">-89.941882</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:16</SimpleData>
+        <SimpleData name="Distance">959.772819</SimpleData>
+        <SimpleData name="X">8.269572</SimpleData>
+        <SimpleData name="Y">1.537078</SimpleData>
+        <SimpleData name="Z">1.631648</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923220,6.891044
+        79.923308,6.891002
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="89">
+<name>89</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">89</SimpleData>
+        <SimpleData name="Lat">6.890963</SimpleData>
+        <SimpleData name="Lon">79.923407</SimpleData>
+        <SimpleData name="Bearing">113.944229</SimpleData>
+        <SimpleData name="Speed">10.357075</SimpleData>
+        <SimpleData name="UID">89</SimpleData>
+        <SimpleData name="Altitude">-90.100103</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:17</SimpleData>
+        <SimpleData name="Distance">971.491542</SimpleData>
+        <SimpleData name="X">9.835381</SimpleData>
+        <SimpleData name="Y">1.058237</SimpleData>
+        <SimpleData name="Z">0.219069</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923308,6.891002
+        79.923407,6.890963
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="90">
+<name>90</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">90</SimpleData>
+        <SimpleData name="Lat">6.890926</SimpleData>
+        <SimpleData name="Lon">79.923506</SimpleData>
+        <SimpleData name="Bearing">111.374565</SimpleData>
+        <SimpleData name="Speed">11.057099</SimpleData>
+        <SimpleData name="UID">90</SimpleData>
+        <SimpleData name="Altitude">-90.743521</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:18</SimpleData>
+        <SimpleData name="Distance">983.184345</SimpleData>
+        <SimpleData name="X">9.892841</SimpleData>
+        <SimpleData name="Y">0.234632</SimpleData>
+        <SimpleData name="Z">0.032322</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923407,6.890963
+        79.923506,6.890926
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="91">
+<name>91</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">91</SimpleData>
+        <SimpleData name="Lat">6.890896</SimpleData>
+        <SimpleData name="Lon">79.923605</SimpleData>
+        <SimpleData name="Bearing">108.458717</SimpleData>
+        <SimpleData name="Speed">10.584774</SimpleData>
+        <SimpleData name="UID">91</SimpleData>
+        <SimpleData name="Altitude">-91.442398</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:19</SimpleData>
+        <SimpleData name="Distance">994.579921</SimpleData>
+        <SimpleData name="X">10.022128</SimpleData>
+        <SimpleData name="Y">0.837971</SimpleData>
+        <SimpleData name="Z">1.267730</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923506,6.890926
+        79.923605,6.890896
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="92">
+<name>92</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">92</SimpleData>
+        <SimpleData name="Lat">6.890872</SimpleData>
+        <SimpleData name="Lon">79.923716</SimpleData>
+        <SimpleData name="Bearing">104.935081</SimpleData>
+        <SimpleData name="Speed">12.316081</SimpleData>
+        <SimpleData name="UID">92</SimpleData>
+        <SimpleData name="Altitude">-92.138326</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:20</SimpleData>
+        <SimpleData name="Distance">1007.179868</SimpleData>
+        <SimpleData name="X">9.892841</SimpleData>
+        <SimpleData name="Y">1.182736</SimpleData>
+        <SimpleData name="Z">0.635661</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923605,6.890896
+        79.923716,6.890872
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="93">
+<name>93</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">93</SimpleData>
+        <SimpleData name="Lat">6.890859</SimpleData>
+        <SimpleData name="Lon">79.923828</SimpleData>
+        <SimpleData name="Bearing">100.882111</SimpleData>
+        <SimpleData name="Speed">12.374721</SimpleData>
+        <SimpleData name="UID">93</SimpleData>
+        <SimpleData name="Altitude">-92.729001</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:21</SimpleData>
+        <SimpleData name="Distance">1019.598733</SimpleData>
+        <SimpleData name="X">9.945514</SimpleData>
+        <SimpleData name="Y">1.010353</SimpleData>
+        <SimpleData name="Z">1.708263</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923716,6.890872
+        79.923828,6.890859
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="94">
+<name>94</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">94</SimpleData>
+        <SimpleData name="Lat">6.890855</SimpleData>
+        <SimpleData name="Lon">79.923930</SimpleData>
+        <SimpleData name="Bearing">97.634117</SimpleData>
+        <SimpleData name="Speed">11.676702</SimpleData>
+        <SimpleData name="UID">94</SimpleData>
+        <SimpleData name="Altitude">-93.305977</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:22</SimpleData>
+        <SimpleData name="Distance">1030.882847</SimpleData>
+        <SimpleData name="X">9.749189</SimpleData>
+        <SimpleData name="Y">0.392649</SimpleData>
+        <SimpleData name="Z">1.152808</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923828,6.890859
+        79.923930,6.890855
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="95">
+<name>95</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">95</SimpleData>
+        <SimpleData name="Lat">6.890858</SimpleData>
+        <SimpleData name="Lon">79.924031</SimpleData>
+        <SimpleData name="Bearing">93.926064</SimpleData>
+        <SimpleData name="Speed">11.853538</SimpleData>
+        <SimpleData name="UID">95</SimpleData>
+        <SimpleData name="Altitude">-93.459122</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:23</SimpleData>
+        <SimpleData name="Distance">1042.127203</SimpleData>
+        <SimpleData name="X">9.730036</SimpleData>
+        <SimpleData name="Y">-0.105345</SimpleData>
+        <SimpleData name="Z">0.903811</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.923930,6.890855
+        79.924031,6.890858
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="96">
+<name>96</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">96</SimpleData>
+        <SimpleData name="Lat">6.890867</SimpleData>
+        <SimpleData name="Lon">79.924138</SimpleData>
+        <SimpleData name="Bearing">91.626350</SimpleData>
+        <SimpleData name="Speed">13.051059</SimpleData>
+        <SimpleData name="UID">96</SimpleData>
+        <SimpleData name="Altitude">-93.296390</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:24</SimpleData>
+        <SimpleData name="Distance">1053.941255</SimpleData>
+        <SimpleData name="X">10.141838</SimpleData>
+        <SimpleData name="Y">0.703895</SimpleData>
+        <SimpleData name="Z">1.282095</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924031,6.890858
+        79.924138,6.890867
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="97">
+<name>97</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">97</SimpleData>
+        <SimpleData name="Lat">6.890877</SimpleData>
+        <SimpleData name="Lon">79.924251</SimpleData>
+        <SimpleData name="Bearing">89.992989</SimpleData>
+        <SimpleData name="Speed">12.880663</SimpleData>
+        <SimpleData name="UID">97</SimpleData>
+        <SimpleData name="Altitude">-93.082507</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:25</SimpleData>
+        <SimpleData name="Distance">1066.476954</SimpleData>
+        <SimpleData name="X">9.921572</SimpleData>
+        <SimpleData name="Y">0.411803</SimpleData>
+        <SimpleData name="Z">1.698686</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924138,6.890867
+        79.924251,6.890877
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="98">
+<name>98</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">98</SimpleData>
+        <SimpleData name="Lat">6.890891</SimpleData>
+        <SimpleData name="Lon">79.924376</SimpleData>
+        <SimpleData name="Bearing">88.537811</SimpleData>
+        <SimpleData name="Speed">13.554578</SimpleData>
+        <SimpleData name="UID">98</SimpleData>
+        <SimpleData name="Altitude">-92.922842</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:26</SimpleData>
+        <SimpleData name="Distance">1080.374628</SimpleData>
+        <SimpleData name="X">9.533711</SimpleData>
+        <SimpleData name="Y">0.636858</SimpleData>
+        <SimpleData name="Z">1.090559</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924251,6.890877
+        79.924376,6.890891
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="99">
+<name>99</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">99</SimpleData>
+        <SimpleData name="Lat">6.890904</SimpleData>
+        <SimpleData name="Lon">79.924499</SimpleData>
+        <SimpleData name="Bearing">87.426819</SimpleData>
+        <SimpleData name="Speed">12.995568</SimpleData>
+        <SimpleData name="UID">99</SimpleData>
+        <SimpleData name="Altitude">-92.756678</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:27</SimpleData>
+        <SimpleData name="Distance">1094.074473</SimpleData>
+        <SimpleData name="X">9.701305</SimpleData>
+        <SimpleData name="Y">-0.119710</SimpleData>
+        <SimpleData name="Z">0.271742</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924376,6.890891
+        79.924499,6.890904
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="100">
+<name>100</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">100</SimpleData>
+        <SimpleData name="Lat">6.890917</SimpleData>
+        <SimpleData name="Lon">79.924627</SimpleData>
+        <SimpleData name="Bearing">86.999237</SimpleData>
+        <SimpleData name="Speed">13.029837</SimpleData>
+        <SimpleData name="UID">100</SimpleData>
+        <SimpleData name="Altitude">-92.625665</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:28</SimpleData>
+        <SimpleData name="Distance">1108.225264</SimpleData>
+        <SimpleData name="X">9.753978</SimpleData>
+        <SimpleData name="Y">0.354342</SimpleData>
+        <SimpleData name="Z">1.057040</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924499,6.890904
+        79.924627,6.890917
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="101">
+<name>101</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">101</SimpleData>
+        <SimpleData name="Lat">6.890931</SimpleData>
+        <SimpleData name="Lon">79.924755</SimpleData>
+        <SimpleData name="Bearing">86.215935</SimpleData>
+        <SimpleData name="Speed">13.059636</SimpleData>
+        <SimpleData name="UID">101</SimpleData>
+        <SimpleData name="Altitude">-92.552559</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:29</SimpleData>
+        <SimpleData name="Distance">1122.495504</SimpleData>
+        <SimpleData name="X">9.595961</SimpleData>
+        <SimpleData name="Y">0.325611</SimpleData>
+        <SimpleData name="Z">1.186327</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924627,6.890917
+        79.924755,6.890931
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="102">
+<name>102</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">102</SimpleData>
+        <SimpleData name="Lat">6.890945</SimpleData>
+        <SimpleData name="Lon">79.924878</SimpleData>
+        <SimpleData name="Bearing">85.668365</SimpleData>
+        <SimpleData name="Speed">12.855688</SimpleData>
+        <SimpleData name="UID">102</SimpleData>
+        <SimpleData name="Altitude">-92.516234</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:30</SimpleData>
+        <SimpleData name="Distance">1136.147629</SimpleData>
+        <SimpleData name="X">9.662998</SimpleData>
+        <SimpleData name="Y">0.229843</SimpleData>
+        <SimpleData name="Z">1.128866</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924755,6.890931
+        79.924878,6.890945
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="103">
+<name>103</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">103</SimpleData>
+        <SimpleData name="Lat">6.890959</SimpleData>
+        <SimpleData name="Lon">79.924994</SimpleData>
+        <SimpleData name="Bearing">85.117516</SimpleData>
+        <SimpleData name="Speed">12.524000</SimpleData>
+        <SimpleData name="UID">103</SimpleData>
+        <SimpleData name="Altitude">-92.499418</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:31</SimpleData>
+        <SimpleData name="Distance">1149.060777</SimpleData>
+        <SimpleData name="X">9.361329</SimpleData>
+        <SimpleData name="Y">0.646434</SimpleData>
+        <SimpleData name="Z">1.550246</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924878,6.890945
+        79.924994,6.890959
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="104">
+<name>104</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">104</SimpleData>
+        <SimpleData name="Lat">6.890972</SimpleData>
+        <SimpleData name="Lon">79.925106</SimpleData>
+        <SimpleData name="Bearing">84.446854</SimpleData>
+        <SimpleData name="Speed">12.423798</SimpleData>
+        <SimpleData name="UID">104</SimpleData>
+        <SimpleData name="Altitude">-92.609556</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:32</SimpleData>
+        <SimpleData name="Distance">1161.585758</SimpleData>
+        <SimpleData name="X">9.466674</SimpleData>
+        <SimpleData name="Y">0.440533</SimpleData>
+        <SimpleData name="Z">-0.106542</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.924994,6.890959
+        79.925106,6.890972
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="105">
+<name>105</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">105</SimpleData>
+        <SimpleData name="Lat">6.890987</SimpleData>
+        <SimpleData name="Lon">79.925217</SimpleData>
+        <SimpleData name="Bearing">83.985001</SimpleData>
+        <SimpleData name="Speed">12.483913</SimpleData>
+        <SimpleData name="UID">105</SimpleData>
+        <SimpleData name="Altitude">-92.744908</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:33</SimpleData>
+        <SimpleData name="Distance">1173.902241</SimpleData>
+        <SimpleData name="X">9.658210</SimpleData>
+        <SimpleData name="Y">0.407014</SimpleData>
+        <SimpleData name="Z">1.215057</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925106,6.890972
+        79.925217,6.890987
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="106">
+<name>106</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">106</SimpleData>
+        <SimpleData name="Lat">6.891002</SimpleData>
+        <SimpleData name="Lon">79.925328</SimpleData>
+        <SimpleData name="Bearing">84.190575</SimpleData>
+        <SimpleData name="Speed">12.616151</SimpleData>
+        <SimpleData name="UID">106</SimpleData>
+        <SimpleData name="Altitude">-92.956310</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:34</SimpleData>
+        <SimpleData name="Distance">1186.276129</SimpleData>
+        <SimpleData name="X">10.323798</SimpleData>
+        <SimpleData name="Y">0.210690</SimpleData>
+        <SimpleData name="Z">0.817620</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925217,6.890987
+        79.925328,6.891002
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="107">
+<name>107</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">107</SimpleData>
+        <SimpleData name="Lat">6.891015</SimpleData>
+        <SimpleData name="Lon">79.925431</SimpleData>
+        <SimpleData name="Bearing">83.692238</SimpleData>
+        <SimpleData name="Speed">12.457140</SimpleData>
+        <SimpleData name="UID">107</SimpleData>
+        <SimpleData name="Altitude">-93.045356</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:35</SimpleData>
+        <SimpleData name="Distance">1197.748177</SimpleData>
+        <SimpleData name="X">9.739613</SimpleData>
+        <SimpleData name="Y">-0.272939</SimpleData>
+        <SimpleData name="Z">1.277307</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925328,6.891002
+        79.925431,6.891015
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="108">
+<name>108</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">108</SimpleData>
+        <SimpleData name="Lat">6.891029</SimpleData>
+        <SimpleData name="Lon">79.925535</SimpleData>
+        <SimpleData name="Bearing">83.272652</SimpleData>
+        <SimpleData name="Speed">12.098469</SimpleData>
+        <SimpleData name="UID">108</SimpleData>
+        <SimpleData name="Altitude">-93.186022</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:36</SimpleData>
+        <SimpleData name="Distance">1209.427433</SimpleData>
+        <SimpleData name="X">9.892841</SimpleData>
+        <SimpleData name="Y">0.665588</SimpleData>
+        <SimpleData name="Z">1.004368</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925431,6.891015
+        79.925535,6.891029
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="109">
+<name>109</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">109</SimpleData>
+        <SimpleData name="Lat">6.891042</SimpleData>
+        <SimpleData name="Lon">79.925645</SimpleData>
+        <SimpleData name="Bearing">83.019333</SimpleData>
+        <SimpleData name="Speed">11.764573</SimpleData>
+        <SimpleData name="UID">109</SimpleData>
+        <SimpleData name="Altitude">-93.165694</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:37</SimpleData>
+        <SimpleData name="Distance">1221.613237</SimpleData>
+        <SimpleData name="X">8.896853</SimpleData>
+        <SimpleData name="Y">-0.239420</SimpleData>
+        <SimpleData name="Z">1.602918</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925535,6.891029
+        79.925645,6.891042
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="110">
+<name>110</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">110</SimpleData>
+        <SimpleData name="Lat">6.891057</SimpleData>
+        <SimpleData name="Lon">79.925745</SimpleData>
+        <SimpleData name="Bearing">82.601822</SimpleData>
+        <SimpleData name="Speed">11.677953</SimpleData>
+        <SimpleData name="UID">110</SimpleData>
+        <SimpleData name="Altitude">-93.034582</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:38</SimpleData>
+        <SimpleData name="Distance">1232.752205</SimpleData>
+        <SimpleData name="X">10.079589</SimpleData>
+        <SimpleData name="Y">-0.335188</SimpleData>
+        <SimpleData name="Z">1.085770</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925645,6.891042
+        79.925745,6.891057
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="111">
+<name>111</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">111</SimpleData>
+        <SimpleData name="Lat">6.891070</SimpleData>
+        <SimpleData name="Lon">79.925842</SimpleData>
+        <SimpleData name="Bearing">82.296280</SimpleData>
+        <SimpleData name="Speed">11.183238</SimpleData>
+        <SimpleData name="UID">111</SimpleData>
+        <SimpleData name="Altitude">-92.818264</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:39</SimpleData>
+        <SimpleData name="Distance">1243.650371</SimpleData>
+        <SimpleData name="X">9.710882</SimpleData>
+        <SimpleData name="Y">-0.215478</SimpleData>
+        <SimpleData name="Z">1.215057</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925745,6.891057
+        79.925842,6.891070
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="112">
+<name>112</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">112</SimpleData>
+        <SimpleData name="Lat">6.891087</SimpleData>
+        <SimpleData name="Lon">79.925941</SimpleData>
+        <SimpleData name="Bearing">82.972519</SimpleData>
+        <SimpleData name="Speed">11.183238</SimpleData>
+        <SimpleData name="UID">112</SimpleData>
+        <SimpleData name="Altitude">-92.376026</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:40</SimpleData>
+        <SimpleData name="Distance">1254.697188</SimpleData>
+        <SimpleData name="X">9.346964</SimpleData>
+        <SimpleData name="Y">0.416591</SimpleData>
+        <SimpleData name="Z">0.300472</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925842,6.891070
+        79.925941,6.891087
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="113">
+<name>113</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">113</SimpleData>
+        <SimpleData name="Lat">6.891092</SimpleData>
+        <SimpleData name="Lon">79.926048</SimpleData>
+        <SimpleData name="Bearing">89.042580</SimpleData>
+        <SimpleData name="Speed">11.916981</SimpleData>
+        <SimpleData name="UID">113</SimpleData>
+        <SimpleData name="Altitude">-91.808499</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:41</SimpleData>
+        <SimpleData name="Distance">1266.529707</SimpleData>
+        <SimpleData name="X">9.715671</SimpleData>
+        <SimpleData name="Y">0.186748</SimpleData>
+        <SimpleData name="Z">1.248576</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.925941,6.891087
+        79.926048,6.891092
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="114">
+<name>114</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">114</SimpleData>
+        <SimpleData name="Lat">6.891098</SimpleData>
+        <SimpleData name="Lon">79.926151</SimpleData>
+        <SimpleData name="Bearing">89.181961</SimpleData>
+        <SimpleData name="Speed">11.908145</SimpleData>
+        <SimpleData name="UID">114</SimpleData>
+        <SimpleData name="Altitude">-91.256546</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:42</SimpleData>
+        <SimpleData name="Distance">1278.018747</SimpleData>
+        <SimpleData name="X">9.921572</SimpleData>
+        <SimpleData name="Y">0.067038</SimpleData>
+        <SimpleData name="Z">0.511162</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926048,6.891092
+        79.926151,6.891098
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="115">
+<name>115</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">115</SimpleData>
+        <SimpleData name="Lat">6.891105</SimpleData>
+        <SimpleData name="Lon">79.926259</SimpleData>
+        <SimpleData name="Bearing">89.827919</SimpleData>
+        <SimpleData name="Speed">12.101600</SimpleData>
+        <SimpleData name="UID">115</SimpleData>
+        <SimpleData name="Altitude">-90.829273</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:43</SimpleData>
+        <SimpleData name="Distance">1289.940943</SimpleData>
+        <SimpleData name="X">9.682152</SimpleData>
+        <SimpleData name="Y">-0.665588</SimpleData>
+        <SimpleData name="Z">0.741005</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926151,6.891098
+        79.926259,6.891105
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="116">
+<name>116</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">116</SimpleData>
+        <SimpleData name="Lat">6.891105</SimpleData>
+        <SimpleData name="Lon">79.926259</SimpleData>
+        <SimpleData name="Bearing">89.827919</SimpleData>
+        <SimpleData name="Speed">12.101600</SimpleData>
+        <SimpleData name="UID">116</SimpleData>
+        <SimpleData name="Altitude">-90.829273</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:43</SimpleData>
+        <SimpleData name="Distance">1289.940943</SimpleData>
+        <SimpleData name="X">9.931149</SimpleData>
+        <SimpleData name="Y">0.023942</SimpleData>
+        <SimpleData name="Z">1.669956</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926259,6.891105
+        79.926259,6.891105
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="117">
+<name>117</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">117</SimpleData>
+        <SimpleData name="Lat">6.891095</SimpleData>
+        <SimpleData name="Lon">79.926483</SimpleData>
+        <SimpleData name="Bearing">93.542160</SimpleData>
+        <SimpleData name="Speed">12.624586</SimpleData>
+        <SimpleData name="UID">117</SimpleData>
+        <SimpleData name="Altitude">-90.108388</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:45</SimpleData>
+        <SimpleData name="Distance">1314.707336</SimpleData>
+        <SimpleData name="X">9.624691</SimpleData>
+        <SimpleData name="Y">1.173159</SimpleData>
+        <SimpleData name="Z">0.769736</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926259,6.891105
+        79.926483,6.891095
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="118">
+<name>118</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">118</SimpleData>
+        <SimpleData name="Lat">6.891080</SimpleData>
+        <SimpleData name="Lon">79.926594</SimpleData>
+        <SimpleData name="Bearing">96.378075</SimpleData>
+        <SimpleData name="Speed">11.917944</SimpleData>
+        <SimpleData name="UID">118</SimpleData>
+        <SimpleData name="Altitude">-89.985931</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:46</SimpleData>
+        <SimpleData name="Distance">1327.074010</SimpleData>
+        <SimpleData name="X">9.447520</SimpleData>
+        <SimpleData name="Y">0.656011</SimpleData>
+        <SimpleData name="Z">-0.077812</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926483,6.891095
+        79.926594,6.891080
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="119">
+<name>119</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">119</SimpleData>
+        <SimpleData name="Lat">6.891068</SimpleData>
+        <SimpleData name="Lon">79.926712</SimpleData>
+        <SimpleData name="Bearing">94.585732</SimpleData>
+        <SimpleData name="Speed">12.820649</SimpleData>
+        <SimpleData name="UID">119</SimpleData>
+        <SimpleData name="Altitude">-89.918066</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:47</SimpleData>
+        <SimpleData name="Distance">1340.211531</SimpleData>
+        <SimpleData name="X">9.552865</SimpleData>
+        <SimpleData name="Y">0.909797</SimpleData>
+        <SimpleData name="Z">1.502362</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926594,6.891080
+        79.926712,6.891068
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="120">
+<name>120</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">120</SimpleData>
+        <SimpleData name="Lat">6.891059</SimpleData>
+        <SimpleData name="Lon">79.926834</SimpleData>
+        <SimpleData name="Bearing">93.142479</SimpleData>
+        <SimpleData name="Speed">14.026898</SimpleData>
+        <SimpleData name="UID">120</SimpleData>
+        <SimpleData name="Altitude">-89.733229</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:48</SimpleData>
+        <SimpleData name="Distance">1353.732813</SimpleData>
+        <SimpleData name="X">9.940725</SimpleData>
+        <SimpleData name="Y">-0.320823</SimpleData>
+        <SimpleData name="Z">0.123301</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926712,6.891068
+        79.926834,6.891059
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="121">
+<name>121</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">121</SimpleData>
+        <SimpleData name="Lat">6.891050</SimpleData>
+        <SimpleData name="Lon">79.926951</SimpleData>
+        <SimpleData name="Bearing">92.535912</SimpleData>
+        <SimpleData name="Speed">13.587080</SimpleData>
+        <SimpleData name="UID">121</SimpleData>
+        <SimpleData name="Altitude">-89.815992</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:49</SimpleData>
+        <SimpleData name="Distance">1366.670638</SimpleData>
+        <SimpleData name="X">9.404425</SimpleData>
+        <SimpleData name="Y">-0.248997</SimpleData>
+        <SimpleData name="Z">0.764947</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926834,6.891059
+        79.926951,6.891050
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="122">
+<name>122</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">122</SimpleData>
+        <SimpleData name="Lat">6.891045</SimpleData>
+        <SimpleData name="Lon">79.927067</SimpleData>
+        <SimpleData name="Bearing">91.772240</SimpleData>
+        <SimpleData name="Speed">13.489368</SimpleData>
+        <SimpleData name="UID">122</SimpleData>
+        <SimpleData name="Altitude">-90.095597</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:50</SimpleData>
+        <SimpleData name="Distance">1379.510784</SimpleData>
+        <SimpleData name="X">10.137050</SimpleData>
+        <SimpleData name="Y">0.129287</SimpleData>
+        <SimpleData name="Z">0.659603</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.926951,6.891050
+        79.927067,6.891045
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="123">
+<name>123</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">123</SimpleData>
+        <SimpleData name="Lat">6.891040</SimpleData>
+        <SimpleData name="Lon">79.927182</SimpleData>
+        <SimpleData name="Bearing">91.774124</SimpleData>
+        <SimpleData name="Speed">13.003423</SimpleData>
+        <SimpleData name="UID">123</SimpleData>
+        <SimpleData name="Altitude">-90.517019</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:51</SimpleData>
+        <SimpleData name="Distance">1392.261623</SimpleData>
+        <SimpleData name="X">9.897630</SimpleData>
+        <SimpleData name="Y">0.392649</SimpleData>
+        <SimpleData name="Z">1.918953</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927067,6.891045
+        79.927182,6.891040
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="124">
+<name>124</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">124</SimpleData>
+        <SimpleData name="Lat">6.891036</SimpleData>
+        <SimpleData name="Lon">79.927295</SimpleData>
+        <SimpleData name="Bearing">92.317093</SimpleData>
+        <SimpleData name="Speed">12.460512</SimpleData>
+        <SimpleData name="UID">124</SimpleData>
+        <SimpleData name="Altitude">-91.250996</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:52</SimpleData>
+        <SimpleData name="Distance">1404.735601</SimpleData>
+        <SimpleData name="X">9.452309</SimpleData>
+        <SimpleData name="Y">-0.062249</SimpleData>
+        <SimpleData name="Z">1.353921</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927182,6.891040
+        79.927295,6.891036
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="125">
+<name>125</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">125</SimpleData>
+        <SimpleData name="Lat">6.891035</SimpleData>
+        <SimpleData name="Lon">79.927399</SimpleData>
+        <SimpleData name="Bearing">92.229256</SimpleData>
+        <SimpleData name="Speed">11.034706</SimpleData>
+        <SimpleData name="UID">125</SimpleData>
+        <SimpleData name="Altitude">-92.053710</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:53</SimpleData>
+        <SimpleData name="Distance">1416.219347</SimpleData>
+        <SimpleData name="X">9.260772</SimpleData>
+        <SimpleData name="Y">1.029507</SimpleData>
+        <SimpleData name="Z">-0.154426</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927295,6.891036
+        79.927399,6.891035
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="126">
+<name>126</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">126</SimpleData>
+        <SimpleData name="Lat">6.891034</SimpleData>
+        <SimpleData name="Lon">79.927500</SimpleData>
+        <SimpleData name="Bearing">92.369972</SimpleData>
+        <SimpleData name="Speed">9.924781</SimpleData>
+        <SimpleData name="UID">126</SimpleData>
+        <SimpleData name="Altitude">-92.623185</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:54</SimpleData>
+        <SimpleData name="Distance">1427.430880</SimpleData>
+        <SimpleData name="X">9.634268</SimpleData>
+        <SimpleData name="Y">0.646434</SimpleData>
+        <SimpleData name="Z">0.918176</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927399,6.891035
+        79.927500,6.891034
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="127">
+<name>127</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">127</SimpleData>
+        <SimpleData name="Lat">6.891031</SimpleData>
+        <SimpleData name="Lon">79.927591</SimpleData>
+        <SimpleData name="Bearing">92.968094</SimpleData>
+        <SimpleData name="Speed">8.899060</SimpleData>
+        <SimpleData name="UID">127</SimpleData>
+        <SimpleData name="Altitude">-92.943568</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:55</SimpleData>
+        <SimpleData name="Distance">1437.510244</SimpleData>
+        <SimpleData name="X">9.548077</SimpleData>
+        <SimpleData name="Y">0.766145</SimpleData>
+        <SimpleData name="Z">0.190339</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927500,6.891034
+        79.927591,6.891031
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="128">
+<name>128</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">128</SimpleData>
+        <SimpleData name="Lat">6.891026</SimpleData>
+        <SimpleData name="Lon">79.927688</SimpleData>
+        <SimpleData name="Bearing">92.628899</SimpleData>
+        <SimpleData name="Speed">9.992153</SimpleData>
+        <SimpleData name="UID">128</SimpleData>
+        <SimpleData name="Altitude">-93.150911</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:56</SimpleData>
+        <SimpleData name="Distance">1448.230736</SimpleData>
+        <SimpleData name="X">9.581595</SimpleData>
+        <SimpleData name="Y">0.234632</SimpleData>
+        <SimpleData name="Z">0.822408</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927591,6.891031
+        79.927688,6.891026
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="129">
+<name>129</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">129</SimpleData>
+        <SimpleData name="Lat">6.891019</SimpleData>
+        <SimpleData name="Lon">79.927794</SimpleData>
+        <SimpleData name="Bearing">92.989487</SimpleData>
+        <SimpleData name="Speed">10.517925</SimpleData>
+        <SimpleData name="UID">129</SimpleData>
+        <SimpleData name="Altitude">-93.077138</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:57</SimpleData>
+        <SimpleData name="Distance">1459.950640</SimpleData>
+        <SimpleData name="X">9.452309</SimpleData>
+        <SimpleData name="Y">0.368707</SimpleData>
+        <SimpleData name="Z">1.004368</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927688,6.891026
+        79.927794,6.891019
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="130">
+<name>130</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">130</SimpleData>
+        <SimpleData name="Lat">6.891016</SimpleData>
+        <SimpleData name="Lon">79.927895</SimpleData>
+        <SimpleData name="Bearing">91.500313</SimpleData>
+        <SimpleData name="Speed">10.724730</SimpleData>
+        <SimpleData name="UID">130</SimpleData>
+        <SimpleData name="Altitude">-92.893404</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:58</SimpleData>
+        <SimpleData name="Distance">1471.143434</SimpleData>
+        <SimpleData name="X">9.605537</SimpleData>
+        <SimpleData name="Y">0.675165</SimpleData>
+        <SimpleData name="Z">1.789666</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927794,6.891019
+        79.927895,6.891016
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="131">
+<name>131</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">131</SimpleData>
+        <SimpleData name="Lat">6.891019</SimpleData>
+        <SimpleData name="Lon">79.927989</SimpleData>
+        <SimpleData name="Bearing">89.234833</SimpleData>
+        <SimpleData name="Speed">9.796478</SimpleData>
+        <SimpleData name="UID">131</SimpleData>
+        <SimpleData name="Altitude">-92.504719</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:42:59</SimpleData>
+        <SimpleData name="Distance">1481.516187</SimpleData>
+        <SimpleData name="X">9.567230</SimpleData>
+        <SimpleData name="Y">0.493206</SimpleData>
+        <SimpleData name="Z">1.990779</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927895,6.891016
+        79.927989,6.891019
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="132">
+<name>132</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">132</SimpleData>
+        <SimpleData name="Lat">6.891028</SimpleData>
+        <SimpleData name="Lon">79.928075</SimpleData>
+        <SimpleData name="Bearing">85.945030</SimpleData>
+        <SimpleData name="Speed">9.511339</SimpleData>
+        <SimpleData name="UID">132</SimpleData>
+        <SimpleData name="Altitude">-91.961745</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:43:00</SimpleData>
+        <SimpleData name="Distance">1491.068248</SimpleData>
+        <SimpleData name="X">10.036493</SimpleData>
+        <SimpleData name="Y">1.154005</SimpleData>
+        <SimpleData name="Z">2.167950</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.927989,6.891019
+        79.928075,6.891028
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="133">
+<name>133</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">133</SimpleData>
+        <SimpleData name="Lat">6.891064</SimpleData>
+        <SimpleData name="Lon">79.928150</SimpleData>
+        <SimpleData name="Bearing">67.307434</SimpleData>
+        <SimpleData name="Speed">8.977834</SimpleData>
+        <SimpleData name="UID">133</SimpleData>
+        <SimpleData name="Altitude">-91.274434</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:43:01</SimpleData>
+        <SimpleData name="Distance">1500.222528</SimpleData>
+        <SimpleData name="X">9.701305</SimpleData>
+        <SimpleData name="Y">1.082179</SimpleData>
+        <SimpleData name="Z">1.435324</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.928075,6.891028
+        79.928150,6.891064
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="134">
+<name>134</name>
+<description/>
+<styleUrl>#wpmRedLine</styleUrl>
+<ExtendedData>
+    <SchemaData schemaUrl="#GeoVideo">
+        <SimpleData name="FID">134</SimpleData>
+        <SimpleData name="Lat">6.891095</SimpleData>
+        <SimpleData name="Lon">79.928216</SimpleData>
+        <SimpleData name="Bearing">68.399109</SimpleData>
+        <SimpleData name="Speed">8.190023</SimpleData>
+        <SimpleData name="UID">134</SimpleData>
+        <SimpleData name="Altitude">-90.748583</SimpleData>
+        <SimpleData name="UTC_Date">05/04/2018</SimpleData>
+        <SimpleData name="UTC_Time">08:43:02</SimpleData>
+        <SimpleData name="Distance">1508.316493</SimpleData>
+        <SimpleData name="X">10.323798</SimpleData>
+        <SimpleData name="Y">0.636858</SimpleData>
+        <SimpleData name="Z">3.422511</SimpleData>
+    </SchemaData>
+</ExtendedData>
+<LineString>
+    <extrude>0</extrude>
+    <tessellate>0</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+     <coordinates>79.928150,6.891064
+        79.928216,6.891095
+    </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+ <name>Video end</name>
+ <ExtendedData>
+  <Data name="ElapsedDistance">
+    <value>1508.316493</value>
+  </Data>
+  <Data name="ElapsedTime">
+    <value>134.625000</value>
+  </Data>
+  <Data name="AverageSpeed">
+    <value>11.203837</value>
+  </Data>
+  <Data name="RouteMaxSpeed">
+    <value>15.493045</value>
+  </Data>
+  <Data name="RouteMaxAlt">
+    <value>0.000000</value>
+  </Data>
+ </ExtendedData>
+ <description/>
+ <styleUrl>#red-pushpin</styleUrl>
+ <Point>
+   <coordinates>79.928216,6.891095
+  </coordinates>
+ </Point>
+</Placemark>
+</Document>
+</kml>

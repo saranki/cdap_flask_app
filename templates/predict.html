@@ -1,0 +1,31 @@
+{% extends 'home.html' %}
+{% block content %}
+    <br>
+    <br>
+       <div class="container" align="center">
+			<div>
+				<h2>CDAP Road Signboard Predictor</h2>
+				<h4>Predicts the road signboards available in a journey route</h4>
+			</div>
+			<br>
+			<form id="predictor" enctype="multipart/form-data">
+				<div class="text-left">
+					<input type="file" id="files" name="files" width="50" height="17" data-multiple-caption="{count} files selected" />
+					<div class="text-left">
+					<br />
+						<output id="selectedFiles"></output>
+					</div>
+				</div>
+				<br />
+				<input id="splitButton" type="button" class="btn btn-success" value="Predict" />
+				<input id="resetButton" type="button" class="btn btn-info" value="Reset" />
+				<br />
+				<br />
+				<div id='progressBar' style='height: 35px; border: 1px solid green;'>
+		            <div id='bar' class="progress-bar bg-success" style='height: 100%; width: 0%' data-percentage="100">
+		            </div>
+		        </div>
+			</form>
+		</div>
+	</div>
+{% endblock %}

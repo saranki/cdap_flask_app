@@ -1,0 +1,11 @@
+log/
+resource/
+venv/
+.idea/
+__pycache__/
+component/__pycache__/
+component/log/
+data_set/testing_data_dir/
+data_set/training_data_dir/
+static/video/*.mp4
+static/journey_image/*
