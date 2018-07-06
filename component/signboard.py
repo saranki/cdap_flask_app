@@ -1,14 +1,17 @@
 import csv
 import math
 import os
+import xml.etree.ElementTree as et
+from decimal import *
+
 import cv2
 import numpy as np
-import xml.etree.ElementTree as et
 from flask import request
 from tqdm import tqdm
 from werkzeug.utils import secure_filename
-from component.processor import IMG_SIZE
+
 from component.model_trainer import model
+from component.processor import IMG_SIZE
 
 # Variable declaration
 root_path = 'C:/Users/user/PycharmProjects/cdap_team_web/static/'
@@ -16,6 +19,7 @@ xml_file_name = 'C:/Users/user/PycharmProjects/cdap_team_web/static/video/xml/'
 journey_location_csv = 'C:/Users/user/PycharmProjects/cdap_team_web/static/video/journey_csv/'
 db_data_csv = 'C:/Users/user/PycharmProjects/cdap_team_web/component/db/'
 
+getcontext().prec = 16
 
 # --------------------------------------------------------------------------------------------------------------------#
 
@@ -57,12 +61,11 @@ def split_video_to_image():
                 # print('percentage------------>', str(percentage))
             else:
                 break
-    # return 'success'
+    return video_name
 
 
 # -------------------------------------------------------------------------------------------------------------------- #
 # Method - 2: Read the journey xml file and write the fid, longitude, latitude details into another csv file
-
 
 def extract_location():
     video = video_name
@@ -101,7 +104,7 @@ def predict_road_signs():
     items = []
     video = video_name
     with open(db_data_csv + video + '.csv', 'w') as f:
-        f.write('fid,lat,long,sign,accuracy\n')
+        # f.write('fid,lat,long,sign,accuracy\n')
         image_id = 1
         for img in tqdm(os.listdir(os.path.join(root_path, 'journey_image', video))):
             # print('Image id-------------->', image_id)
@@ -192,9 +195,12 @@ def predict_road_signs():
             image_id = image_id + 1
 
 
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Method - 4: Display the details of each identified image
+
 def display_prediction_details(image_name):
     global lat, long, search_fid, sign_name, accuracy
-    ret = []
     video = image_name.split('.')[0].split('_image')[0]
     frame_id = image_name.split('_')[-1].split(".")[0]
     with open(db_data_csv + video + '.csv') as f:
@@ -210,7 +216,80 @@ def display_prediction_details(image_name):
                 break
         ret_val = dict(lat=lat, long=long, sign_name=sign_name, accuracy=accuracy)
     return ret_val
-    #     ret.append(ret_val)
-    # return ret
-    # return lat, long, sign_name, accuracy
-    # json.jsonify(lat, long, sign_name, accuracy)
+
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Method - 5: Remove duplicated image information values that are been written csv
+
+def remove_duplicates(video):
+    global bes_t, idx_row, best_row_id, temp_data
+    # video = 'journey_video_0001'
+    # print(video_name)
+    # video = video_name
+
+    data = []
+    temp_data = []
+    final_result = []
+
+    with open(db_data_csv + video + '.csv') as f:
+        reader = csv.reader(f)
+        for record in reader:
+            data.append(record)
+    idx_row = 0
+    best_row_id = 0
+    final = ['default', 'default', 'default', 'default', 'default']
+    data.append(final)
+
+    for row in data[idx_row:]:
+        if idx_row + 1 < len(data):
+            current_row = row
+            current_name = current_row[3]
+
+            next_row = data[idx_row + 1]
+            next_name = next_row[3]
+
+            if current_row not in temp_data:
+                temp_data.append(current_row)
+
+            if current_name == next_name:
+                temp_data.append(next_row)
+                idx_row = idx_row + 1
+                # print('selected:', temp_data)
+
+            elif current_name != next_name and len(temp_data) == 1:
+                if current_row not in final_result:
+                    final_result.append(current_row)
+                    idx_row = int(current_row[0])
+            else:
+                temp_idx_row = 0
+                idx_t = 0
+                for t in temp_data[temp_idx_row:]:
+                    if idx_t + 1 < len(temp_data):
+                        cur_t = temp_data[temp_idx_row]
+                        nex_t = temp_data[idx_t + 1]
+                        bes_t = cur_t
+
+                        if Decimal(cur_t[4].strip(' %')) > Decimal(nex_t[4].strip(' %')):
+                            bes_t = cur_t
+                            temp_idx_row = temp_idx_row
+
+                        elif Decimal(cur_t[4].strip(' %')) < Decimal(nex_t[4].strip(' %')):
+                            bes_t = nex_t
+                            temp_idx_row = idx_t + 1
+
+                        idx_t = idx_t + 1
+                        idx_row = int(nex_t[0])
+                        print('next iteration id', idx_row)
+                print('best', bes_t)
+                if bes_t not in final_result:
+                    final_result.append(bes_t)
+
+                del temp_data[:]
+
+    print("FINAL RES", final_result)
+
+
+remove_duplicates('journey_video_0003')
+
+

@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, json, redirect, url_for
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 
-from component.signboard import split_video_to_image, extract_location, predict_road_signs, display_prediction_details
+from component.signboard import split_video_to_image, extract_location, predict_road_signs, display_prediction_details, remove_duplicates
 
 app = Flask(__name__)
 CORS(app)
@@ -37,10 +37,11 @@ def split():
         return render_template('split.html')
 
     if request.method == 'POST':
-        split_video_to_image()
+        video = split_video_to_image()
+        print(video)
         extract_location()
         predict_road_signs()
-        # TODO: eliminate_duplicates()
+        remove_duplicates(video)
         # TODO: save_to_database()
         return 'OK'
 
