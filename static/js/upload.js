@@ -48,7 +48,9 @@ function onUploadProgress(e) {
 
         if (percentComplete > 100)
             percentComplete = 100;
+        showProgressBar();
         var bar = document.getElementById('bar');
+
         bar.style.width = percentComplete + '%';
         bar.innerHTML = percentComplete + ' % complete';
     } else {
@@ -191,10 +193,24 @@ function hideTable() {
     }
 }
 
+function hideProgressBar() {
+    if (document.getElementById('bar')) {
+        // alert('hidden');
+        document.getElementById('bar').style.visibility = "hidden";
+    }
+}
+
+function showProgressBar() {
+    console.log("done sending");
+    if (document.getElementById('bar')) {
+        document.getElementById('bar').style.visibility = "visible";
+    }
+}
 //-------------------------------------------------------------------------------------------------------------------------//
 // Event listeners for button clicks
 window.onload = function () {
     hideTable()
+    hideProgressBar()
     if (document.getElementById('files'))
         document.getElementById('files').addEventListener('change', onFileSelect, false);
 
