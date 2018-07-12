@@ -290,6 +290,6 @@ def remove_duplicates(video):
     print("FINAL RES", final_result)
 
 
-remove_duplicates('journey_video_0003')
+# remove_duplicates('journey_video_0003')
 
 
