@@ -20,7 +20,7 @@ function onUploadComplete(e) {
         var bar = document.getElementById('bar');
         bar.style.width = '100%';
         bar.innerHTML = '100 % complete';
-        bootbox.alert('Finished uploading file(s)');
+        bootbox.alert('Finished uploading details to Database');
     }
 }
 
@@ -68,8 +68,12 @@ function uploadNext() {
     var xhr = new XMLHttpRequest();
     var fd = new FormData();
     var file = document.getElementById('files').files[filesUploaded];
+    var routeName = document.getElementById('routeName').value;
+    console.log("routename", routeName);
     // console.log("file", file);
     fd.append("multipartFile", file);
+    fd.append("routeName", routeName);
+    console.log("fd", fd.entries());
     xhr.upload.addEventListener("progress", onUploadProgress, false);
     xhr.addEventListener("load", onUploadComplete, false);
     xhr.addEventListener("error", onUploadFailed, false);
@@ -206,6 +210,7 @@ function showProgressBar() {
         document.getElementById('bar').style.visibility = "visible";
     }
 }
+
 //-------------------------------------------------------------------------------------------------------------------------//
 // Event listeners for button clicks
 window.onload = function () {

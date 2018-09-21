@@ -10,7 +10,7 @@ import tensorflow as tf
 from component.processor import IMG_SIZE, train_data
 
 LR = 1e-3
-MODEL_NAME = 'signboard_model-{}-{}-{}.model'.format(3, LR, 'trained-model-01')
+MODEL_NAME = 'signboard_model-{}-{}-{}.model'.format(3, LR, 'trained-model-02')
 
 
 tf.reset_default_graph()
@@ -58,9 +58,9 @@ Y = [i[1] for i in train]
 test_x = np.array([i[0] for i in test]).reshape(-1, IMG_SIZE, IMG_SIZE, 3)
 test_y = [i[1] for i in test]
 
-# Create model
-# model.fit({'input': X}, {'targets': Y}, n_epoch=20, validation_set=({'input': test_x}, {'targets': test_y}),
-#           snapshot_step=500, show_metric=True, run_id=MODEL_NAME)
+# # Create model
+# model.fit({'input': X}, {'targets': Y}, n_epoch=10, validation_set=({'input': test_x}, {'targets': test_y}),
+#           snapshot_step=1000, show_metric=True, run_id=MODEL_NAME)
 #
 # model.save(MODEL_NAME)
 

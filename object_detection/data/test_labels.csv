@@ -1,0 +1,100 @@
+filename,width,height,class,xmin,ymin,xmax,ymax
+test_1.jpg,600,600,no left turn,266,268,345,359
+test_10.jpg,600,600,no u turn,239,296,284,345
+test_11.jpg,600,600,no u turn,270,279,329,342
+test_12.jpg,600,600,children crossing,344,254,393,304
+test_13.jpg,600,600,no right turn,476,252,541,326
+test_14.jpg,600,600,no right turn,84,277,149,341
+test_15.jpg,600,600,no u turn,299,252,376,325
+test_15.jpg,600,600,no right turn,298,324,376,399
+test_16.jpg,600,600,no u turn,204,270,244,311
+test_17.jpg,600,600,hospital,506,233,561,275
+test_18.jpg,600,600,children crossing,229,301,256,332
+test_19.jpg,600,600,children crossing,240,233,304,291
+test_2.jpg,600,600,children crossing,280,224,337,352
+test_20.jpg,600,600,no u turn,266,245,299,304
+test_21.jpg,600,600,hospital,446,242,471,269
+test_22.jpg,600,600,no left turn,316,257,362,300
+test_23.jpg,600,600,children crossing,331,270,388,329
+test_24.jpg,600,600,no left turn,262,244,314,292
+test_25.jpg,800,600,no left turn,536,242,587,298
+test_26.jpg,600,600,no right turn,337,165,489,310
+test_27.jpg,600,600,no u turn,244,275,300,348
+test_28.jpg,600,600,no u turn,217,327,281,380
+test_29.jpg,600,600,no u turn,263,251,348,374
+test_3.jpg,600,600,children crossing,262,231,323,363
+test_30.jpg,600,600,no u turn,188,191,290,299
+test_30.jpg,600,600,no right turn,215,300,251,401
+test_31.jpg,600,600,no u turn,176,210,268,300
+test_31.jpg,600,600,no right turn,199,300,234,391
+test_32.jpg,600,600,no left turn,265,285,320,340
+test_33.jpg,601,600,no left turn,246,253,333,352
+test_34.jpg,600,600,children crossing,312,270,377,339
+test_35.jpg,600,600,no left turn,240,245,345,364
+test_36.jpg,600,600,no left turn,263,258,332,345
+test_37.jpg,600,600,no left turn,249,265,328,356
+test_38.jpg,600,600,no left turn,261,251,330,354
+test_39.jpg,600,600,no honking,289,291,325,330
+test_4.jpg,600,600,no left turn,414,233,469,346
+test_40.jpg,600,600,no u turn,398,263,475,364
+test_41.jpg,600,600,hospital,258,213,304,269
+test_42.jpg,600,600,hospital,270,219,315,272
+test_43.jpg,600,600,hospital,276,216,322,268
+test_44.jpg,600,600,hospital,266,230,313,282
+test_45.jpg,600,600,children crossing,234,291,275,332
+test_46.jpg,601,600,no honking,298,304,333,346
+test_47.jpg,571,571,level crossing with gates,238,283,282,328
+test_48.jpg,545,545,level crossing with gates,227,281,272,325
+test_49.jpg,545,545,level crossing with gates,181,247,237,305
+test_49.jpg,545,545,children crossing,381,291,409,322
+test_5.jpg,600,600,no honking,381,262,489,364
+test_50.jpg,600,600,children crossing,229,327,278,380
+test_51.jpg,600,600,no u turn,245,270,309,349
+test_52.jpg,600,600,hospital,276,227,345,340
+test_53.jpg,600,600,no u turn,262,243,331,342
+test_54.jpg,600,600,no u turn,282,249,357,361
+test_55.jpg,600,600,no right turn,252,287,303,338
+test_56.jpg,600,600,children crossing,298,281,350,336
+test_57.jpg,600,600,no right turn,263,283,340,357
+test_58.jpg,600,600,no right turn,522,259,600,357
+test_59.jpg,600,600,no right turn,367,258,443,336
+test_6.jpg,600,600,no honking,105,208,233,415
+test_60.jpg,600,600,no right turn,239,255,341,358
+test_61.jpg,600,600,no right turn,281,291,358,374
+test_62.jpg,600,600,no right turn,208,241,336,376
+test_63.jpg,600,600,no honking,109,268,217,366
+test_64.jpg,600,600,hospital,289,234,342,357
+test_65.jpg,600,600,no left turn,58,252,125,326
+test_66.jpg,600,600,level crossing with gates,246,275,299,318
+test_67.jpg,600,600,children crossing,304,274,358,331
+test_68.jpg,600,600,no left turn,450,275,514,341
+test_69.jpg,600,600,no honking,368,205,489,413
+test_7.jpg,600,600,children crossing,329,299,365,345
+test_70.jpg,600,600,no honking,273,290,311,329
+test_71.jpg,600,600,level crossing with gates,305,264,377,337
+test_72.jpg,600,600,no honking,289,301,322,339
+test_73.jpg,601,600,no honking,266,305,303,345
+test_74.jpg,600,600,no left turn,295,287,348,340
+test_75.jpg,571,571,level crossing with gates,290,282,332,326
+test_76.jpg,600,600,level crossing with gates,300,277,353,319
+test_77.jpg,433,433,no honking,201,211,227,236
+test_78.jpg,600,600,children crossing,272,229,359,356
+test_79.jpg,600,600,no left turn,260,280,337,354
+test_8.jpg,600,600,children crossing,347,285,394,338
+test_80.jpg,545,545,level crossing with gates,275,281,318,327
+test_81.jpg,600,600,no left turn,1,256,78,358
+test_82.jpg,545,545,level crossing with gates,307,244,367,305
+test_83.jpg,600,600,level crossing with gates,291,331,312,346
+test_84.jpg,511,511,no u turn,356,209,423,267
+test_84.jpg,511,511,no right turn,358,266,426,325
+test_85.jpg,457,457,no u turn,213,229,238,253
+test_85.jpg,457,457,no right turn,208,249,226,267
+test_86.jpg,433,434,no u turn,206,232,235,263
+test_86.jpg,433,434,no right turn,180,257,203,281
+test_87.jpg,569,570,no u turn,399,229,484,302
+test_87.jpg,569,570,no right turn,420,302,466,375
+test_88.jpg,600,600,level crossing with gates,222,262,300,345
+test_89.jpg,600,600,children crossing,273,230,356,359
+test_9.jpg,600,600,children crossing,345,278,393,333
+test_90.jpg,433,433,no honking,207,209,231,237
+test_91.jpg,600,600,level crossing with gates,288,328,309,347

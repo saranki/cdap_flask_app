@@ -7,7 +7,7 @@
             <h2>Upload Journey Video</h2>
         </div>
         <br>
-        <form id="imageUpload" method="post" enctype="multipart/form-data" action="/video-split">
+        <form id="imageUpload" enctype="multipart/form-data" action="/video-split" method="post">
             <div class="text-left">
                 <input type="file" id="files" name="file" width="50" height="17"
                        data-multiple-caption="{count} files selected" multiple accept="video/*"/>
@@ -18,7 +18,7 @@
             </div>
             <div class="form-group has-success">
                 <label class="form-control-label" for="inputSuccess1" style="text-align:left">Route Name</label>
-                <input type="text" class="form-control is-valid" id="inputValid" placeholder="Enter route name - separated">
+                <input type="text" class="form-control is-valid" id="routeName" placeholder="Enter route name - separated">
 {#                <div class="valid-feedback">Success! You've done it.</div>#}
             </div>
             <br/>

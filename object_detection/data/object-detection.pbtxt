@@ -1,0 +1,28 @@
+item {
+    id:1
+    name:'children crossing'
+}
+item {
+    id:2
+    name:'no u turn'
+}
+item {
+    id:3
+    name:'no left turn'
+}
+item {
+    id:4
+    name:'no right turn'
+}
+item {
+    id:5
+    name:'hospital'
+}
+item {
+    id:6
+    name:'no honking'
+}
+item {
+    id:7
+    name:'level crossing with gates'
+}

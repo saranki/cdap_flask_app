@@ -4,6 +4,16 @@ venv/
 .idea/
 __pycache__/
 component/__pycache__/
+*.record
+*.xml
+*.jpg
+*.png
+*.pb
+checkpoint
+*.index
+*.meta
+*.ckpt*
+*-model-*
 component/log/
 data_set/testing_data_dir/
 data_set/training_data_dir/

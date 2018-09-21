@@ -1,0 +1,1075 @@
+filename,width,height,class,xmin,ymin,xmax,ymax
+train_1.jpg,600,600,no left turn,263,268,348,357
+train_10.jpg,600,600,hospital,282,240,388,353
+train_100.jpg,600,600,children crossing,318,267,379,336
+train_101.jpg,600,600,children crossing,317,267,380,333
+train_102.jpg,600,600,children crossing,314,263,379,335
+train_103.jpg,600,600,children crossing,309,271,375,341
+train_104.jpg,600,600,children crossing,306,265,373,336
+train_105.jpg,600,600,children crossing,302,266,371,340
+train_106.jpg,600,600,children crossing,298,275,370,350
+train_107.jpg,600,600,children crossing,293,287,368,366
+train_108.jpg,600,600,children crossing,288,257,365,337
+train_109.jpg,600,600,children crossing,283,261,362,343
+train_11.jpg,600,600,hospital,256,239,364,362
+train_110.jpg,600,600,children crossing,276,274,357,359
+train_111.jpg,600,600,children crossing,272,276,351,363
+train_112.jpg,600,600,children crossing,261,258,343,346
+train_113.jpg,600,600,children crossing,262,262,346,352
+train_114.jpg,600,600,children crossing,270,269,354,361
+train_115.jpg,600,600,children crossing,260,255,349,358
+train_116.jpg,600,600,children crossing,209,250,316,373
+train_117.jpg,600,600,children crossing,185,258,294,390
+train_118.jpg,600,600,children crossing,239,283,280,324
+train_119.jpg,600,600,children crossing,232,282,273,328
+train_12.jpg,600,600,hospital,206,232,323,374
+train_120.jpg,600,600,children crossing,234,294,276,336
+train_121.jpg,600,600,children crossing,236,292,280,340
+train_122.jpg,600,600,children crossing,235,290,279,333
+train_123.jpg,600,600,children crossing,231,286,277,335
+train_124.jpg,600,600,children crossing,233,278,276,325
+train_125.jpg,600,600,children crossing,237,285,284,339
+train_126.jpg,600,600,children crossing,246,281,291,331
+train_127.jpg,600,600,children crossing,253,278,303,328
+train_128.jpg,600,600,children crossing,256,285,307,335
+train_129.jpg,600,600,children crossing,267,273,318,323
+train_13.jpg,600,600,hospital,164,215,282,368
+train_130.jpg,600,600,children crossing,283,271,334,323
+train_131.jpg,600,600,children crossing,289,280,339,333
+train_132.jpg,600,600,children crossing,295,275,350,330
+train_133.jpg,600,600,children crossing,298,283,355,340
+train_134.jpg,600,600,children crossing,293,262,348,322
+train_135.jpg,600,600,children crossing,285,264,343,323
+train_136.jpg,600,600,children crossing,278,274,338,333
+train_137.jpg,600,600,children crossing,273,271,330,337
+train_138.jpg,600,600,children crossing,271,267,330,334
+train_139.jpg,600,600,children crossing,262,272,323,337
+train_14.jpg,600,600,hospital,97,210,216,378
+train_140.jpg,600,600,children crossing,252,268,311,328
+train_141.jpg,600,600,children crossing,246,283,307,344
+train_142.jpg,600,600,children crossing,232,260,296,329
+train_143.jpg,600,600,children crossing,224,284,289,355
+train_144.jpg,600,600,children crossing,212,278,277,355
+train_145.jpg,600,600,children crossing,167,268,240,350
+train_146.jpg,600,600,children crossing,275,262,360,382
+train_147.jpg,600,600,children crossing,279,260,363,381
+train_148.jpg,600,600,children crossing,278,245,360,371
+train_149.jpg,600,600,children crossing,285,238,364,363
+train_15.jpg,600,600,hospital,24,174,145,364
+train_150.jpg,600,600,children crossing,290,234,368,360
+train_151.jpg,600,600,children crossing,290,228,369,355
+train_152.jpg,600,600,children crossing,292,246,370,371
+train_153.jpg,600,600,children crossing,290,241,369,365
+train_154.jpg,600,600,children crossing,290,238,368,365
+train_155.jpg,600,600,children crossing,291,258,368,381
+train_156.jpg,600,600,children crossing,290,236,369,366
+train_157.jpg,600,600,children crossing,274,235,330,366
+train_158.jpg,600,600,children crossing,261,226,323,360
+train_159.jpg,600,600,children crossing,265,227,325,362
+train_16.jpg,600,600,no left turn,414,236,463,347
+train_160.jpg,600,600,children crossing,276,231,332,369
+train_161.jpg,600,600,children crossing,238,232,284,368
+train_162.jpg,600,600,no honking,304,269,366,339
+train_163.jpg,600,600,no honking,301,263,368,329
+train_164.jpg,600,600,no honking,301,250,367,321
+train_165.jpg,600,600,no honking,291,257,363,330
+train_166.jpg,600,600,no honking,287,264,362,339
+train_167.jpg,600,600,no honking,282,262,361,337
+train_168.jpg,600,600,no honking,275,264,359,345
+train_169.jpg,600,600,no honking,270,251,360,340
+train_17.jpg,600,600,no u turn,201,275,246,317
+train_17.jpg,600,600,no right turn,206,317,245,355
+train_170.jpg,600,600,no honking,276,258,376,351
+train_171.jpg,600,600,no honking,335,256,441,368
+train_172.jpg,600,600,no honking,383,269,490,367
+train_173.jpg,600,600,no honking,428,197,589,358
+train_174.jpg,600,600,no honking,362,217,528,392
+train_175.jpg,600,600,no honking,280,208,435,391
+train_176.jpg,600,600,no honking,201,205,345,401
+train_177.jpg,600,600,children crossing,326,294,360,338
+train_178.jpg,600,600,children crossing,335,295,367,334
+train_179.jpg,600,600,children crossing,331,287,366,327
+train_18.jpg,600,600,no u turn,191,273,238,314
+train_180.jpg,600,600,children crossing,333,299,373,342
+train_181.jpg,600,600,children crossing,338,297,376,340
+train_182.jpg,600,600,children crossing,345,288,385,337
+train_183.jpg,600,600,children crossing,349,279,390,328
+train_184.jpg,600,600,children crossing,346,285,388,334
+train_185.jpg,600,600,children crossing,345,277,386,325
+train_186.jpg,600,600,children crossing,349,278,392,329
+train_187.jpg,600,600,children crossing,338,280,390,338
+train_188.jpg,600,600,children crossing,335,283,385,340
+train_189.jpg,600,600,children crossing,331,277,387,340
+train_19.jpg,600,600,no u turn,109,295,171,343
+train_190.jpg,600,600,children crossing,326,271,383,340
+train_191.jpg,600,600,children crossing,329,271,392,343
+train_192.jpg,600,600,children crossing,324,272,386,344
+train_193.jpg,600,600,children crossing,332,268,396,338
+train_194.jpg,600,600,children crossing,323,266,394,346
+train_195.jpg,600,600,children crossing,326,268,403,353
+train_196.jpg,600,600,children crossing,327,250,415,345
+train_197.jpg,600,600,children crossing,342,255,435,353
+train_198.jpg,600,600,children crossing,332,261,433,366
+train_199.jpg,600,600,children crossing,335,258,443,367
+train_2.jpg,600,600,no u turn,200,254,260,317
+train_20.jpg,600,600,no u turn,264,251,336,326
+train_200.jpg,600,600,children crossing,309,248,431,372
+train_201.jpg,600,600,children crossing,286,234,420,369
+train_202.jpg,600,600,children crossing,239,235,389,384
+train_203.jpg,600,600,children crossing,180,240,352,409
+train_204.jpg,600,600,no u turn,238,293,286,346
+train_205.jpg,600,600,no u turn,283,294,344,352
+train_206.jpg,600,600,no u turn,252,270,319,338
+train_207.jpg,600,600,no u turn,254,283,325,354
+train_208.jpg,600,600,no u turn,266,275,332,344
+train_209.jpg,600,600,no u turn,263,284,329,351
+train_21.jpg,600,600,no u turn,183,283,248,347
+train_210.jpg,600,600,no u turn,264,258,335,337
+train_211.jpg,600,600,no u turn,264,257,343,339
+train_212.jpg,600,600,no u turn,248,277,326,361
+train_213.jpg,600,600,no u turn,260,267,348,359
+train_214.jpg,600,600,no u turn,242,248,337,346
+train_215.jpg,600,600,no u turn,230,339,300,416
+train_216.jpg,600,600,no u turn,230,307,306,391
+train_217.jpg,600,600,no u turn,251,328,326,416
+train_218.jpg,600,600,no u turn,261,296,339,390
+train_219.jpg,600,600,no u turn,438,259,497,395
+train_22.jpg,600,600,no u turn,264,224,334,310
+train_22.jpg,600,600,no right turn,272,310,334,393
+train_220.jpg,600,600,no right turn,283,268,317,299
+train_221.jpg,600,600,no right turn,286,275,321,310
+train_222.jpg,600,600,no right turn,275,278,312,312
+train_223.jpg,600,600,no right turn,266,282,319,330
+train_224.jpg,600,600,no right turn,274,268,313,303
+train_225.jpg,600,600,no right turn,268,269,308,307
+train_226.jpg,600,600,no right turn,262,265,306,307
+train_227.jpg,600,600,no right turn,251,276,292,314
+train_228.jpg,600,600,no right turn,241,273,282,314
+train_229.jpg,600,600,no right turn,239,272,282,313
+train_23.jpg,600,600,no u turn,290,209,355,310
+train_23.jpg,600,600,no right turn,298,310,351,409
+train_230.jpg,600,600,no right turn,242,269,286,311
+train_231.jpg,600,600,no right turn,230,270,274,313
+train_232.jpg,600,600,no right turn,230,266,278,310
+train_233.jpg,600,600,no right turn,230,266,276,314
+train_234.jpg,600,600,no right turn,234,266,282,314
+train_235.jpg,600,600,no right turn,236,262,284,307
+train_236.jpg,600,600,no right turn,250,257,300,308
+train_237.jpg,600,600,no right turn,258,276,314,326
+train_238.jpg,600,600,no right turn,246,267,304,319
+train_239.jpg,600,600,no right turn,204,264,262,320
+train_24.jpg,600,600,no u turn,202,271,240,312
+train_240.jpg,600,600,no right turn,149,248,209,306
+train_241.jpg,600,600,no right turn,153,255,218,313
+train_242.jpg,600,600,no right turn,161,246,226,307
+train_243.jpg,600,600,no right turn,265,272,355,366
+train_244.jpg,600,600,no right turn,259,278,300,339
+train_245.jpg,600,600,no right turn,240,271,281,332
+train_246.jpg,600,600,no right turn,230,270,271,331
+train_247.jpg,600,600,no right turn,231,266,272,328
+train_248.jpg,600,600,no right turn,228,266,273,332
+train_249.jpg,600,600,no right turn,524,262,592,331
+train_25.jpg,600,600,no u turn,202,271,246,313
+train_250.jpg,600,600,no right turn,474,254,544,328
+train_251.jpg,600,600,no right turn,417,273,485,352
+train_252.jpg,600,600,no right turn,374,280,443,354
+train_253.jpg,600,600,no right turn,341,265,412,339
+train_254.jpg,600,600,no right turn,317,248,384,324
+train_255.jpg,600,600,no right turn,309,274,371,342
+train_256.jpg,600,600,no right turn,307,270,375,345
+train_257.jpg,600,600,no right turn,288,267,356,333
+train_258.jpg,600,600,no right turn,266,258,336,328
+train_259.jpg,600,600,no right turn,253,275,325,344
+train_26.jpg,600,600,no u turn,205,269,248,312
+train_260.jpg,600,600,no right turn,239,263,305,335
+train_261.jpg,600,600,no right turn,221,265,287,333
+train_262.jpg,600,600,no right turn,201,271,270,341
+train_263.jpg,600,600,no right turn,164,283,235,353
+train_264.jpg,600,600,no right turn,123,262,191,332
+train_265.jpg,600,600,no right turn,83,275,151,343
+train_266.jpg,600,600,no right turn,51,264,118,330
+train_267.jpg,600,600,no right turn,14,274,81,335
+train_268.jpg,600,600,no u turn,296,251,379,326
+train_268.jpg,600,600,no right turn,300,327,375,402
+train_269.jpg,600,600,no u turn,290,219,367,291
+train_269.jpg,600,600,no right turn,291,291,363,358
+train_27.jpg,600,600,no u turn,208,271,255,316
+train_270.jpg,600,600,no u turn,275,284,331,348
+train_270.jpg,600,600,no right turn,271,348,331,404
+train_271.jpg,600,600,children crossing,202,334,250,382
+train_272.jpg,600,600,hospital,506,234,562,276
+train_273.jpg,600,600,level crossing with gates,295,323,323,348
+train_274.jpg,600,600,level crossing with gates,278,315,308,346
+train_275.jpg,600,600,level crossing with gates,150,298,203,346
+train_276.jpg,600,600,children crossing,250,323,272,348
+train_277.jpg,600,600,children crossing,202,294,236,330
+train_278.jpg,600,600,children crossing,188,288,228,332
+train_279.jpg,600,600,children crossing,183,270,226,319
+train_28.jpg,600,600,no u turn,210,264,262,318
+train_280.jpg,600,600,children crossing,168,260,212,315
+train_281.jpg,600,600,children crossing,223,315,262,352
+train_282.jpg,600,600,children crossing,220,295,256,335
+train_283.jpg,600,600,children crossing,204,284,239,320
+train_284.jpg,600,600,children crossing,262,71,296,110
+train_285.jpg,600,600,children crossing,160,194,198,231
+train_286.jpg,600,600,children crossing,275,247,312,288
+train_287.jpg,600,600,no right turn,256,264,311,318
+train_288.jpg,600,600,no right turn,288,272,342,326
+train_289.jpg,600,600,no right turn,282,270,366,352
+train_29.jpg,600,600,no u turn,214,264,267,316
+train_290.jpg,600,600,no right turn,262,264,332,340
+train_291.jpg,600,600,no right turn,256,254,334,334
+train_292.jpg,600,600,no right turn,236,263,316,339
+train_293.jpg,600,600,no right turn,284,315,346,378
+train_294.jpg,600,600,no right turn,239,250,336,346
+train_295.jpg,600,600,no right turn,223,216,363,352
+train_296.jpg,600,600,no right turn,258,264,372,374
+train_297.jpg,600,600,no right turn,144,252,248,348
+train_298.jpg,600,600,no right turn,76,216,182,342
+train_299.jpg,600,600,children crossing,278,228,343,284
+train_3.jpg,600,600,children crossing,288,216,408,362
+train_30.jpg,600,600,no u turn,222,274,274,324
+train_300.jpg,600,600,children crossing,246,219,319,287
+train_301.jpg,600,600,children crossing,255,206,327,280
+train_302.jpg,600,600,children crossing,258,196,331,275
+train_303.jpg,600,600,children crossing,294,186,375,271
+train_304.jpg,600,600,children crossing,340,182,428,268
+train_305.jpg,600,600,children crossing,366,188,455,284
+train_306.jpg,600,600,children crossing,398,164,499,263
+train_307.jpg,600,600,children crossing,414,128,516,235
+train_308.jpg,600,600,children crossing,382,128,495,246
+train_309.jpg,600,600,children crossing,323,143,431,264
+train_31.jpg,600,600,no u turn,223,298,284,354
+train_310.jpg,600,600,children crossing,258,139,360,263
+train_311.jpg,600,600,children crossing,242,131,331,267
+train_312.jpg,600,600,children crossing,252,140,326,280
+train_313.jpg,600,600,no u turn,266,246,300,303
+train_314.jpg,600,600,no u turn,259,268,294,330
+train_315.jpg,600,600,no u turn,276,274,314,330
+train_316.jpg,600,600,no u turn,290,268,323,324
+train_317.jpg,600,600,no u turn,276,227,311,279
+train_318.jpg,600,600,no u turn,264,243,296,294
+train_319.jpg,600,600,no u turn,272,258,304,318
+train_32.jpg,600,600,no u turn,231,314,288,372
+train_320.jpg,600,600,no u turn,255,235,283,282
+train_321.jpg,600,600,children crossing,264,154,335,252
+train_322.jpg,600,600,hospital,444,242,475,270
+train_323.jpg,600,600,hospital,455,236,486,267
+train_324.jpg,600,600,hospital,474,234,506,266
+train_325.jpg,600,600,hospital,467,232,500,267
+train_326.jpg,600,600,no right turn,84,276,136,327
+train_327.jpg,600,600,no right turn,115,304,171,355
+train_328.jpg,600,600,no right turn,259,279,324,348
+train_329.jpg,600,600,no right turn,243,262,316,339
+train_33.jpg,600,600,no u turn,235,315,291,368
+train_330.jpg,600,600,no right turn,283,256,351,350
+train_331.jpg,600,600,no right turn,235,292,279,362
+train_332.jpg,600,600,no right turn,136,279,211,367
+train_333.jpg,600,600,no right turn,236,212,310,286
+train_334.jpg,600,600,no right turn,278,234,364,314
+train_335.jpg,600,600,no left turn,315,256,363,303
+train_336.jpg,600,600,no left turn,262,244,314,294
+train_337.jpg,800,600,no left turn,533,241,590,295
+train_338.jpg,600,600,no left turn,416,236,470,294
+train_339.jpg,600,600,no left turn,540,238,598,303
+train_34.jpg,600,600,no u turn,235,320,294,376
+train_340.jpg,600,600,no right turn,28,272,96,362
+train_341.jpg,600,600,no right turn,52,180,112,252
+train_342.jpg,600,600,no right turn,116,178,178,251
+train_343.jpg,600,600,no right turn,175,174,242,255
+train_344.jpg,600,600,no right turn,224,188,303,271
+train_345.jpg,600,600,no right turn,279,180,360,264
+train_346.jpg,600,600,no right turn,259,183,347,272
+train_347.jpg,600,600,no right turn,318,178,412,271
+train_348.jpg,600,600,no right turn,439,192,538,287
+train_349.jpg,600,600,no right turn,108,168,184,260
+train_35.jpg,600,600,no u turn,228,298,292,356
+train_350.jpg,600,600,no right turn,238,162,339,271
+train_351.jpg,600,600,no right turn,347,172,487,300
+train_352.jpg,600,600,no right turn,51,263,127,360
+train_353.jpg,600,600,no right turn,198,227,268,306
+train_354.jpg,600,600,no right turn,247,210,335,300
+train_355.jpg,600,600,no right turn,488,192,599,291
+train_356.jpg,600,600,no right turn,123,195,182,283
+train_357.jpg,600,600,no right turn,159,175,244,279
+train_358.jpg,600,600,no right turn,227,166,347,295
+train_359.jpg,600,600,no right turn,334,167,494,311
+train_36.jpg,600,600,no u turn,220,323,284,379
+train_360.jpg,600,600,no u turn,224,214,286,296
+train_361.jpg,600,600,no u turn,227,234,295,316
+train_362.jpg,600,600,no u turn,234,227,295,311
+train_363.jpg,600,600,no u turn,251,278,315,350
+train_364.jpg,600,600,no u turn,260,274,319,347
+train_365.jpg,600,600,no u turn,240,272,303,347
+train_366.jpg,600,600,no u turn,248,267,308,343
+train_367.jpg,600,600,no u turn,268,264,334,344
+train_368.jpg,600,600,no u turn,247,270,308,350
+train_369.jpg,600,600,no u turn,250,268,312,344
+train_37.jpg,600,600,no u turn,219,304,283,367
+train_370.jpg,600,600,no u turn,267,238,326,318
+train_371.jpg,600,600,no u turn,279,246,344,328
+train_372.jpg,600,600,no u turn,263,267,326,351
+train_373.jpg,600,600,no u turn,260,282,322,364
+train_374.jpg,600,600,no u turn,255,288,315,367
+train_375.jpg,600,600,no u turn,219,270,283,354
+train_376.jpg,600,600,no u turn,266,235,355,350
+train_377.jpg,600,600,no u turn,259,267,348,391
+train_378.jpg,600,600,no u turn,242,259,332,382
+train_379.jpg,600,600,no u turn,279,254,366,379
+train_38.jpg,600,600,no u turn,211,320,284,390
+train_380.jpg,600,600,no u turn,264,268,335,358
+train_381.jpg,600,600,no u turn,264,295,326,383
+train_382.jpg,600,600,no u turn,259,319,320,404
+train_383.jpg,600,600,no u turn,262,255,339,368
+train_384.jpg,600,600,no u turn,258,298,330,402
+train_385.jpg,600,600,no u turn,259,256,336,364
+train_386.jpg,600,600,no u turn,162,258,247,368
+train_387.jpg,600,600,no u turn,114,308,176,395
+train_388.jpg,600,600,no u turn,256,248,348,378
+train_389.jpg,600,600,no u turn,262,260,336,366
+train_39.jpg,600,600,no u turn,215,311,288,376
+train_390.jpg,600,600,no u turn,220,139,266,252
+train_391.jpg,600,600,no u turn,227,135,272,250
+train_392.jpg,600,600,no u turn,151,100,314,274
+train_392.jpg,600,600,no right turn,175,272,276,435
+train_393.jpg,600,600,no u turn,272,23,455,283
+train_393.jpg,600,600,no right turn,266,283,463,522
+train_394.jpg,600,600,no u turn,186,199,290,300
+train_394.jpg,600,600,no right turn,214,299,252,400
+train_395.jpg,600,600,no u turn,215,198,330,308
+train_395.jpg,600,600,no right turn,244,308,294,418
+train_396.jpg,600,600,no u turn,176,210,268,302
+train_396.jpg,600,600,no right turn,198,300,234,394
+train_397.jpg,600,600,no u turn,186,143,318,279
+train_397.jpg,600,600,no right turn,211,279,278,415
+train_398.jpg,600,600,no u turn,186,182,300,299
+train_398.jpg,600,600,no right turn,214,299,264,420
+train_399.jpg,600,600,no u turn,198,107,342,260
+train_399.jpg,600,600,no right turn,220,259,304,410
+train_4.jpg,600,600,hospital,514,230,600,313
+train_40.jpg,600,600,no u turn,228,288,296,355
+train_400.jpg,600,600,no u turn,186,111,340,292
+train_400.jpg,600,600,no right turn,207,291,312,467
+train_401.jpg,600,600,no u turn,192,146,327,280
+train_401.jpg,600,600,no right turn,220,280,292,428
+train_402.jpg,600,600,no u turn,234,6,395,256
+train_402.jpg,600,600,no right turn,207,248,415,504
+train_403.jpg,600,600,no right turn,360,40,600,403
+train_404.jpg,600,600,no u turn,182,60,359,283
+train_404.jpg,600,600,no right turn,191,282,351,496
+train_405.jpg,600,600,no right turn,186,263,290,382
+train_406.jpg,600,600,no left turn,267,284,322,343
+train_407.jpg,600,600,no left turn,252,272,330,352
+train_408.jpg,600,600,no left turn,262,255,334,334
+train_409.jpg,600,600,no left turn,259,251,342,342
+train_41.jpg,600,600,no u turn,251,275,324,359
+train_410.jpg,600,600,no left turn,254,271,323,347
+train_411.jpg,599,600,no left turn,260,267,325,339
+train_412.jpg,601,600,no left turn,245,254,333,351
+train_413.jpg,601,600,no left turn,245,251,335,350
+train_414.jpg,601,600,no left turn,249,244,334,346
+train_415.jpg,600,600,no left turn,242,248,346,362
+train_416.jpg,601,600,no left turn,251,247,343,358
+train_417.jpg,600,600,no left turn,262,254,334,351
+train_418.jpg,600,600,no left turn,247,264,328,355
+train_419.jpg,600,600,no left turn,259,255,330,355
+train_42.jpg,600,600,no u turn,264,288,342,372
+train_420.jpg,600,600,no left turn,440,232,499,347
+train_421.jpg,600,600,no left turn,252,250,339,362
+train_422.jpg,600,600,no honking,272,280,318,331
+train_423.jpg,600,600,no honking,272,282,312,327
+train_424.jpg,600,600,no honking,283,290,319,328
+train_425.jpg,600,600,no honking,274,291,306,330
+train_426.jpg,600,600,no honking,268,279,311,322
+train_427.jpg,600,600,no honking,263,284,318,346
+train_428.jpg,600,600,no right turn,62,214,140,300
+train_429.jpg,600,600,no right turn,239,139,324,254
+train_43.jpg,600,600,no u turn,322,252,403,344
+train_430.jpg,600,600,no right turn,12,255,78,322
+train_431.jpg,600,600,no right turn,119,226,187,300
+train_432.jpg,600,600,no right turn,259,160,330,259
+train_433.jpg,600,600,hospital,244,188,319,280
+train_434.jpg,600,600,hospital,298,220,367,304
+train_435.jpg,600,600,hospital,355,266,422,335
+train_436.jpg,600,600,hospital,187,199,256,288
+train_437.jpg,600,600,hospital,258,214,304,272
+train_438.jpg,600,600,hospital,263,220,307,278
+train_439.jpg,600,600,hospital,278,179,327,232
+train_44.jpg,600,600,no u turn,359,266,435,358
+train_440.jpg,600,600,hospital,268,216,315,275
+train_441.jpg,600,600,hospital,267,216,312,272
+train_442.jpg,600,600,hospital,272,214,320,271
+train_443.jpg,600,600,hospital,280,214,326,268
+train_444.jpg,600,600,hospital,278,215,322,272
+train_445.jpg,600,600,hospital,266,219,312,275
+train_446.jpg,600,600,hospital,259,206,307,266
+train_447.jpg,600,600,hospital,263,212,308,271
+train_448.jpg,600,600,hospital,272,215,318,271
+train_449.jpg,600,600,hospital,262,214,308,271
+train_45.jpg,600,600,no u turn,398,260,476,367
+train_450.jpg,600,600,hospital,266,227,312,282
+train_451.jpg,600,600,hospital,268,242,311,298
+train_452.jpg,600,600,hospital,288,260,335,314
+train_453.jpg,600,600,hospital,271,232,318,288
+train_454.jpg,600,600,hospital,264,212,312,270
+train_455.jpg,600,600,hospital,294,230,342,287
+train_456.jpg,600,600,hospital,287,246,332,302
+train_457.jpg,600,600,hospital,308,248,355,307
+train_458.jpg,600,600,hospital,294,252,340,308
+train_459.jpg,600,600,hospital,286,259,330,318
+train_46.jpg,600,600,hospital,427,262,494,339
+train_460.jpg,600,600,hospital,282,267,328,322
+train_461.jpg,600,600,hospital,282,255,328,310
+train_462.jpg,600,600,hospital,287,252,334,310
+train_463.jpg,600,600,hospital,284,247,331,303
+train_464.jpg,600,600,hospital,292,247,338,300
+train_465.jpg,600,600,hospital,282,244,331,303
+train_466.jpg,600,600,hospital,279,242,327,298
+train_467.jpg,600,600,hospital,276,288,322,334
+train_468.jpg,600,600,hospital,256,303,296,340
+train_469.jpg,600,600,hospital,256,283,335,366
+train_47.jpg,600,600,hospital,426,263,498,343
+train_470.jpg,600,600,hospital,239,256,348,372
+train_471.jpg,600,600,hospital,248,263,334,355
+train_472.jpg,600,600,hospital,246,260,323,347
+train_473.jpg,600,600,hospital,238,252,314,343
+train_474.jpg,600,600,hospital,238,260,322,346
+train_475.jpg,600,600,hospital,231,256,322,359
+train_476.jpg,600,600,no u turn,328,251,363,292
+train_477.jpg,600,600,no u turn,292,259,327,294
+train_478.jpg,600,600,no u turn,304,259,342,296
+train_478.jpg,600,600,no right turn,308,295,335,328
+train_479.jpg,600,600,no u turn,280,278,323,315
+train_479.jpg,600,600,no right turn,288,314,312,347
+train_48.jpg,600,600,hospital,422,262,492,350
+train_480.jpg,600,600,no u turn,292,258,339,303
+train_480.jpg,600,600,no right turn,300,302,327,344
+train_481.jpg,600,600,no u turn,371,324,410,359
+train_481.jpg,600,600,no right turn,378,359,403,390
+train_482.jpg,600,600,no u turn,354,268,399,312
+train_482.jpg,600,600,no right turn,359,311,391,351
+train_483.jpg,600,600,no u turn,359,319,415,372
+train_483.jpg,600,600,no right turn,368,372,407,420
+train_484.jpg,600,600,no u turn,404,252,475,315
+train_484.jpg,600,600,no right turn,415,314,468,379
+train_485.jpg,600,600,no u turn,506,242,582,311
+train_485.jpg,600,600,no right turn,515,312,579,379
+train_486.jpg,600,600,no u turn,280,278,314,311
+train_486.jpg,600,600,no right turn,296,303,320,328
+train_487.jpg,600,600,no u turn,280,298,310,330
+train_487.jpg,600,600,no right turn,291,320,315,344
+train_488.jpg,600,600,no u turn,295,280,323,304
+train_489.jpg,600,600,no u turn,267,288,308,327
+train_49.jpg,600,600,hospital,403,259,475,348
+train_490.jpg,600,600,no u turn,267,216,304,252
+train_491.jpg,600,600,no u turn,280,251,320,291
+train_492.jpg,600,600,no u turn,275,287,323,336
+train_493.jpg,600,600,no u turn,282,280,323,323
+train_494.jpg,600,600,no u turn,287,283,328,324
+train_495.jpg,600,600,no u turn,328,274,376,319
+train_495.jpg,600,600,no right turn,236,314,267,346
+train_496.jpg,600,600,no u turn,332,268,384,319
+train_496.jpg,600,600,no right turn,211,314,247,347
+train_497.jpg,600,600,no u turn,346,262,398,314
+train_497.jpg,600,600,no right turn,215,308,248,342
+train_498.jpg,600,600,no u turn,359,264,424,328
+train_498.jpg,600,600,no right turn,174,326,211,366
+train_498.jpg,600,600,no right turn,372,328,410,390
+train_499.jpg,600,600,no u turn,428,234,502,306
+train_499.jpg,600,600,no right turn,443,306,483,374
+train_499.jpg,600,600,no right turn,203,304,247,348
+train_5.jpg,600,600,hospital,480,246,582,338
+train_50.jpg,600,600,hospital,395,247,464,338
+train_500.jpg,600,600,no u turn,492,263,556,323
+train_500.jpg,600,600,no right turn,502,322,544,383
+train_500.jpg,600,600,no right turn,279,324,315,362
+train_501.jpg,600,600,no right turn,227,310,275,359
+train_502.jpg,600,600,no right turn,291,291,339,342
+train_503.jpg,600,600,no right turn,334,258,378,302
+train_504.jpg,600,600,no honking,350,294,384,328
+train_505.jpg,600,600,no honking,263,303,295,342
+train_506.jpg,600,600,no honking,294,278,334,322
+train_507.jpg,600,600,no honking,275,300,311,340
+train_508.jpg,601,600,no honking,297,302,335,344
+train_509.jpg,601,600,no honking,282,318,314,350
+train_51.jpg,600,600,hospital,368,251,440,347
+train_510.jpg,600,600,no honking,270,308,294,336
+train_511.jpg,601,600,no honking,270,312,311,354
+train_512.jpg,600,600,no honking,287,304,324,342
+train_513.jpg,601,600,no honking,279,308,313,348
+train_514.jpg,600,600,no honking,279,306,312,343
+train_515.jpg,600,600,no honking,252,295,287,330
+train_516.jpg,600,600,no honking,250,268,287,307
+train_517.jpg,600,600,no honking,210,278,258,327
+train_518.jpg,600,600,no honking,204,287,247,327
+train_519.jpg,600,600,no honking,203,295,252,346
+train_52.jpg,600,600,hospital,344,248,418,347
+train_520.jpg,600,600,no honking,227,290,272,334
+train_521.jpg,600,600,no honking,227,275,274,326
+train_522.jpg,600,600,no honking,208,264,254,310
+train_523.jpg,600,600,no honking,234,256,286,304
+train_524.jpg,600,600,no honking,222,256,268,302
+train_525.jpg,600,600,no honking,174,214,239,276
+train_526.jpg,600,600,no honking,210,260,262,312
+train_527.jpg,600,600,no u turn,411,319,467,374
+train_528.jpg,600,600,no u turn,475,283,530,338
+train_529.jpg,600,600,no u turn,546,258,599,306
+train_53.jpg,600,600,hospital,314,243,388,347
+train_530.jpg,600,600,hospital,271,288,318,339
+train_531.jpg,600,600,hospital,263,296,319,355
+train_532.jpg,600,600,hospital,254,291,312,350
+train_533.jpg,600,600,hospital,258,247,318,310
+train_534.jpg,600,600,hospital,298,266,346,316
+train_535.jpg,600,600,hospital,248,270,299,324
+train_536.jpg,600,600,hospital,259,300,314,358
+train_537.jpg,600,600,hospital,251,288,314,354
+train_538.jpg,600,600,hospital,255,274,324,344
+train_539.jpg,600,600,hospital,244,259,314,328
+train_54.jpg,600,600,hospital,300,244,366,355
+train_540.jpg,600,600,hospital,147,267,223,336
+train_541.jpg,600,600,hospital,35,288,135,387
+train_542.jpg,518,517,level crossing with gates,212,247,254,292
+train_543.jpg,412,413,level crossing with gates,166,183,211,229
+train_544.jpg,479,478,level crossing with gates,150,224,198,273
+train_544.jpg,479,478,children crossing,305,254,334,284
+train_545.jpg,438,437,level crossing with gates,114,191,167,240
+train_545.jpg,438,437,children crossing,278,221,308,250
+train_546.jpg,601,600,level crossing with gates,202,286,251,336
+train_546.jpg,601,600,children crossing,367,314,401,348
+train_547.jpg,600,600,level crossing with gates,182,303,232,354
+train_547.jpg,600,600,children crossing,347,336,378,366
+train_548.jpg,465,465,level crossing with gates,118,197,173,250
+train_548.jpg,465,465,children crossing,306,237,337,267
+train_549.jpg,583,583,level crossing with gates,171,273,229,340
+train_549.jpg,583,583,children crossing,384,325,414,358
+train_55.jpg,600,600,hospital,286,242,352,358
+train_550.jpg,552,553,level crossing with gates,151,228,210,288
+train_550.jpg,552,553,children crossing,376,278,410,311
+train_551.jpg,513,513,level crossing with gates,178,221,242,283
+train_551.jpg,513,513,children crossing,422,277,453,310
+train_552.jpg,559,559,level crossing with gates,193,234,260,307
+train_552.jpg,559,559,children crossing,451,301,483,339
+train_553.jpg,590,590,level crossing with gates,150,273,221,346
+train_553.jpg,590,590,children crossing,424,341,458,379
+train_554.jpg,599,600,level crossing with gates,200,268,253,320
+train_555.jpg,600,600,level crossing with gates,134,251,208,327
+train_555.jpg,600,600,children crossing,442,328,474,366
+train_556.jpg,601,600,level crossing with gates,182,246,258,326
+train_556.jpg,601,600,children crossing,502,331,537,368
+train_557.jpg,600,600,level crossing with gates,168,263,232,330
+train_557.jpg,600,600,children crossing,426,332,451,362
+train_558.jpg,600,600,level crossing with gates,142,246,227,331
+train_558.jpg,600,600,children crossing,492,340,526,379
+train_559.jpg,599,600,level crossing with gates,120,259,200,342
+train_559.jpg,599,600,children crossing,466,360,498,395
+train_56.jpg,600,600,hospital,274,226,339,339
+train_560.jpg,599,600,level crossing with gates,56,226,161,331
+train_560.jpg,599,600,children crossing,524,362,561,406
+train_561.jpg,600,600,level crossing with gates,96,231,192,327
+train_561.jpg,600,600,children crossing,526,356,558,398
+train_562.jpg,600,600,level crossing with gates,66,220,164,321
+train_562.jpg,600,600,children crossing,522,362,555,398
+train_563.jpg,600,600,level crossing with gates,79,223,179,328
+train_563.jpg,600,600,children crossing,534,368,568,404
+train_564.jpg,601,600,level crossing with gates,113,284,203,376
+train_564.jpg,601,600,children crossing,517,404,546,434
+train_565.jpg,600,600,level crossing with gates,78,216,164,302
+train_565.jpg,600,600,children crossing,480,335,506,368
+train_566.jpg,600,600,level crossing with gates,103,208,196,302
+train_566.jpg,600,600,children crossing,524,334,551,363
+train_567.jpg,601,600,level crossing with gates,38,186,145,299
+train_567.jpg,601,600,children crossing,545,347,571,378
+train_568.jpg,599,600,level crossing with gates,18,223,134,332
+train_568.jpg,599,600,children crossing,553,390,581,420
+train_569.jpg,600,600,children crossing,275,288,326,343
+train_57.jpg,600,600,hospital,286,236,347,356
+train_570.jpg,601,600,children crossing,241,295,291,354
+train_571.jpg,600,600,children crossing,271,294,318,344
+train_572.jpg,600,600,children crossing,270,286,307,332
+train_573.jpg,800,600,children crossing,379,290,425,341
+train_574.jpg,600,600,children crossing,251,287,304,346
+train_575.jpg,600,600,children crossing,252,291,294,344
+train_576.jpg,600,600,children crossing,264,270,326,335
+train_577.jpg,801,600,children crossing,326,258,390,325
+train_578.jpg,600,600,children crossing,250,287,310,351
+train_579.jpg,600,600,children crossing,234,288,288,347
+train_58.jpg,600,600,hospital,282,226,340,347
+train_580.jpg,601,600,children crossing,226,286,283,351
+train_581.jpg,600,600,children crossing,290,271,350,334
+train_582.jpg,600,600,children crossing,251,283,314,347
+train_583.jpg,600,600,children crossing,250,279,312,347
+train_584.jpg,600,600,children crossing,263,287,324,354
+train_585.jpg,600,600,children crossing,234,291,298,354
+train_586.jpg,600,600,children crossing,247,242,320,318
+train_587.jpg,600,600,children crossing,263,278,323,347
+train_588.jpg,600,600,children crossing,271,275,330,340
+train_589.jpg,600,600,children crossing,263,276,332,354
+train_59.jpg,600,600,hospital,268,247,320,374
+train_590.jpg,600,600,children crossing,254,274,326,351
+train_591.jpg,600,600,children crossing,250,260,316,332
+train_592.jpg,600,600,children crossing,235,267,308,343
+train_593.jpg,600,600,children crossing,232,263,324,360
+train_594.jpg,600,600,children crossing,167,256,271,367
+train_595.jpg,600,600,children crossing,68,214,218,370
+train_596.jpg,600,600,no u turn,263,274,322,338
+train_597.jpg,600,600,no u turn,260,275,323,346
+train_598.jpg,600,600,no u turn,251,258,327,340
+train_599.jpg,600,600,no u turn,264,266,334,351
+train_6.jpg,600,600,hospital,448,270,544,364
+train_60.jpg,600,600,level crossing with gates,294,271,328,308
+train_600.jpg,600,600,no u turn,282,264,343,335
+train_601.jpg,600,600,no u turn,242,268,311,351
+train_602.jpg,600,600,no u turn,256,259,335,344
+train_603.jpg,600,600,no u turn,264,272,334,355
+train_604.jpg,600,600,no u turn,275,275,334,351
+train_605.jpg,600,600,no u turn,256,262,336,363
+train_606.jpg,600,600,no u turn,266,295,327,367
+train_607.jpg,600,600,no u turn,263,262,329,347
+train_608.jpg,600,600,no u turn,262,244,334,343
+train_609.jpg,600,600,no u turn,246,255,315,348
+train_61.jpg,600,600,level crossing with gates,300,286,352,330
+train_610.jpg,600,600,no u turn,243,243,324,359
+train_611.jpg,600,600,no u turn,282,250,356,360
+train_612.jpg,600,600,no u turn,278,246,340,354
+train_613.jpg,600,600,no u turn,280,247,350,370
+train_614.jpg,600,600,no right turn,272,272,332,334
+train_615.jpg,600,600,no right turn,280,276,331,330
+train_616.jpg,600,600,no right turn,248,286,306,340
+train_617.jpg,600,600,no right turn,264,279,340,358
+train_618.jpg,600,600,no right turn,347,215,432,307
+train_619.jpg,600,600,no right turn,522,256,599,355
+train_62.jpg,600,600,level crossing with gates,296,260,351,306
+train_620.jpg,600,600,no right turn,366,259,443,335
+train_621.jpg,600,600,no right turn,491,299,574,387
+train_622.jpg,600,600,no right turn,270,303,322,356
+train_623.jpg,600,600,no right turn,344,262,406,324
+train_624.jpg,600,600,no right turn,459,286,538,367
+train_625.jpg,600,600,no honking,283,304,306,332
+train_626.jpg,600,600,no honking,276,294,318,339
+train_627.jpg,599,600,no honking,254,287,305,342
+train_628.jpg,600,600,no honking,256,279,306,334
+train_629.jpg,800,600,no honking,359,306,386,336
+train_63.jpg,600,600,level crossing with gates,298,287,350,340
+train_630.jpg,600,600,no honking,252,282,310,344
+train_631.jpg,600,600,no honking,247,312,292,360
+train_632.jpg,600,600,no honking,247,259,302,312
+train_633.jpg,600,600,no honking,272,299,324,355
+train_634.jpg,600,600,no honking,263,286,330,354
+train_635.jpg,600,600,no honking,244,255,322,335
+train_636.jpg,600,600,no honking,238,240,304,308
+train_637.jpg,600,600,no honking,284,267,363,339
+train_638.jpg,600,600,no honking,242,280,331,368
+train_639.jpg,600,600,children crossing,266,276,347,366
+train_64.jpg,600,600,level crossing with gates,299,284,355,334
+train_640.jpg,600,600,children crossing,240,286,332,383
+train_641.jpg,600,600,children crossing,246,252,332,351
+train_642.jpg,600,600,children crossing,231,262,311,351
+train_643.jpg,600,600,children crossing,271,260,360,362
+train_644.jpg,600,600,children crossing,262,255,362,366
+train_645.jpg,600,600,children crossing,242,242,363,376
+train_646.jpg,600,600,children crossing,214,235,371,399
+train_647.jpg,600,600,children crossing,219,220,370,382
+train_648.jpg,600,600,no right turn,259,307,328,370
+train_649.jpg,600,600,no right turn,255,307,318,366
+train_65.jpg,600,600,level crossing with gates,299,278,356,335
+train_650.jpg,600,600,no right turn,268,326,320,376
+train_651.jpg,600,600,no right turn,260,294,316,352
+train_652.jpg,600,600,no right turn,252,271,326,347
+train_653.jpg,600,600,no right turn,270,282,334,348
+train_654.jpg,600,600,no right turn,260,268,331,344
+train_655.jpg,600,600,no right turn,278,278,334,338
+train_656.jpg,600,600,no right turn,267,287,332,355
+train_657.jpg,600,600,no right turn,236,255,343,358
+train_658.jpg,600,600,no right turn,274,335,331,395
+train_659.jpg,600,600,no right turn,215,316,286,387
+train_66.jpg,600,600,level crossing with gates,298,283,355,344
+train_660.jpg,600,600,no right turn,279,292,358,378
+train_661.jpg,600,600,no right turn,247,316,350,422
+train_662.jpg,600,600,no right turn,206,240,336,380
+train_663.jpg,600,600,no honking,231,272,295,338
+train_664.jpg,600,600,no u turn,244,204,310,311
+train_664.jpg,600,600,no left turn,244,308,300,412
+train_665.jpg,600,600,no right turn,254,266,336,360
+train_666.jpg,600,600,level crossing with gates,268,270,308,308
+train_667.jpg,600,600,level crossing with gates,299,262,376,343
+train_668.jpg,600,600,no honking,230,258,296,331
+train_669.jpg,600,600,no left turn,283,268,315,300
+train_67.jpg,600,600,level crossing with gates,292,283,348,344
+train_670.jpg,600,600,no right turn,131,239,186,347
+train_671.jpg,600,600,level crossing with gates,243,287,300,332
+train_672.jpg,600,600,no honking,108,267,216,363
+train_673.jpg,600,600,no left turn,316,272,360,314
+train_674.jpg,600,600,no right turn,258,248,342,339
+train_675.jpg,600,600,level crossing with gates,262,278,324,343
+train_676.jpg,600,600,no left turn,259,278,336,359
+train_677.jpg,600,600,no left turn,166,216,251,303
+train_678.jpg,600,600,no left turn,2,255,78,360
+train_679.jpg,600,600,no left turn,158,260,235,335
+train_68.jpg,600,600,level crossing with gates,284,279,344,342
+train_680.jpg,600,600,no left turn,23,299,111,390
+train_681.jpg,600,600,no left turn,276,302,331,356
+train_682.jpg,600,600,no left turn,194,262,254,326
+train_683.jpg,600,600,no left turn,62,286,142,367
+train_684.jpg,600,600,no left turn,268,306,336,371
+train_685.jpg,600,600,no left turn,280,304,340,367
+train_686.jpg,600,600,no honking,8,190,175,362
+train_687.jpg,600,600,no left turn,312,268,356,312
+train_688.jpg,600,600,no right turn,275,271,344,347
+train_689.jpg,600,600,level crossing with gates,260,282,330,348
+train_69.jpg,600,600,level crossing with gates,280,270,340,336
+train_690.jpg,600,600,no left turn,280,326,331,376
+train_691.jpg,600,600,no left turn,282,292,338,352
+train_692.jpg,600,600,no left turn,272,268,347,348
+train_693.jpg,600,600,no left turn,266,280,328,346
+train_694.jpg,600,600,no left turn,270,267,340,347
+train_695.jpg,600,600,no left turn,266,279,320,336
+train_696.jpg,600,600,no left turn,270,288,335,358
+train_697.jpg,600,600,no left turn,255,252,364,358
+train_698.jpg,600,600,no left turn,268,334,327,395
+train_699.jpg,600,600,no left turn,312,316,382,387
+train_7.jpg,600,600,hospital,410,268,508,367
+train_70.jpg,600,600,level crossing with gates,272,279,338,343
+train_700.jpg,600,600,no honking,72,212,239,398
+train_701.jpg,600,600,no left turn,326,271,370,316
+train_702.jpg,599,600,no right turn,273,270,340,334
+train_703.jpg,600,600,level crossing with gates,271,260,336,328
+train_704.jpg,600,600,no left turn,236,296,318,374
+train_705.jpg,600,600,no left turn,251,314,351,416
+train_706.jpg,600,600,no left turn,259,239,391,383
+train_707.jpg,417,417,no u turn,161,174,185,199
+train_707.jpg,417,417,no left turn,160,198,183,221
+train_708.jpg,408,408,no u turn,197,183,227,215
+train_708.jpg,408,408,no left turn,197,214,227,242
+train_709.jpg,491,491,no u turn,222,216,264,256
+train_709.jpg,491,491,no left turn,221,255,265,292
+train_71.jpg,600,600,level crossing with gates,272,284,334,347
+train_710.jpg,511,511,no u turn,85,203,158,269
+train_710.jpg,511,511,no left turn,82,267,154,329
+train_711.jpg,535,534,no u turn,228,294,277,341
+train_711.jpg,535,534,no left turn,233,341,266,383
+train_712.jpg,457,457,no u turn,221,229,244,253
+train_712.jpg,457,457,no left turn,231,251,249,266
+train_713.jpg,433,434,no u turn,196,233,228,264
+train_713.jpg,433,434,no left turn,231,257,253,282
+train_714.jpg,600,600,no honking,166,196,322,398
+train_715.jpg,600,600,no left turn,324,266,370,311
+train_716.jpg,601,600,no right turn,269,256,355,354
+train_717.jpg,600,600,level crossing with gates,272,264,340,332
+train_718.jpg,489,489,no u turn,208,216,252,262
+train_718.jpg,489,489,no left turn,296,258,327,289
+train_719.jpg,530,530,no u turn,25,226,103,299
+train_719.jpg,530,530,no left turn,42,299,91,370
+train_719.jpg,530,530,no left turn,304,309,344,353
+train_72.jpg,600,600,level crossing with gates,262,255,328,328
+train_720.jpg,457,458,no left turn,66,229,134,297
+train_721.jpg,599,600,no left turn,250,234,296,278
+train_722.jpg,599,600,no left turn,245,268,293,314
+train_723.jpg,600,600,no left turn,204,276,258,327
+train_724.jpg,600,600,no left turn,67,247,132,318
+train_725.jpg,600,600,no honking,250,194,398,400
+train_726.jpg,600,600,no left turn,323,266,370,314
+train_727.jpg,601,600,no right turn,266,246,359,351
+train_728.jpg,600,600,level crossing with gates,282,276,344,343
+train_729.jpg,600,600,no honking,280,282,324,328
+train_73.jpg,600,600,level crossing with gates,258,262,327,334
+train_730.jpg,600,600,no left turn,319,267,367,316
+train_731.jpg,601,600,no right turn,262,246,357,347
+train_732.jpg,600,600,level crossing with gates,284,274,352,344
+train_733.jpg,600,600,no honking,288,283,324,326
+train_734.jpg,600,600,no left turn,315,260,363,311
+train_735.jpg,600,600,no right turn,252,246,360,366
+train_736.jpg,600,600,level crossing with gates,286,279,358,348
+train_737.jpg,600,600,no honking,280,290,318,330
+train_738.jpg,600,600,no left turn,302,258,350,307
+train_739.jpg,601,600,no right turn,257,248,350,359
+train_74.jpg,600,600,level crossing with gates,254,274,319,343
+train_740.jpg,600,600,level crossing with gates,292,275,364,347
+train_741.jpg,600,600,no honking,294,291,327,328
+train_742.jpg,600,600,no left turn,287,272,340,326
+train_743.jpg,600,600,no right turn,267,255,340,344
+train_744.jpg,600,600,level crossing with gates,298,260,371,336
+train_745.jpg,600,600,no honking,291,280,332,323
+train_746.jpg,600,600,no left turn,295,264,354,322
+train_747.jpg,600,600,no right turn,272,262,354,358
+train_748.jpg,600,600,level crossing with gates,304,279,384,362
+train_749.jpg,600,600,no honking,232,248,300,320
+train_75.jpg,600,600,level crossing with gates,246,270,315,343
+train_750.jpg,600,600,no left turn,282,275,314,308
+train_751.jpg,600,600,no right turn,238,251,286,308
+train_752.jpg,600,600,level crossing with gates,247,256,302,306
+train_753.jpg,600,600,no honking,282,284,336,342
+train_754.jpg,600,600,no left turn,338,263,396,322
+train_755.jpg,600,600,no right turn,268,255,342,355
+train_756.jpg,600,600,level crossing with gates,306,275,388,360
+train_757.jpg,600,600,no honking,216,292,248,328
+train_758.jpg,600,600,no left turn,388,246,451,307
+train_759.jpg,600,600,no right turn,98,238,158,350
+train_76.jpg,600,600,level crossing with gates,240,275,311,348
+train_760.jpg,600,600,level crossing with gates,311,262,395,346
+train_761.jpg,600,600,no honking,300,304,338,340
+train_762.jpg,600,600,no left turn,384,254,444,318
+train_763.jpg,600,600,no right turn,260,255,348,362
+train_764.jpg,600,600,level crossing with gates,318,264,403,350
+train_765.jpg,600,600,no honking,263,279,306,323
+train_766.jpg,600,600,no left turn,374,246,436,311
+train_767.jpg,600,600,level crossing with gates,323,258,415,359
+train_768.jpg,600,600,no left turn,247,270,334,364
+train_769.jpg,600,600,level crossing with gates,328,248,423,348
+train_77.jpg,600,600,level crossing with gates,231,270,308,350
+train_770.jpg,601,600,no honking,267,304,305,350
+train_771.jpg,600,600,no left turn,298,283,342,338
+train_772.jpg,600,600,level crossing with gates,335,240,432,342
+train_773.jpg,601,600,no honking,289,318,318,351
+train_774.jpg,600,600,no left turn,314,276,359,334
+train_775.jpg,600,600,level crossing with gates,338,243,442,350
+train_776.jpg,600,600,no honking,304,308,332,339
+train_777.jpg,600,600,no left turn,322,266,372,331
+train_778.jpg,600,600,level crossing with gates,347,238,447,350
+train_779.jpg,601,600,no honking,289,308,331,355
+train_78.jpg,600,600,level crossing with gates,224,254,306,338
+train_780.jpg,600,600,no left turn,323,264,371,331
+train_781.jpg,600,600,level crossing with gates,275,322,302,350
+train_782.jpg,600,600,no honking,276,302,315,346
+train_783.jpg,600,600,no left turn,322,271,375,332
+train_784.jpg,600,600,level crossing with gates,291,316,322,347
+train_785.jpg,600,600,no honking,234,252,308,332
+train_786.jpg,600,600,no left turn,290,279,323,311
+train_787.jpg,600,600,no right turn,286,242,338,302
+train_788.jpg,600,600,level crossing with gates,245,288,304,336
+train_789.jpg,601,600,no honking,287,312,322,347
+train_79.jpg,600,600,level crossing with gates,215,254,296,339
+train_790.jpg,600,600,no left turn,6,264,78,334
+train_791.jpg,600,600,level crossing with gates,396,294,446,344
+train_792.jpg,600,600,no honking,288,307,320,342
+train_793.jpg,600,600,no left turn,52,252,127,327
+train_794.jpg,518,517,level crossing with gates,263,248,305,292
+train_795.jpg,600,600,no honking,312,295,346,330
+train_796.jpg,600,600,no left turn,111,278,183,351
+train_797.jpg,412,413,level crossing with gates,201,183,245,229
+train_798.jpg,600,600,no honking,308,267,348,308
+train_799.jpg,600,600,no left turn,156,280,226,354
+train_8.jpg,600,600,hospital,366,264,466,364
+train_80.jpg,600,600,level crossing with gates,214,283,294,363
+train_800.jpg,479,478,level crossing with gates,281,223,328,275
+train_801.jpg,600,600,no honking,340,274,392,330
+train_802.jpg,600,600,no left turn,190,266,260,339
+train_803.jpg,438,437,level crossing with gates,273,187,323,240
+train_804.jpg,600,600,no honking,351,286,392,327
+train_805.jpg,600,600,no left turn,214,252,283,327
+train_806.jpg,601,600,level crossing with gates,349,286,402,339
+train_807.jpg,600,600,no honking,348,294,400,344
+train_808.jpg,600,600,no left turn,223,274,294,343
+train_809.jpg,600,600,level crossing with gates,368,302,418,354
+train_81.jpg,600,600,level crossing with gates,206,280,292,362
+train_810.jpg,600,600,no honking,323,286,371,336
+train_811.jpg,600,600,no left turn,222,276,294,348
+train_812.jpg,465,465,level crossing with gates,292,195,351,255
+train_813.jpg,600,600,no honking,326,276,375,326
+train_814.jpg,600,600,no left turn,240,264,311,335
+train_815.jpg,583,583,level crossing with gates,354,277,418,337
+train_816.jpg,600,600,no honking,346,262,390,310
+train_817.jpg,600,600,no left turn,260,260,332,330
+train_818.jpg,552,553,level crossing with gates,342,224,407,288
+train_819.jpg,600,600,no honking,236,263,312,340
+train_82.jpg,600,600,level crossing with gates,203,263,288,347
+train_820.jpg,600,600,no left turn,283,283,331,334
+train_821.jpg,800,600,no right turn,206,236,266,300
+train_822.jpg,600,600,level crossing with gates,242,284,300,335
+train_823.jpg,600,600,no honking,314,255,360,302
+train_824.jpg,600,600,no left turn,274,275,343,346
+train_825.jpg,513,513,level crossing with gates,269,217,336,286
+train_826.jpg,600,600,no honking,334,256,378,302
+train_827.jpg,600,600,no left turn,291,266,362,336
+train_828.jpg,559,559,level crossing with gates,299,235,367,307
+train_829.jpg,600,600,no honking,362,212,424,278
+train_83.jpg,600,600,level crossing with gates,196,268,282,352
+train_830.jpg,600,600,no left turn,310,266,376,334
+train_831.jpg,590,590,level crossing with gates,371,273,443,348
+train_832.jpg,600,600,no honking,336,259,388,311
+train_833.jpg,600,600,no left turn,327,275,396,342
+train_834.jpg,599,600,level crossing with gates,342,268,400,323
+train_835.jpg,600,600,no honking,292,303,316,334
+train_836.jpg,600,600,no left turn,367,279,436,350
+train_837.jpg,600,600,level crossing with gates,388,250,466,328
+train_838.jpg,600,600,no honking,280,295,323,342
+train_839.jpg,600,600,no left turn,404,263,479,331
+train_84.jpg,600,600,level crossing with gates,182,263,279,358
+train_840.jpg,601,600,level crossing with gates,341,244,422,328
+train_841.jpg,599,600,no honking,292,284,346,342
+train_842.jpg,600,600,no left turn,447,276,516,343
+train_843.jpg,600,600,level crossing with gates,366,262,431,332
+train_844.jpg,600,600,no honking,290,276,346,335
+train_845.jpg,600,600,no left turn,478,267,550,334
+train_846.jpg,600,600,level crossing with gates,376,248,456,330
+train_847.jpg,800,600,no honking,411,306,440,334
+train_848.jpg,600,600,no left turn,515,266,584,336
+train_849.jpg,599,600,level crossing with gates,400,258,478,346
+train_85.jpg,600,600,level crossing with gates,176,251,272,346
+train_850.jpg,600,600,no honking,288,283,348,346
+train_851.jpg,600,600,no left turn,288,262,340,318
+train_852.jpg,599,600,level crossing with gates,433,222,544,331
+train_853.jpg,600,600,no honking,235,260,316,342
+train_854.jpg,600,600,no left turn,288,268,327,308
+train_855.jpg,600,600,no right turn,131,235,183,295
+train_856.jpg,600,600,level crossing with gates,239,280,302,331
+train_857.jpg,600,600,no honking,307,312,351,360
+train_858.jpg,600,600,no left turn,262,272,311,328
+train_859.jpg,600,600,level crossing with gates,408,234,502,326
+train_86.jpg,600,600,level crossing with gates,168,247,268,340
+train_860.jpg,600,600,no honking,295,255,352,314
+train_861.jpg,600,600,no left turn,236,272,319,355
+train_862.jpg,600,600,level crossing with gates,434,220,534,323
+train_863.jpg,600,600,no honking,275,298,327,354
+train_864.jpg,600,600,no left turn,264,267,340,339
+train_865.jpg,600,600,level crossing with gates,422,226,520,330
+train_866.jpg,600,600,no honking,268,284,336,352
+train_867.jpg,600,600,no left turn,263,256,343,335
+train_868.jpg,601,600,level crossing with gates,395,283,486,372
+train_869.jpg,600,600,no honking,278,254,356,340
+train_87.jpg,600,600,level crossing with gates,160,248,259,350
+train_870.jpg,600,600,no left turn,286,264,360,340
+train_871.jpg,600,600,level crossing with gates,436,218,522,303
+train_872.jpg,600,600,no honking,295,242,362,307
+train_873.jpg,600,600,no left turn,254,318,316,378
+train_874.jpg,600,600,level crossing with gates,402,204,492,299
+train_875.jpg,600,600,no honking,235,264,314,343
+train_876.jpg,600,600,no left turn,262,251,360,350
+train_877.jpg,601,600,level crossing with gates,458,191,563,302
+train_878.jpg,600,600,no honking,271,280,358,370
+train_879.jpg,600,600,no left turn,240,220,376,351
+train_88.jpg,600,600,level crossing with gates,146,248,255,354
+train_880.jpg,599,600,level crossing with gates,464,219,580,335
+train_881.jpg,321,320,no honking,158,130,182,154
+train_882.jpg,600,600,no left turn,227,263,347,372
+train_883.jpg,391,391,level crossing with gates,262,162,309,207
+train_884.jpg,323,322,no honking,140,150,177,187
+train_885.jpg,600,600,no left turn,352,252,452,350
+train_886.jpg,413,414,level crossing with gates,309,135,408,228
+train_887.jpg,600,600,no honking,238,263,326,350
+train_888.jpg,600,600,no left turn,294,271,331,308
+train_889.jpg,600,600,no right turn,1,238,59,304
+train_89.jpg,600,600,children crossing,347,279,396,335
+train_890.jpg,600,600,level crossing with gates,244,280,306,346
+train_891.jpg,600,600,no honking,272,311,308,348
+train_892.jpg,600,600,no left turn,416,226,528,339
+train_893.jpg,600,600,level crossing with gates,276,304,306,328
+train_894.jpg,600,600,no honking,375,240,450,310
+train_895.jpg,600,600,no left turn,460,279,519,328
+train_896.jpg,600,600,level crossing with gates,286,274,320,310
+train_897.jpg,600,600,no left turn,424,304,483,354
+train_898.jpg,600,600,level crossing with gates,284,254,339,308
+train_899.jpg,600,600,no left turn,274,280,338,344
+train_9.jpg,600,600,hospital,314,246,422,355
+train_90.jpg,600,600,children crossing,343,248,396,302
+train_900.jpg,599,600,level crossing with gates,400,156,514,266
+train_901.jpg,600,600,no left turn,276,266,351,346
+train_902.jpg,600,600,no left turn,244,260,320,348
+train_903.jpg,600,600,no left turn,320,290,362,360
+train_904.jpg,600,600,no left turn,390,280,460,367
+train_905.jpg,600,600,no left turn,292,212,360,288
+train_906.jpg,600,600,no left turn,236,227,320,315
+train_907.jpg,600,600,no honking,238,252,327,344
+train_908.jpg,600,600,no left turn,298,267,335,307
+train_909.jpg,600,600,no right turn,282,283,335,339
+train_91.jpg,600,600,children crossing,342,272,396,328
+train_910.jpg,600,600,level crossing with gates,251,282,310,344
+train_911.jpg,600,600,no left turn,508,266,572,367
+train_912.jpg,600,600,no left turn,490,182,546,254
+train_913.jpg,600,600,no left turn,423,178,484,251
+train_914.jpg,600,600,no left turn,358,172,426,254
+train_915.jpg,600,600,no left turn,296,187,375,270
+train_916.jpg,600,600,no left turn,238,179,323,266
+train_917.jpg,600,600,no left turn,248,183,342,272
+train_918.jpg,600,600,no left turn,182,179,282,271
+train_919.jpg,600,600,no left turn,60,188,163,287
+train_92.jpg,600,600,children crossing,340,262,392,318
+train_920.jpg,600,600,no left turn,415,162,492,264
+train_921.jpg,600,600,no honking,227,250,320,350
+train_922.jpg,600,600,no left turn,307,275,347,315
+train_923.jpg,600,600,no right turn,275,271,351,350
+train_924.jpg,600,600,level crossing with gates,255,279,315,340
+train_925.jpg,600,600,no left turn,259,158,366,271
+train_926.jpg,600,600,no left turn,112,172,252,298
+train_927.jpg,600,600,no left turn,475,260,550,364
+train_928.jpg,600,600,no left turn,330,223,402,307
+train_929.jpg,600,600,no left turn,264,212,355,303
+train_93.jpg,600,600,children crossing,335,272,394,334
+train_930.jpg,600,600,no left turn,4,188,115,292
+train_931.jpg,600,600,no left turn,414,190,476,284
+train_932.jpg,600,600,no left turn,354,167,438,282
+train_933.jpg,600,600,no left turn,254,164,372,294
+train_934.jpg,600,600,no left turn,107,168,264,311
+train_935.jpg,600,600,no honking,159,254,264,359
+train_936.jpg,600,600,no left turn,316,274,359,314
+train_937.jpg,600,600,no right turn,271,256,342,335
+train_938.jpg,600,600,level crossing with gates,258,274,320,338
+train_939.jpg,600,600,no left turn,2,47,234,399
+train_94.jpg,600,600,children crossing,335,254,390,312
+train_940.jpg,600,600,no left turn,308,262,414,382
+train_941.jpg,600,600,no left turn,459,214,542,294
+train_942.jpg,600,600,no left turn,275,146,355,250
+train_943.jpg,600,600,no left turn,520,258,588,318
+train_944.jpg,600,600,no left turn,412,232,482,300
+train_945.jpg,600,600,no left turn,276,167,342,252
+train_946.jpg,600,600,no left turn,268,268,328,332
+train_947.jpg,600,600,no left turn,268,279,320,331
+train_948.jpg,600,600,no left turn,292,287,348,342
+train_949.jpg,417,417,no u turn,233,177,258,199
+train_949.jpg,417,417,no right turn,234,198,257,221
+train_95.jpg,600,600,children crossing,334,247,390,315
+train_950.jpg,408,408,no u turn,181,182,212,213
+train_950.jpg,408,408,no right turn,181,212,213,243
+train_951.jpg,491,491,no u turn,225,216,269,260
+train_951.jpg,491,491,no right turn,227,253,268,296
+train_952.jpg,511,511,no u turn,354,209,426,267
+train_952.jpg,511,511,no right turn,358,264,429,329
+train_953.jpg,535,534,no u turn,260,296,308,341
+train_953.jpg,535,534,no right turn,268,340,301,383
+train_954.jpg,457,457,no right turn,205,248,227,267
+train_954.jpg,457,457,no u turn,212,230,239,256
+train_955.jpg,433,434,no u turn,206,232,236,264
+train_955.jpg,433,434,no right turn,180,258,202,284
+train_956.jpg,489,489,no u turn,237,215,284,262
+train_956.jpg,489,489,no right turn,160,259,192,291
+train_957.jpg,530,530,no u turn,430,226,507,302
+train_957.jpg,530,530,no right turn,439,300,486,373
+train_957.jpg,530,530,no right turn,185,311,225,356
+train_958.jpg,457,458,no right turn,326,227,395,298
+train_959.jpg,321,320,no honking,138,130,161,155
+train_96.jpg,600,600,children crossing,327,250,387,316
+train_960.jpg,323,322,no honking,144,150,182,187
+train_961.jpg,391,391,level crossing with gates,83,162,130,207
+train_962.jpg,413,414,level crossing with gates,5,139,103,230
+train_963.jpg,486,485,children crossing,188,230,238,281
+train_964.jpg,601,600,no u turn,291,278,331,322
+train_965.jpg,569,570,no u turn,399,226,487,303
+train_965.jpg,569,570,no right turn,420,302,466,378
+train_966.jpg,600,600,no u turn,344,251,386,294
+train_966.jpg,600,600,no right turn,291,287,320,315
+train_967.jpg,600,600,no u turn,372,199,420,247
+train_967.jpg,600,600,no right turn,275,244,306,278
+train_968.jpg,600,600,no u turn,464,184,531,244
+train_968.jpg,600,600,no right turn,480,243,514,298
+train_969.jpg,600,600,no u turn,512,188,584,264
+train_969.jpg,600,600,no right turn,519,263,564,328
+train_97.jpg,600,600,children crossing,326,254,388,319
+train_970.jpg,599,600,no right turn,304,232,349,280
+train_971.jpg,599,600,no right turn,305,266,352,314
+train_972.jpg,600,600,no right turn,342,275,395,330
+train_973.jpg,600,600,no right turn,467,248,535,318
+train_974.jpg,600,600,no honking,291,312,328,348
+train_975.jpg,600,600,no honking,150,240,224,308
+train_976.jpg,600,600,hospital,203,299,235,332
+train_977.jpg,600,600,hospital,294,322,331,358
+train_978.jpg,600,600,hospital,256,242,312,299
+train_979.jpg,600,600,level crossing with gates,294,302,323,327
+train_98.jpg,600,600,children crossing,324,262,384,332
+train_980.jpg,600,600,level crossing with gates,280,276,314,311
+train_981.jpg,600,600,level crossing with gates,262,251,314,306
+train_982.jpg,599,600,level crossing with gates,84,159,194,264
+train_983.jpg,599,600,children crossing,269,306,296,332
+train_984.jpg,600,600,children crossing,300,290,335,324
+train_985.jpg,600,600,children crossing,279,242,323,284
+train_986.jpg,600,600,children crossing,275,243,334,306
+train_987.jpg,600,600,children crossing,95,167,202,274
+train_99.jpg,600,600,children crossing,322,262,383,326
