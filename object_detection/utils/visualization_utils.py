@@ -555,6 +555,8 @@ def visualize_boxes_and_labels_on_image_array(
     groundtruth_box_visualization_color='black',
     skip_scores=False,
     skip_labels=False):
+
+
   """Overlay labeled boxes on an image with formatted scores and label names.
 
   This function groups boxes that correspond to the same location
@@ -597,6 +599,8 @@ def visualize_boxes_and_labels_on_image_array(
   """
   # Create a display string (and color) for every box location, group any boxes
   # that correspond to the same location.
+  class_name = ''
+  accuracy=''
   box_to_display_str_map = collections.defaultdict(list)
   box_to_color_map = collections.defaultdict(str)
   box_to_instance_masks_map = {}
@@ -626,6 +630,7 @@ def visualize_boxes_and_labels_on_image_array(
             display_str = str(class_name)
             print("UUUUUUUUUUUUUUU", display_str)
             print("VVVVVVVVVVVVVVV", int(100*scores[i]))
+
         if not skip_scores:
           if not display_str:
             display_str = '{}%'.format(int(100*scores[i]))
@@ -637,6 +642,8 @@ def visualize_boxes_and_labels_on_image_array(
         else:
           box_to_color_map[box] = STANDARD_COLORS[
               classes[i] % len(STANDARD_COLORS)]
+    accuracy = int((100*scores[0]))
+    # print("Acuuracy------------>", accuracy)
 
   # Draw all boxes onto image.
   for box, color in box_to_color_map.items():
@@ -672,7 +679,7 @@ def visualize_boxes_and_labels_on_image_array(
           radius=line_thickness / 2,
           use_normalized_coordinates=use_normalized_coordinates)
 
-  return image
+  return [image, class_name, accuracy]
 
 
 def add_cdf_image_summary(values, name):
