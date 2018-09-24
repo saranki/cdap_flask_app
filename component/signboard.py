@@ -40,11 +40,11 @@ def split_video_to_image():
     video_name = filename.split('.')[0]
     # new_path = os.path.abspath(filename)
     video_cap = cv2.VideoCapture(root_path + 'video/' + filename)
-    frame_rate = video_cap.get(cv2.CAP_PROP_FPS)
+    frame_rate = round(video_cap.get(cv2.CAP_PROP_FPS))
     print('frame_rate:------------------>', frame_rate)
     total_frame_count = video_cap.get(cv2.cv2.CAP_PROP_FRAME_COUNT)
     optimized_frame_count = math.ceil(total_frame_count / frame_rate)
-
+    print('optimized_frame_count:------------------>', optimized_frame_count)
     try:
         if not os.path.exists(root_path + 'journey_image/' + video_name):
             os.makedirs(root_path + 'journey_image/' + video_name)
@@ -78,7 +78,7 @@ def split_video_to_image():
 def extract_location():
     video = video_name
     with open(journey_location_csv + video + '.csv', 'w') as f:
-        f.write('fid,lat,long\n')
+        # f.write('fid,lat,long\n')
 
         tree = et.parse(xml_file_name + video + '.xml')
         root = tree.getroot()
@@ -97,10 +97,10 @@ def extract_location():
                         long = b.text
                         # print(long)
 
-                        # print('{}-{}-{}'.format(fid, lat, long))
+                        print('{}-{}-{}'.format(fid, lat, long))
                         f.write('{},{},{}\n'.format(fid, lat, long))
                         # print('wrote')
-                        # print("-------------------------------------------")
+                        print("-------------------------------------------")
 
 
 # -------------------------------------------------------------------------------------------------------------------- #
@@ -232,6 +232,76 @@ def display_prediction_details(image_name):
 
 # Method - 5: Remove duplicated image information values that are been written csv
 
+# def remove_duplicates(video):
+#     global bes_t, idx_row, best_row_id, temp_data
+#     # video = 'journey_video_0001'
+#     # print(video_name)
+#     # video = video_name
+#
+#     data = []
+#     temp_data = []
+#     final_result = []
+#
+#     with open(db_data_csv + video + '.csv') as f:
+#         reader = csv.reader(f)
+#         for record in reader:
+#             data.append(record)
+#     idx_row = 0
+#     best_row_id = 0
+#     final = ['default', 'default', 'default', 'default', 'default']
+#     data.append(final)
+#
+#     for row in data[idx_row:]:
+#         if idx_row + 1 < len(data):
+#             current_row = row
+#             current_name = current_row[3]
+#
+#             next_row = data[idx_row + 1]
+#             next_name = next_row[3]
+#
+#             if current_row not in temp_data:
+#                 temp_data.append(current_row)
+#
+#             if current_name is not None and current_name == next_name:
+#                 temp_data.append(next_row)
+#                 idx_row = idx_row + 1
+#                 # print('selected:', temp_data)
+#
+#             elif current_name != next_name and len(temp_data) == 1 and current_name is not None and int(cur_t[4]) >= 65:
+#                 if current_row not in final_result:
+#                     final_result.append(current_row)
+#                     idx_row = int(current_row[0])
+#             else:
+#                 temp_idx_row = 0
+#                 idx_t = 0
+#                 for t in temp_data[temp_idx_row:]:
+#                     if idx_t + 1 < len(temp_data):
+#                         cur_t = temp_data[temp_idx_row]
+#                         nex_t = temp_data[idx_t + 1]
+#                         bes_t = cur_t
+#
+#                         # if Decimal(cur_t[4].strip(' %')) > Decimal(nex_t[4].strip(' %')) and Decimal(cur_t[4].strip(' %')) >= 65.00:
+#                         if int(cur_t[4]) > int(nex_t[4]) and int(cur_t[4]) >= 65:
+#
+#                             bes_t = cur_t
+#                             temp_idx_row = temp_idx_row
+#
+#                         elif int(cur_t[4]) < int(nex_t[4]) and int(nex_t[4]) >= 65:
+#                             bes_t = nex_t
+#                             temp_idx_row = idx_t + 1
+#
+#                         idx_t = idx_t + 1
+#                         idx_row = int(nex_t[0])
+#                         print('next iteration id', idx_row)
+#                 print('best', bes_t)
+#                 if bes_t not in final_result:
+#                     final_result.append(bes_t)
+#
+#                 del temp_data[:]
+#
+#     print("FINAL RES", final_result)
+
+
 def remove_duplicates(video):
     global bes_t, idx_row, best_row_id, temp_data
     # video = 'journey_video_0001'
@@ -241,14 +311,15 @@ def remove_duplicates(video):
     data = []
     temp_data = []
     final_result = []
-
+    bes_t = ''
     with open(db_data_csv + video + '.csv') as f:
         reader = csv.reader(f)
         for record in reader:
             data.append(record)
+            print("Data---------->", data)
     idx_row = 0
     best_row_id = 0
-    final = ['default', 'default', 'default', 'default', 'default']
+    final = ['default', 'default', 'default', 'default', '0']
     data.append(final)
 
     for row in data[idx_row:]:
@@ -259,17 +330,19 @@ def remove_duplicates(video):
             next_row = data[idx_row + 1]
             next_name = next_row[3]
 
-            if current_row not in temp_data:
+            if current_row not in temp_data and current_name is not None and int(current_row[4]) >= 65:
                 temp_data.append(current_row)
+                print("Temp---------->", temp_data)
 
-            if current_name == next_name:
+            if current_name == next_name and int(next_row[4]) >= 65:
                 temp_data.append(next_row)
                 idx_row = idx_row + 1
                 # print('selected:', temp_data)
 
-            elif current_name != next_name and len(temp_data) == 1:
+            elif current_name != next_name and len(temp_data) == 1 and current_name is not None and int(current_row[4]) >= 85:
                 if current_row not in final_result:
                     final_result.append(current_row)
+                    print("Final---------->", final_result)
                     idx_row = int(current_row[0])
             else:
                 temp_idx_row = 0
@@ -280,20 +353,21 @@ def remove_duplicates(video):
                         nex_t = temp_data[idx_t + 1]
                         bes_t = cur_t
 
-                        if Decimal(cur_t[4].strip(' %')) > Decimal(nex_t[4].strip(' %')):
+                        # if Decimal(cur_t[4].strip(' %')) > Decimal(nex_t[4].strip(' %')) and Decimal(cur_t[4].strip(' %')) >= 65.00:
+                        if int(cur_t[4]) > int(nex_t[4]):
                             bes_t = cur_t
                             temp_idx_row = temp_idx_row
-
-                        elif Decimal(cur_t[4].strip(' %')) < Decimal(nex_t[4].strip(' %')):
+                        elif int(cur_t[4]) < int(nex_t[4]):
                             bes_t = nex_t
                             temp_idx_row = idx_t + 1
-
                         idx_t = idx_t + 1
                         idx_row = int(nex_t[0])
                         print('next iteration id', idx_row)
-                print('best', bes_t)
+
                 if bes_t not in final_result:
+                    print('best', bes_t)
                     final_result.append(bes_t)
+                    print('final final---------->', final_result)
 
                 del temp_data[:]
 

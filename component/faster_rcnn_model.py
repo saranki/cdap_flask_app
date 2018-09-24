@@ -111,18 +111,16 @@ def run_inference_for_single_image(image, graph):
     return output_dict
 
 
-
-
 def execute_in_order(images_dir, total_frame_count, journey_name):
     inference_dir = [os.path.join(images_dir, '{}_image_{}.jpg'.format(journey_name, i)) for i in
                      range(1, total_frame_count)]
 
-    # return_values_arr = []
     with open(db_data_csv + journey_name + '.csv', 'w') as f:
      with detection_graph.as_default():
        with tf.Session(graph=detection_graph) as sess:
         image_id = 1
         for image_path in inference_dir:
+            print("Image ID------------------->", image_id)
             image = Image.open(image_path)
 
             # the array based representation of the image will be used later in order to prepare the
@@ -148,25 +146,23 @@ def execute_in_order(images_dir, total_frame_count, journey_name):
 
             with open(journey_location_csv + journey_name + '.csv') as a:
                 print('opened')
+                print("Image ID------------------->", image_id)
                 reader = csv.reader(a)
                 for row in reader:
-
                     search_fid = str(row).strip('[]').split(',')[0].strip("' '")
-
-                    if search_fid == str(image_id) and description[2] >= 65 and description[1] is not None:
+                    print("search id", search_fid)
+                    print("row", row)
+                    if search_fid == str(image_id):
+                        print("ID", image_id)
                         latitude = str(row).strip('[]').split(',')[1].strip("' '")
                         longitude = str(row).strip('[]').split(',')[2].strip("' '")
-                        print("search id", search_fid)
-                        print("row", row)
                         print('Image Id---------------->', image_id)
                         print('latitude---------------->', latitude)
                         print('longitude--------------->', longitude)
                         print('Sign name--------------->', str(description[1]))
                         print('accuracy---------------->', str(description[2]))
                         f.write('{},{},{},{},{}\n'.format(image_id, latitude, longitude, description[1], description[2]))
-                        print("ID", image_id)
                         print("<------------------------------------------------------->")
                         break
-
             image_id = image_id + 1
 
