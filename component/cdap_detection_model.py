@@ -27,7 +27,7 @@ journey_location_csv = 'static/video/journey_csv/'
 db_data_csv = 'component/db/'
 
 getcontext().prec = 16
-model = 'model.ckpt-70393.data-00000-of-00001'
+# model = 'model.ckpt-70393.data-00000-of-00001'
 
 
 # --------------------------------------------------------------------------------------------------------------------#
