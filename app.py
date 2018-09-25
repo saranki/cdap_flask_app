@@ -4,7 +4,8 @@ from flaskext.mysql import MySQL
 
 from component.mysql.dbconnect import get_all_journey
 from component.cdap_detection_model import split_video_to_image, extract_location, predict_road_signs, \
-    display_prediction_details,remove_duplicates
+    display_prediction_details, remove_duplicates, pedestrian_crossing_inference
+
 # from component.signboard import split_video_to_image, extract_location, predict_road_signs, display_prediction_details, \
 #     remove_duplicates
 
@@ -125,7 +126,7 @@ def check():
     return render_template('check.html', amount="this is to check the value")
 
 
-@app.route('/split_crossing', methods=['GET', 'POST'])
+@app.route('/split-crossing', methods=['GET', 'POST'])
 @cross_origin()
 def split_crossing():
     if request.method == 'GET':
@@ -136,7 +137,7 @@ def split_crossing():
         video = split_video_to_image()
         print(video)
         extract_location()
-        predict_road_signs()
+        pedestrian_crossing_inference()
         remove_duplicates(video)
 
         cursor = _conn.cursor()

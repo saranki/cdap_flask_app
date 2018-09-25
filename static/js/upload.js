@@ -77,7 +77,16 @@ function uploadNext() {
     xhr.upload.addEventListener("progress", onUploadProgress, false);
     xhr.addEventListener("load", onUploadComplete, false);
     xhr.addEventListener("error", onUploadFailed, false);
-    xhr.open("POST", "/video-split");
+
+    var hiddenPedestrian = document.getElementById("hiddenPedestrian");
+    console.log("hidden pedestrian,", hiddenPedestrian);
+    var postApi = '';
+    if (document.contains(hiddenPedestrian)) {
+        postApi = "/split-crossing";
+    } else {
+        postApi = "/video-split";
+    }
+    xhr.open("POST", postApi);
     xhr.send(fd);
 }
 
