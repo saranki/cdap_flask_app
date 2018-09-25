@@ -31,8 +31,12 @@
                     </div>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Crosswalks</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Crosswalk</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ url_for('split_crossing') }}">Video Split</a>
+                        <a class="dropdown-item" href="{{ url_for('summary_crossing') }}">Summary</a>
+                    </div>
                 </li>
 
                 <li class="nav-item">

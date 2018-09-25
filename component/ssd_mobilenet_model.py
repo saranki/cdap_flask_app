@@ -17,7 +17,6 @@ if tf.__version__ < '1.4.0':
 from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 
-# Model preparation
 # Variables
 # Any model exported using the `export_inference_graph.py` tool can be loaded here simply by changing `PATH_TO_CKPT`
 # to point to a new .pb file.

@@ -1,0 +1,24 @@
+{% extends "home.html" %}
+{% block content %}
+    <div>
+        <br/>
+    <h3>Route Details</h3>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">Route ID</th>
+                <th scope="col">Route Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for id, name in data %}
+                <tr class="table-active">
+                    {#                <th scope="row">Active</th>#}
+                    <td>{{ id }}</td>
+                    <td>{{ name }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

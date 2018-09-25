@@ -15,13 +15,13 @@ import subprocess
 
 # from component.model_trainer import model
 from component.faster_rcnn_model import execute_in_order
-from component.processor import IMG_SIZE
+#from component.processor import IMG_SIZE
 
 # Variable declaration
-root_path = 'C:/Users/user/PycharmProjects/cdap_team_web/static/'
-xml_file_name = 'C:/Users/user/PycharmProjects/cdap_team_web/static/video/xml/'
-journey_location_csv = 'C:/Users/user/PycharmProjects/cdap_team_web/static/video/journey_csv/'
-db_data_csv = 'C:/Users/user/PycharmProjects/cdap_team_web/component/db/'
+root_path = 'static/'
+xml_file_name = 'static/video/xml/'
+journey_location_csv = 'static/video/journey_csv/'
+db_data_csv = 'component/db/'
 
 getcontext().prec = 16
 model = 'model.ckpt-70393.data-00000-of-00001'
@@ -40,6 +40,7 @@ def split_video_to_image():
     video_name = filename.split('.')[0]
     # new_path = os.path.abspath(filename)
     video_cap = cv2.VideoCapture(root_path + 'video/' + filename)
+    # print("PATH", static/video/journey_video_0001.mp4)
     frame_rate = video_cap.get(cv2.CAP_PROP_FPS)
     print('frame_rate:------------------>', frame_rate)
     total_frame_count = video_cap.get(cv2.cv2.CAP_PROP_FRAME_COUNT)
@@ -300,3 +301,7 @@ def remove_duplicates(video):
     print("FINAL RES", final_result)
 
 # remove_duplicates('journey_video_0003')
+
+
+def pedestrian_crossing_inference():
+    execute_in_order(os.path.join(root_path, 'journey_image', video_name), optimized_frame_count, video_name)
