@@ -199,7 +199,7 @@ def remove_duplicates(video):
                 # print('selected:', temp_data)
 
             elif current_name != next_name and len(temp_data) == 1 and current_name is not None and int(
-                    current_row[4]) >= 85:
+                    current_row[4]) >= 70:
                 if current_row not in final_result:
                     final_result.append(current_row)
                     # print("Final---------->", final_result)
