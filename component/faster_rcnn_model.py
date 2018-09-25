@@ -1,12 +1,10 @@
 import csv
-import collections
 import os
 import numpy as np
 import tensorflow as tf
 from PIL import Image
 from matplotlib import pyplot as plt
 
-# from component.signboard import journey_location_csv, db_data_csv
 from object_detection.utils import ops as utils_ops
 from object_detection.utils.visualization_utils import visualize_boxes_and_labels_on_image_array
 
@@ -15,7 +13,6 @@ if tf.__version__ < '1.4.0':
 
 # Object detection imports
 from object_detection.utils import label_map_util
-from object_detection.utils import visualization_utils as vis_util
 
 # Model preparation
 # Variables
@@ -166,3 +163,25 @@ def execute_in_order(images_dir, total_frame_count, journey_name):
                         break
             image_id = image_id + 1
 
+
+def display_single_image_details(image_path):
+    with detection_graph.as_default():
+        with tf.Session(graph=detection_graph) as sess:
+            image = Image.open(image_path)
+            image_np = load_image_into_numpy_array(image)
+            image_np_expanded = np.expand_dims(image_np, axis=0)
+
+            output_dict = run_inference_for_single_image(image_np, detection_graph)
+
+            description = visualize_boxes_and_labels_on_image_array(
+                image_np,
+                output_dict['detection_boxes'],
+                output_dict['detection_classes'],
+                output_dict['detection_scores'],
+                category_index,
+                instance_masks=output_dict.get('detection_masks'),
+                use_normalized_coordinates=True,
+                line_thickness=8)
+            plt.figure(figsize=IMAGE_SIZE)
+            plt.imshow(image_np)
+    return description
