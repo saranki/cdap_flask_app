@@ -20,15 +20,15 @@ from object_detection.utils import visualization_utils as vis_util
 # Variables
 # Any model exported using the `export_inference_graph.py` tool can be loaded here simply by changing `PATH_TO_CKPT`
 # to point to a new .pb file.
-MODEL_NAME = 'roadsign_graph'
+MODEL_NAME = 'pedestrian_crossing_graph'
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
 PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('roadsign_graph', 'object-detection.pbtxt')
+PATH_TO_LABELS = os.path.join('pedestrian_crossing_graph', 'pedestrian_crossing_label_map.pbtxt')
 
-NUM_CLASSES = 7
+NUM_CLASSES = 1
 
 journey_location_csv = 'static/video/journey_csv/'
 db_data_csv = 'component/db/'
@@ -82,7 +82,7 @@ def run_inference_for_single_image(image, graph):
                 # The following processing is only for single image
                 detection_boxes = tf.squeeze(tensor_dict['detection_boxes'], [0])
                 detection_masks = tf.squeeze(tensor_dict['detection_masks'], [0])
-                # Reframe is required to translate mask from box coordinates to image coordinates and fit the image size.
+                # Reframe is required to translate mask from box coordinates to image coordinates and fit the image size
                 real_num_detection = tf.cast(tensor_dict['num_detections'][0], tf.int32)
                 detection_boxes = tf.slice(detection_boxes, [0, 0], [real_num_detection, -1])
                 detection_masks = tf.slice(detection_masks, [0, 0, 0], [real_num_detection, -1, -1])
@@ -96,13 +96,11 @@ def run_inference_for_single_image(image, graph):
             image_tensor = tf.get_default_graph().get_tensor_by_name('image_tensor:0')
 
             # Run inference
-            output_dict = sess.run(tensor_dict,
-                                   feed_dict={image_tensor: np.expand_dims(image, 0)})
+            output_dict = sess.run(tensor_dict, feed_dict={image_tensor: np.expand_dims(image, 0)})
 
             # all outputs are float32 numpy arrays, so convert types as appropriate
             output_dict['num_detections'] = int(output_dict['num_detections'][0])
-            output_dict['detection_classes'] = output_dict[
-                'detection_classes'][0].astype(np.uint8)
+            output_dict['detection_classes'] = output_dict['detection_classes'][0].astype(np.uint8)
             output_dict['detection_boxes'] = output_dict['detection_boxes'][0]
             output_dict['detection_scores'] = output_dict['detection_scores'][0]
             if 'detection_masks' in output_dict:
@@ -110,62 +108,52 @@ def run_inference_for_single_image(image, graph):
     return output_dict
 
 
-
-
-def execute_in_order(images_dir, total_frame_count, journey_name):
+def execute_in_order_pedestrian(images_dir, total_frame_count, journey_name):
     inference_dir = [os.path.join(images_dir, '{}_image_{}.jpg'.format(journey_name, i)) for i in
                      range(1, total_frame_count)]
 
-    # return_values_arr = []
     with open(db_data_csv + journey_name + '.csv', 'w') as f:
-     with detection_graph.as_default():
-       with tf.Session(graph=detection_graph) as sess:
-        image_id = 1
-        for image_path in inference_dir:
-            image = Image.open(image_path)
+        with detection_graph.as_default():
+            with tf.Session(graph=detection_graph) as sess:
+                image_id = 1
+                for image_path in inference_dir:
+                    image = Image.open(image_path)
 
-            # the array based representation of the image will be used later in order to prepare the
-            # result image with boxes and labels on it.
-            image_np = load_image_into_numpy_array(image)
+                    # the array based representation of the image will be used later in order to prepare the
+                    # result image with boxes and labels on it.
+                    image_np = load_image_into_numpy_array(image)
 
-            # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
-            image_np_expanded = np.expand_dims(image_np, axis=0)
-            # image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
+                    # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+                    image_np_expanded = np.expand_dims(image_np, axis=0)
+                    # image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
 
-            # Actual detection.
-            output_dict = run_inference_for_single_image(image_np, detection_graph)
+                    # Actual detection.
+                    output_dict = run_inference_for_single_image(image_np, detection_graph)
 
-            description = visualize_boxes_and_labels_on_image_array(
-                image_np,
-                output_dict['detection_boxes'],
-                output_dict['detection_classes'],
-                output_dict['detection_scores'],
-                category_index,
-                instance_masks=output_dict.get('detection_masks'),
-                use_normalized_coordinates=True,
-                line_thickness=8)
+                    description = visualize_boxes_and_labels_on_image_array(
+                        image_np,
+                        output_dict['detection_boxes'],
+                        output_dict['detection_classes'],
+                        output_dict['detection_scores'],
+                        category_index,
+                        instance_masks=output_dict.get('detection_masks'),
+                        use_normalized_coordinates=True,
+                        line_thickness=8)
 
-            with open(journey_location_csv + journey_name + '.csv') as a:
-                print('opened')
-                reader = csv.reader(a)
-                for row in reader:
+                    with open(journey_location_csv + journey_name + '.csv') as a:
+                        print('opened')
+                        reader = csv.reader(a)
+                        for row in reader:
 
-                    search_fid = str(row).strip('[]').split(',')[0].strip("' '")
+                            search_fid = str(row).strip('[]').split(',')[0].strip("' '")
 
-                    if search_fid == str(image_id) and description[2] >= 65 and description[1] is not None:
-                        latitude = str(row).strip('[]').split(',')[1].strip("' '")
-                        longitude = str(row).strip('[]').split(',')[2].strip("' '")
-                        print("search id", search_fid)
-                        print("row", row)
-                        print('Image Id---------------->', image_id)
-                        print('latitude---------------->', latitude)
-                        print('longitude--------------->', longitude)
-                        print('Sign name--------------->', str(description[1]))
-                        print('accuracy---------------->', str(description[2]))
-                        f.write('{},{},{},{},{}\n'.format(image_id, latitude, longitude, description[1], description[2]))
-                        print("ID", image_id)
-                        print("<------------------------------------------------------->")
-                        break
+                            if search_fid == str(image_id) and description[2] >= 65 and description[1] is not None:
+                                latitude = str(row).strip('[]').split(',')[1].strip("' '")
+                                longitude = str(row).strip('[]').split(',')[2].strip("' '")
+                                print("search id", search_fid)
+                                f.write('{},{},{},{},{}\n'.format(image_id, latitude, longitude, description[1],
+                                                                  description[2]))
+                                print("ID", image_id)
+                                break
 
-            image_id = image_id + 1
-
+                    image_id = image_id + 1
