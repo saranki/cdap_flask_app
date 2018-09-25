@@ -392,12 +392,8 @@ def remove_duplicates(video):
                 del temp_data[:]
 
     print("FINAL RES", final_result)
-
-
-# remove_duplicates('journey_video_0003')
+    return final_result
 
 
 def pedestrian_crossing_inference():
-    final_result = execute_in_order(os.path.join(root_path, 'journey_image', video_name), optimized_frame_count,
-                                    video_name)
-    return final_result
+    execute_in_order(os.path.join(root_path, 'journey_image', video_name), optimized_frame_count, video_name)
