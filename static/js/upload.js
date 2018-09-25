@@ -170,10 +170,12 @@ function getInfo(e) {
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             let resp_text = JSON.parse(this.responseText);
+            console.log('resp_text', resp_text);
             document.getElementById('table').rows[0].cells[1].innerHTML = resp_text.lat;
             document.getElementById('table').rows[1].cells[1].innerHTML = resp_text.long;
             document.getElementById('table').rows[2].cells[1].innerHTML = resp_text.sign_name;
             document.getElementById('table').rows[3].cells[1].innerHTML = resp_text.accuracy;
+            $('#selectedImageOut').attr('src', resp_text.file_path).width(350).height(250);
         }
     };
 

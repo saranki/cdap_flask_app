@@ -5,6 +5,8 @@ from flaskext.mysql import MySQL
 from component.mysql.dbconnect import get_all_journey
 from component.cdap_detection_model import split_video_to_image, extract_location, predict_road_signs, \
     display_prediction_details,remove_duplicates
+# from component.signboard import split_video_to_image, extract_location, predict_road_signs, display_prediction_details, \
+#     remove_duplicates
 
 app = Flask(__name__)
 CORS(app)
@@ -46,17 +48,21 @@ def signup():
 
 
 def insert_journey(route_id, routeName):
-    route = 'Malabe'
     cursor = _conn.cursor()
-    # if route_name is None:
-    #     route_name='New route'
-    # value = cursor.execute("INSERT INTO journey (journey_id, route_name) VALUES('{}','{}')".format('j4','new route'))
     sql = 'INSERT INTO journey(journey_id, route_name) VALUES(%s, %s)'
     value = cursor.execute(sql, (route_id, routeName))
     _conn.commit()
     print('value', value)
     print('inserted')
-    # mysql.close()
+    return value
+
+
+def insert_road_sign_coordinates(journey_id, latitude, longitude, sign_name):
+    cursor = _conn.cursor()
+    # value = cursor.execute("INSERT INTO journey (journey_id, route_name) VALUES('{}','{}')".format('j4','new route'))
+    sql = 'INSERT INTO temp_road_sign(journey_id, longitude, latitude, sign_name) VALUES(%s, %s, %s, %s)'
+    value = cursor.execute(sql, (journey_id, longitude, latitude, sign_name))
+    _conn.commit()
     return value
 
 
@@ -67,12 +73,14 @@ def split():
         return render_template('split.html')
 
     if request.method == 'POST':
+        location_coordinate = []
         route = request.form['routeName']
         video = split_video_to_image()
         print(video)
         extract_location()
         predict_road_signs()
         remove_duplicates(video)
+        location_coordinate = remove_duplicates(video)
 
         cursor = _conn.cursor()
         cursor.execute("SELECT COUNT(journey_id) from journey")
@@ -85,9 +93,15 @@ def split():
         res = insert_journey(route_id, route)
 
         if res == 1:
-            print("Successfully added to Database")
+            print("Successfully added journey to Database")
+            for coordinate in location_coordinate:
+                value = insert_road_sign_coordinates(route_id, coordinate[1], coordinate[2], coordinate[3])
+                if value == 1:
+                    print("Successfully added signboard details to Database")
+                else:
+                    print("Unable to add signboards details to the database")
         else:
-            print("Unable to add details to the database")
+            print("Unable to add journey details to the database")
 
         return 'OK'
 
@@ -102,6 +116,7 @@ def check_individual(image_name):
         sign_name = values['sign_name']
         accuracy = values['accuracy']
         return json.dumps(values)
+#     , render_template("/check/<image_name>", str(values[4]))
 
 
 @app.route('/check')
