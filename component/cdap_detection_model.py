@@ -17,7 +17,7 @@ import subprocess
 from component.faster_rcnn_model import execute_in_order
 # from component.processor import IMG_SIZE
 from component.faster_rcnn_model import execute_in_order, display_single_image_details
-from component.ssd_mobilenet_model import execute_in_order_pedestrian
+from component.ssd_mobilenet_model import execute_in_order_pedestrian, display_single_image_details_crossing
 
 # from component.processor import IMG_SIZE
 
@@ -123,7 +123,7 @@ def pedestrian_crossing_inference():
 
 # Method - 4: Display the details of each identified image
 
-def display_prediction_details(image_name):
+def display_prediction_details(image_name, crosswalk_param):
     global lat, long, search_fid, sign_name, accuracy
     video = image_name.split('.')[0].split('_image')[0]
     frame_id = image_name.split('_')[-1].split(".")[0]
@@ -137,7 +137,13 @@ def display_prediction_details(image_name):
             if search_fid == frame_id:
                 lat = str(row).strip('[]').split(',')[1].strip("' '")
                 long = str(row).strip('[]').split(',')[2].strip("' '")
-                values = display_single_image_details(image_path)
+
+                # Check if the inference is for a pedestrian crossing or signboard
+                if crosswalk_param == "CROSSWALK":
+                    values = display_single_image_details_crossing(image_path)
+                else:
+                    values = display_single_image_details(image_path)
+
                 image = values[0]
 
                 try:
@@ -145,8 +151,8 @@ def display_prediction_details(image_name):
                         os.makedirs('static/inference_image/' + video)
                 except OSError:
                     print('Error: Creating directory of sub directory')
+
                 file_path = 'static/inference_image/' + video + '/' + video + '_' + frame_id + '.jpg'
-                # print(file_path)
 
                 cv2.imwrite(file_path, image)
                 sign_name = values[1]

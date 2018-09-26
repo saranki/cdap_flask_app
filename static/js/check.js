@@ -58,8 +58,8 @@ function readURL(input) {
         reader.onload = function (e) {
             $('#selectedImageSrc')
                 .attr('src', e.target.result)
-                .width(350)
-                .height(250);
+                .width(600)
+                .height(338);
             // onImageFileSelect(e);
         };
 

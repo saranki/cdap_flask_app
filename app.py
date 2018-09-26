@@ -23,6 +23,25 @@ mysql.init_app(app)
 _conn = mysql.connect()
 
 
+def insert_journey(route_id, routeName):
+    cursor = _conn.cursor()
+    sql = 'INSERT INTO journey(journey_id, route_name) VALUES(%s, %s)'
+    value = cursor.execute(sql, (route_id, routeName))
+    _conn.commit()
+    print('value', value)
+    print('inserted')
+    return value
+
+
+def insert_road_sign_coordinates(journey_id, latitude, longitude, sign_name):
+    cursor = _conn.cursor()
+    # value = cursor.execute("INSERT INTO journey (journey_id, route_name) VALUES('{}','{}')".format('j4','new route'))
+    sql = 'INSERT INTO temp_road_sign(journey_id, longitude, latitude, sign_name) VALUES(%s, %s, %s, %s)'
+    value = cursor.execute(sql, (journey_id, longitude, latitude, sign_name))
+    _conn.commit()
+    return value
+
+
 @app.route('/')
 @app.route('/login')
 @cross_origin()
@@ -46,25 +65,6 @@ def signup():
             return render_template('summary.html', data=data)
     else:
         return json.dumps({'html': '<span>Enter the required fields</span>'})
-
-
-def insert_journey(route_id, routeName):
-    cursor = _conn.cursor()
-    sql = 'INSERT INTO journey(journey_id, route_name) VALUES(%s, %s)'
-    value = cursor.execute(sql, (route_id, routeName))
-    _conn.commit()
-    print('value', value)
-    print('inserted')
-    return value
-
-
-def insert_road_sign_coordinates(journey_id, latitude, longitude, sign_name):
-    cursor = _conn.cursor()
-    # value = cursor.execute("INSERT INTO journey (journey_id, route_name) VALUES('{}','{}')".format('j4','new route'))
-    sql = 'INSERT INTO temp_road_sign(journey_id, longitude, latitude, sign_name) VALUES(%s, %s, %s, %s)'
-    value = cursor.execute(sql, (journey_id, longitude, latitude, sign_name))
-    _conn.commit()
-    return value
 
 
 @app.route('/video-split', methods=['GET', 'POST'])
@@ -107,25 +107,6 @@ def split():
         return 'OK'
 
 
-@app.route('/check/<image_name>', methods=['POST'])
-@cross_origin()
-def check_individual(image_name):
-    if request.method == 'POST':
-        values = display_prediction_details(image_name)
-        lat = values['lat']
-        long = values['long']
-        sign_name = values['sign_name']
-        accuracy = values['accuracy']
-        return json.dumps(values)
-#     , render_template("/check/<image_name>", str(values[4]))
-
-
-@app.route('/check')
-@cross_origin()
-def check():
-    return render_template('check.html', amount="this is to check the value")
-
-
 @app.route('/split-crossing', methods=['GET', 'POST'])
 @cross_origin()
 def split_crossing():
@@ -158,13 +139,47 @@ def split_crossing():
         return 'OK'
 
 
+@app.route('/check')
+@cross_origin()
+def check():
+    return render_template('check.html', amount="this is to check the value")
+
+
+@app.route('/check-crossing')
+@cross_origin()
+def check_crossing():
+    return render_template('check_crossing.html')
+
+
+@app.route('/check/<image_name>', methods=['POST'])
+@cross_origin()
+def check_individual(image_name):
+
+    # Split the parameter appended to the image filename, if any
+    image_name_ori = image_name.strip().split("|")
+    image_name = image_name_ori[0]
+    crosswalk_param = ""
+
+    if len(image_name_ori) > 1:
+        crosswalk_param = image_name_ori[1]
+
+    if request.method == 'POST':
+        values = display_prediction_details(image_name, crosswalk_param)
+        lat = values['lat']
+        long = values['long']
+        sign_name = values['sign_name']
+        accuracy = values['accuracy']
+        return json.dumps(values)
+#     , render_template("/check/<image_name>", str(values[4]))
+
+
 @app.route('/summary')
 @cross_origin()
 def summary():
     return render_template('summary.html')
 
 
-@app.route('/summary_crossing')
+@app.route('/summary-crossing')
 @cross_origin()
 def summary_crossing():
     return render_template('summary_crossing.html')

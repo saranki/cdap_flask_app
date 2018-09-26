@@ -1,0 +1,59 @@
+{% extends "home.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <div class="container">
+            <div>
+                <h2>Pedestrian Crossing Identifier</h2>
+            </div>
+            <br>
+            <input type="hidden" id="hiddenPedestrianCheck">
+            <div class="row">
+                <div class="col-6">
+                    <form id="checkImage" method="post">
+                        <div class="text-left">
+                            <input align="center" type="file" id="imageFile" width="50" height="17"
+                                   data-multiple-caption="{count} files selected" multiple accept="image/*"
+                                   onchange="readURL(this);"/>
+                            <br><br>
+                            <div>
+                                <img id="selectedImageSrc" src="#" alt="Test Image">
+                            </div>
+                            <br><br>
+                            <div>
+                                <img id="selectedImageOut" alt="Output Image">
+                            </div>
+                            <br><br>
+                            <div>
+                                <input id="load_img" type="button" class="btn btn-success" value="Image Details"/>
+                                <input id="reset_btn" type="button" class="btn btn-info" value="Reset"
+                                       onclick="showTable()"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="container righ">
+                        <table id="table"> {# style="visibility: hidden;"#}
+                            <tr>
+                                <td>Latitude</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Longitude</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Sign Name</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Accuracy</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

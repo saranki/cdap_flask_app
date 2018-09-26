@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CDAP 18-018 : DRIVE ASSIST</title>
+    <title>DRYV ASSIST - CDAP 18-018</title>
 </head>
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
@@ -10,7 +10,7 @@
 <body>
 <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">CDAP 18-018 : DRIVE ASSIST</a>
+        <a class="navbar-brand" href="#">DRYV ASSIST</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
                 aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
             <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,7 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Crosswalk</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ url_for('split_crossing') }}">Video Split</a>
+                        <a class="dropdown-item" href="{{ url_for('check_crossing') }}">Check Frames</a>
                         <a class="dropdown-item" href="{{ url_for('summary_crossing') }}">Summary</a>
                     </div>
                 </li>

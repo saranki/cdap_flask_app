@@ -2,7 +2,7 @@ var totalFileLength, totalFileUploaded, fileCount, filesUploaded;
 
 // To log everything on console
 function debug(s) {
-    var debug = document.getElementById('debug');
+    let debug = document.getElementById('debug');
     if (debug) {
         debug.innerHTML = debug.innerHTML + '<br/>' + s;
     }
@@ -17,7 +17,7 @@ function onUploadComplete(e) {
     if (filesUploaded < fileCount) {
         uploadNext();
     } else {
-        var bar = document.getElementById('bar');
+        let bar = document.getElementById('bar');
         bar.style.width = '100%';
         bar.innerHTML = '100 % complete';
         bootbox.alert('Finished uploading details to Database');
@@ -26,12 +26,12 @@ function onUploadComplete(e) {
 
 // Will be called when user select the files in file control
 function onFileSelect(e) {
-    var files = e.target.files;
-    var output = [];
+    let files = e.target.files;
+    let output = [];
     fileCount = files.length;
     totalFileLength = 0;
-    for (var i = 0; i < fileCount; i++) {
-        var file = files[i];
+    for (let i = 0; i < fileCount; i++) {
+        let file = files[i];
         output.push(file.name, ' (', file.size, ' bytes, ',
             file.lastModifiedDate.toLocaleDateString(), ')');
         output.push('<br/>');
@@ -44,12 +44,12 @@ function onFileSelect(e) {
 // This will continuously update the progress bar based on the percentage of image uploaded
 function onUploadProgress(e) {
     if (e.lengthComputable) {
-        var percentComplete = parseInt((e.loaded + totalFileUploaded) * 100 / totalFileLength);
+        let percentComplete = parseInt((e.loaded + totalFileUploaded) * 100 / totalFileLength);
 
         if (percentComplete > 100)
             percentComplete = 100;
         showProgressBar();
-        var bar = document.getElementById('bar');
+        let bar = document.getElementById('bar');
 
         bar.style.width = percentComplete + '%';
         bar.innerHTML = percentComplete + ' % complete';
@@ -65,52 +65,43 @@ function onUploadFailed(e) {
 
 // Pick the next file in queue and upload it to remote server
 function uploadNext() {
-    var xhr = new XMLHttpRequest();
-    var fd = new FormData();
-    var file = document.getElementById('files').files[filesUploaded];
-    var routeName = document.getElementById('routeName').value;
-    console.log("routename", routeName);
-    // console.log("file", file);
+    let xhr = new XMLHttpRequest();
+    let fd = new FormData();
+    let file = document.getElementById('files').files[filesUploaded];
+    let routeName = document.getElementById('routeName').value;
     fd.append("multipartFile", file);
     fd.append("routeName", routeName);
-    console.log("fd", fd.entries());
     xhr.upload.addEventListener("progress", onUploadProgress, false);
     xhr.addEventListener("load", onUploadComplete, false);
     xhr.addEventListener("error", onUploadFailed, false);
 
-    var hiddenPedestrian = document.getElementById("hiddenPedestrian");
-    console.log("hidden pedestrian,", hiddenPedestrian);
-    var postApi = '';
+    let hiddenPedestrian = document.getElementById("hiddenPedestrian");
+    let postApi = '';
     if (document.contains(hiddenPedestrian)) {
         postApi = "/split-crossing";
     } else {
         postApi = "/video-split";
     }
+
     xhr.open("POST", postApi);
     xhr.send(fd);
 }
 
 function nullValidation() {
-    var file = document.getElementById("files").files;
-    var length = file.length;
+    let file = document.getElementById("files").files;
+    let length = file.length;
 
-    if (length <= 0) {
-
-        return false;
-    }
-    else {
-        return true;
-    }
+    return length > 0;
 }
 
 //Validate each file type before uploading
 function validateFileFormat() {
-    var files = document.getElementById("files").files;
-    var val = true;
+    let files = document.getElementById("files").files;
+    let val = true;
     for (let i = 0; i < files.length; i++) {
-        var fileInput = files[i];
-        var fileType = fileInput.name;
-        var allowedExtensions = /(\.mp4|\.mov)$/i;
+        let fileInput = files[i];
+        let fileType = fileInput.name;
+        let allowedExtensions = /(\.mp4|\.mov)$/i;
         if (!allowedExtensions.exec(fileType)) {
             val = false;
             break;
@@ -137,7 +128,7 @@ function startUpload() {
 function resetAll() {
     document.getElementById("imageUpload").reset();
     document.getElementById("selectedFiles").value = " ";
-    var bar = document.getElementById('bar');
+    let bar = document.getElementById('bar');
     bar.style.width = 0;
     bar.innerHTML = " ";
 
@@ -146,9 +137,7 @@ function resetAll() {
 //------------------------------------------------------------------------------------------------------- //
 function readURL(input) {
     if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        // console.log("reader", reader);
-        // console.log("input", input);
+        let reader = new FileReader();
 
         reader.onload = function (e) {
             $('#selectedImageSrc')
@@ -156,7 +145,6 @@ function readURL(input) {
                 .width(350)
                 .height(250);
         };
-
         reader.readAsDataURL(input.files[0]);
     }
 }
@@ -169,12 +157,18 @@ function getInfo(e) {
     let xhr = new XMLHttpRequest();
     let fd = new FormData();
     let file = document.getElementById('imageFile').files[0].name;
-    let my_url = "http://localhost:5000/check/" + file;
-
+    let my_url = "";
     fd.append("multipartFile", file);
-    // xhr.upload.addEventListener("progress", onUploadProgress, false);
     xhr.addEventListener("load", showTable, false);
     xhr.addEventListener("error", onUploadFailed, false);
+
+    // Append a parameter to the end of the image filename, to differentiate between crossing and signboard
+    let hiddenPedestrian = document.getElementById("hiddenPedestrianCheck");
+    if (document.contains(hiddenPedestrian)) {
+        my_url = "http://localhost:5000/check/" + file + "|CROSSWALK";
+    } else {
+        my_url = "http://localhost:5000/check/" + file;
+    }
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -184,13 +178,11 @@ function getInfo(e) {
             document.getElementById('table').rows[1].cells[1].innerHTML = resp_text.long;
             document.getElementById('table').rows[2].cells[1].innerHTML = resp_text.sign_name;
             document.getElementById('table').rows[3].cells[1].innerHTML = resp_text.accuracy;
-            $('#selectedImageOut').attr('src', resp_text.file_path).width(350).height(250);
+            $('#selectedImageOut').attr('src', resp_text.file_path).width(600).height(338);
         }
     };
-
     xhr.open("POST", my_url);
     xhr.send(file);
-
 }
 
 function showTable(resp) {
@@ -225,8 +217,8 @@ function showProgressBar() {
 //-------------------------------------------------------------------------------------------------------------------------//
 // Event listeners for button clicks
 window.onload = function () {
-    hideTable()
-    hideProgressBar()
+    hideTable();
+    hideProgressBar();
     if (document.getElementById('files'))
         document.getElementById('files').addEventListener('change', onFileSelect, false);
 
@@ -235,12 +227,8 @@ window.onload = function () {
 
     if (document.getElementById('resetButton'))
         document.getElementById('resetButton').addEventListener('click', resetAll, false);
-    // document.getElementById('load_img').addEventListener('click', getInfo, false);
 
     if (document.getElementById('load_img'))
         document.getElementById('load_img').addEventListener('click', getInfo, false);
-
-    // if (document.getElementById('reset_btn'))
-    //     document.getElementById('reset_btn').addEventListener('click', showTable, false);
 };
 

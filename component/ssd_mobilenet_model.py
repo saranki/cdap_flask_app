@@ -157,3 +157,24 @@ def execute_in_order_pedestrian(images_dir, total_frame_count, journey_name):
                                 break
 
                     image_id = image_id + 1
+
+
+def display_single_image_details_crossing(image_path):
+    with detection_graph.as_default():
+        with tf.Session(graph=detection_graph) as sess:
+            image = Image.open(image_path)
+            image_np = load_image_into_numpy_array(image)
+            image_np_expanded = np.expand_dims(image_np, axis=0)
+            output_dict = run_inference_for_single_image(image_np, detection_graph)
+            description = visualize_boxes_and_labels_on_image_array(
+                image_np,
+                output_dict['detection_boxes'],
+                output_dict['detection_classes'],
+                output_dict['detection_scores'],
+                category_index,
+                instance_masks=output_dict.get('detection_masks'),
+                use_normalized_coordinates=True,
+                line_thickness=8)
+            plt.figure(figsize=IMAGE_SIZE)
+            plt.imshow(image_np)
+    return description
