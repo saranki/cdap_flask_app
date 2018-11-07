@@ -3,10 +3,8 @@
     <div class="jumbotron">
         <div class="container">
             <div>
-                <h2>Pedestrian Crossing Identifier</h2>
+                <h2>Test your Images</h2>
             </div>
-            <br>
-            <input type="hidden" id="hiddenPedestrianCheck">
             <div class="row">
                 <div class="col-6">
                     <form id="checkImage" method="post">
@@ -14,7 +12,23 @@
                             <input align="center" type="file" id="imageFile" width="50" height="17"
                                    data-multiple-caption="{count} files selected" multiple accept="image/*"
                                    onchange="readURL(this);"/>
-                            <br><br>
+                            <br><br><br>
+                            <div>
+                                <h4>Please select the model</h4>
+                                <p>
+                                    <label>
+                                        <input type="radio" name="model_type" value="RS">
+                                        Faster RCNN Inception V2
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input type="radio" name="model_type" value="PC">
+                                        SSD MobileNet
+                                    </label>
+                                </p>
+                            </div>
+                            <br>
                             <div>
                                 <img id="selectedImageSrc" src="#" alt="Test Image">
                             </div>
@@ -33,21 +47,17 @@
                 </div>
                 <div class="col-6">
                     <div class="container righ">
-                        <table id="table"> {# style="visibility: hidden;"#}
+                        <table id="table">
                             <tr>
-                                <td>Latitude</td>
+                                <td>Found Element: </td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Longitude</td>
+                                <td>Accuracy: </td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Name</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Accuracy</td>
+                                <td>Inference Time: </td>
                                 <td></td>
                             </tr>
                         </table>

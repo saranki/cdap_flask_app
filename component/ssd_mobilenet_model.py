@@ -1,4 +1,6 @@
 import csv
+import time
+
 import collections
 import os
 import numpy as np
@@ -95,6 +97,9 @@ def run_inference_for_single_image(image, graph):
                     detection_masks_reframed, 0)
             image_tensor = tf.get_default_graph().get_tensor_by_name('image_tensor:0')
 
+            print('Pedestrian crossing detection inference time:')
+            start_time = time.time()
+
             # Run inference
             output_dict = sess.run(tensor_dict, feed_dict={image_tensor: np.expand_dims(image, 0)})
 
@@ -105,6 +110,11 @@ def run_inference_for_single_image(image, graph):
             output_dict['detection_scores'] = output_dict['detection_scores'][0]
             if 'detection_masks' in output_dict:
                 output_dict['detection_masks'] = output_dict['detection_masks'][0]
+
+            output_dict['inference_time'] = time.time() - start_time
+
+            print('Iteration %d: %.3f sec' % (1, time.time() - start_time))
+
     return output_dict
 
 
@@ -177,4 +187,6 @@ def display_single_image_details_crossing(image_path):
                 line_thickness=8)
             plt.figure(figsize=IMAGE_SIZE)
             plt.imshow(image_np)
+            description.append(output_dict['inference_time'])
+
     return description

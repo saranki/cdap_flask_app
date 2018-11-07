@@ -28,6 +28,8 @@ journey_location_csv = 'static/video/journey_csv/'
 db_data_csv = 'component/db/'
 
 getcontext().prec = 16
+
+
 # model = 'model.ckpt-70393.data-00000-of-00001'
 
 # --------------------------------------------------------------------------------------------------------------------#
@@ -157,6 +159,8 @@ def display_prediction_details(image_name, crosswalk_param):
                 cv2.imwrite(file_path, image)
                 sign_name = values[1]
                 accuracy = values[2]
+                # inference_time = str(values[3])
+                # print('inference time from -> ' + inference_time)
                 prop = [lat, long, sign_name, accuracy]
                 break
         ret_val = dict(lat=lat, long=long, sign_name=sign_name, accuracy=accuracy, file_path=file_path)
@@ -237,3 +241,34 @@ def remove_duplicates(video):
 
     print("FINAL RES", final_result)
     return final_result
+
+
+# --------------------------------------------------------------------------------------#
+
+
+def display_inference_details(image_name, model_param):
+    global sign_name, accuracy, inference_time
+    image_path = os.path.join(root_path, 'test_images', image_name)
+    # Check if the inference is for a pedestrian crossing or signboard
+    print("model param->" + model_param)
+    if model_param == "PC":
+        values = display_single_image_details_crossing(image_path)
+    else:
+        values = display_single_image_details(image_path)
+
+    image = values[0]
+
+    try:
+        if not os.path.exists('static/test_images/detected/' + image_name):
+            os.makedirs('static/test_images/detected/' + image_name)
+    except OSError:
+        print('Error: Creating directory of sub directory')
+
+    file_path = 'static/test_images/detected/' + image_name + '.jpg'
+
+    cv2.imwrite(file_path, image)
+    sign_name = values[1]
+    accuracy = values[2]
+    inference_time = str(values[3])
+    ret_val = dict(sign_name=sign_name, accuracy=accuracy, inference_time=inference_time, file_path=file_path)
+    return ret_val
